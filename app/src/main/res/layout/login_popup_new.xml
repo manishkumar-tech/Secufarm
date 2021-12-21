@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/login"
+            style="@style/simpletextHeading_sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/login" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/simpletextQuestion_sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Username" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <EditText
+            android:id="@+id/UserID"
+            style="@style/edittextemail_sdp"
+            android:layout_width="match_parent"
+            android:background="@drawable/line"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/_5sdp">
+
+            <requestFocus />
+
+        </EditText>
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/simpletextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/line"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/UserPassword"
+                style="@style/edittextemail_sdp"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"
+                android:background="@null"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:padding="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+        </TableRow>
+
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/simpletextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/SavePassword" />
+    </LinearLayout>
+
+
+</RelativeLayout>

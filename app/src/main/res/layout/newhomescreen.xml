@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:gravity="bottom|right">
+
+        <ImageView
+            android:id="@+id/menutool"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/icon_menu" />
+
+
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/languge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logo"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mainheading_x5"
+            android:layout_marginRight="@dimen/mainheading_x5"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_70sdp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mainheading_x5"
+                        android:layout_marginTop="@dimen/Margin_x2"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:id="@+id/rb_English"
+                                style="@style/simpletextHeadingwhite_x3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/bg_checkbox"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/English"
+                                android:textColor="@color/primary_blue" />
+
+                            <CheckBox
+                                android:id="@+id/rb_Hindi"
+                                style="@style/simpletextHeadingwhite_x3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/bg_checkbox"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/Hindi"
+                                android:textColor="@color/primary_blue" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:id="@+id/rb_Marathi"
+                                style="@style/simpletextHeadingwhite_x3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/bg_checkbox"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/Marathi"
+                                android:textColor="@color/primary_blue" />
+
+                            <CheckBox
+                                android:id="@+id/rb_Gujarati"
+                                style="@style/simpletextHeadingwhite_x3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/bg_checkbox"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/Gujarati"
+                                android:textColor="@color/primary_blue" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:id="@+id/rb_Bengali"
+                                style="@style/simpletextHeadingwhite_x3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/bg_checkbox"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/Bengali"
+                                android:textColor="@color/primary_blue" />
+
+                            <CheckBox
+                                android:id="@+id/rb_Tamil"
+                                style="@style/simpletextHeadingwhite_x3"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:button="@drawable/bg_checkbox"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/Tamil"
+                                android:textColor="@color/primary_blue" />
+                        </TableRow>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".2"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imgview_next"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:background="@drawable/icon_forward"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </TableRow>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/languge"
+        android:layout_marginTop="-40dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtVersion"
+            style="@style/simpletextQuestionsmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VersionLang"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txt_Locatethefarm"
+        style="@style/simpletextQuestWhite_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/languge"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="" />
+</RelativeLayout>

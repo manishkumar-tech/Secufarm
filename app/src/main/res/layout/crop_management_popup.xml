@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_350sdp"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_20sdp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/txt_CI_heading"
+            style="@style/simpletextHeadingwhite_x3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/mainheading_x3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/CropManagement" />
+
+        <Button
+            android:id="@+id/btn_cross"
+            android:layout_width="@dimen/mainheading_x3"
+            android:layout_height="@dimen/mainheading_x3"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/Question_x3"
+            android:background="@drawable/cross_btn" />
+    </TableRow>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2">
+
+
+                <LinearLayout
+                    android:id="@+id/pest_disease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/disease_forecast" />
+
+                    <TextView
+                        android:id="@+id/txt_CI_PestandDisease"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/PestandDisease" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_Calculator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgview_Calculator"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/calculatorr_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_Calculator"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/Calculator" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_DiseaseDiagnosis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgview_DiseaseDiagnosis"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_diseasediagnosis" />
+
+                    <TextView
+                        android:id="@+id/txt_DiseaseDiagnosis"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/DiseaseDiagnosis" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_Nutrition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgview_Nutrition"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/nutrition_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_Nutrition"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/NutritionManagement" />
+                </LinearLayout>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2">
+
+                <LinearLayout
+                    android:id="@+id/ll_WeedManagements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgview_WeedManagement"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_weed" />
+
+                    <TextView
+                        android:id="@+id/txt_WeedManagement"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/WeedManagements" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_PostHarvestManagement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgview_PostHarvestManagement"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_postharvest" />
+
+                    <TextView
+                        android:id="@+id/txt_PostHarvestManagement"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/PostHarvestManagement" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_IrrigationManagement"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgview_IrrigationManagement"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_irrigation" />
+
+                    <TextView
+                        android:id="@+id/txt_IrrigationManagement"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/IrrigationManagement" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_Mandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgview_Mandi"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_postharvest" />
+
+                    <TextView
+                        android:id="@+id/txt_Mandi"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/Mandi" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2">
+
+                <LinearLayout
+                    android:id="@+id/ll_YeildImprovement"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgview_YeildImprovement"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/yieldimprovement" />
+
+                    <TextView
+                        android:id="@+id/txt_YeildImprovement"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/YeildImprovement" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_IrrigationScheduler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/imgview_IrrigationScheduler"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_irrigation" />
+
+                    <TextView
+                        android:id="@+id/txt_IrrigationScheduler"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/IrrigationScheduler" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_Guideliness"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/imgview_Guideliness"
+                        android:layout_width="@dimen/mainheading_xl5"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/icon_guidelines" />
+
+                    <TextView
+                        android:id="@+id/txt_Guideliness"
+                        style="@style/simpletextQuestBlack_xs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/Guideliness" />
+                </LinearLayout>
+
+                <!-- <LinearLayout
+                     android:id="@+id/ll_Tubewell"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="@dimen/Margin_x2"
+                     android:layout_weight="1"
+                     android:gravity="center"
+                     android:orientation="vertical">
+
+                     <ImageView
+                         android:id="@+id/imgview_Tubewell"
+                         android:layout_width="@dimen/mainheading_xl5"
+                         android:layout_height="@dimen/mainheading_xl5"
+                         android:layout_margin="@dimen/Margin_x2"
+                         android:background="@drawable/icon_tubewell" />
+
+                     <TextView
+                         android:id="@+id/txt_Tubewell"
+                         style="@style/simpletextQuestBlack_xs"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:gravity="center"
+                         android:text="@string/Tubewell" />
+                 </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="vertical" />
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

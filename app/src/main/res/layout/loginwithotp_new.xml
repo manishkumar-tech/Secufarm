@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        app:cardBackgroundColor="@color/LightWhite"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_login"
+                style="@style/simpletextHeadingblack_x1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/login" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/rb_WithoutPassword"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WithoutPassword"
+                    android:textSize="@dimen/Question_x5" />
+
+                <RadioButton
+                    android:id="@+id/rb_WithPassword"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Margin_x2"
+                    android:checked="true"
+                    android:text="@string/WithPassword"
+                    android:textSize="@dimen/Question_x5" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt_username"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/Username" />
+
+
+            <EditText
+                android:id="@+id/edit_username"
+                style="@style/edittextmobileno_l"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:background="@drawable/line">
+
+                <requestFocus />
+
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/ll_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_password"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:text="@string/EnterOTP" />
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:gravity="center">
+
+
+                    <EditText
+                        android:id="@+id/edit_password"
+                        style="@style/edittextemail_l"
+                        android:layout_width="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.8"
+                        android:background="@null"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                    <ImageView
+                        android:id="@+id/showpassword"
+                        android:layout_width="@dimen/mainheading_x5"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:background="@drawable/icon_view_s"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/hidepassword"
+                        android:layout_width="29dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:background="@drawable/icon_view" />
+                </TableRow>
+
+
+                <CheckBox
+                    android:id="@+id/checkbox_savepassword"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:padding="@dimen/Margin_x2"
+                    android:text="@string/SavePassword"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/buttontext_m"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/login" />
+
+            <Button
+                android:id="@+id/btn_forgotpassword"
+                style="@style/buttontext_m"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/ForgotPassword" />
+            <Button
+                android:id="@+id/btn_GetOTP"
+                style="@style/buttontext_m"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/GetOTP" />
+
+            <Button
+                android:id="@+id/btn_UserRegistration"
+                style="@style/buttontext_m"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/SignUp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardview"
+        android:layout_marginTop="-40dp"
+        android:gravity="center">
+
+        <TextView
+            style="@style/simpletextQuestionsmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VersionLang"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+</LinearLayout>

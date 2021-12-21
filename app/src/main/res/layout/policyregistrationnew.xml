@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl4"
+            android:layout_gravity="center"
+            android:background="@color/ColorPrimary"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_cross"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/back_btn"
+                android:gravity="right" />
+
+            <TextView
+                android:id="@+id/txt_FarmPolicy"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/PolicyRegistration" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/rl_1"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_primary"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view_1"
+                android:layout_width="0dp"
+                android:layout_height="1sp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@color/ColorPrimary" />
+
+            <RelativeLayout
+                android:id="@+id/rl_2"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_grayborder"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_10sdp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view_2"
+                android:layout_width="0dp"
+                android:layout_height="1sp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@color/gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_3"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_grayborder"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="@dimen/_10sdp" />
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FarmerInfo"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1sp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txt_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FarmInfo"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1sp"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txt_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/PolicyInfo"
+                android:textSize="@dimen/_10sdp" />
+
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@color/gray" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/ll_FarmerInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_FarmerInformation"
+                    style="@style/simpletextHeadingblack_x2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/Margin_x2"
+                    android:text="@string/FarmerInformation"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:id="@+id/tbwFarmerName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_FarmerName"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/FarmerName" />
+
+                            <TextView
+                                android:id="@+id/txt_FarmerNames"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwPhoneno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_Phoneno"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/Phoneno" />
+
+
+                            <TextView
+                                android:id="@+id/txt_Phonenos"
+                                style="@style/edittextmobileno_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwFatherName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_FatherName"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/FatherName" />
+
+
+                            <TextView
+                                android:id="@+id/txt_FatherNames"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwAadharNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_AadharNo"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/AadharNo" />
+
+
+                            <EditText
+                                android:id="@+id/edit_AadharNo"
+                                style="@style/edittextmobileno_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/line"
+                                android:maxLength="12" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwBankName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_BankName"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/BankName" />
+
+                            <TableRow
+                                android:layout_width="@dimen/_150sdp"
+                                android:background="@drawable/line">
+
+                                <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+                                    android:id="@+id/spin_BankName"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_35sdp" />
+                            </TableRow>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwAccountName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_AccountName"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/AccountName" />
+
+
+                            <EditText
+                                android:id="@+id/edit_AccountName"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/line" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwAccountNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_AccountNumber"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/AccountNumber" />
+
+
+                            <EditText
+                                android:id="@+id/edit_AccountNumber"
+                                style="@style/edittextmobileno_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/line"
+                                android:maxLength="16" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwIFSCCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_IFSCCode"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/IFSCCode" />
+
+
+                            <EditText
+                                android:id="@+id/edit_IFSCCode"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/line"
+                                android:inputType="textCapCharacters"
+                                android:maxLength="16" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/_2sdp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/txt_AadharCardPhoto"
+                                        style="@style/simpletextQuestBlack_l"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="@string/AadharCardPhoto" />
+
+                                    <TextView
+                                        android:id="@+id/txt_AadharCardPhotoCount"
+                                        style="@style/simpletextQuestBlack_l"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="@dimen/_2sdp"
+                                        android:text="" />
+                                </TableRow>
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:background="@drawable/bg_box">
+
+                                    <ImageView
+                                        android:id="@+id/choose_image2"
+                                        android:layout_width="@dimen/_140sdp"
+                                        android:layout_height="@dimen/_120sdp"
+                                        android:layout_margin="@dimen/_8sdp"
+                                        android:background="@drawable/image_upload_icon"
+                                        android:scaleType="fitXY" />
+                                </LinearLayout>
+
+                                <Button
+                                    android:id="@+id/imageupload2"
+                                    style="@style/buttontext_m"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="@dimen/_22sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="@dimen/_5sdp"
+                                    android:background="@drawable/btn_bg"
+                                    android:text="@string/Upload" />
+
+
+                            </LinearLayout>
+
+                        </TableRow>
+                    </LinearLayout>
+                </ScrollView>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp">
+
+                    <Button
+                        android:id="@+id/Prev1"
+                        style="@style/buttontext_m"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_bg_gray"
+                        android:text="@string/Prev" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/Next1"
+                        style="@style/buttontext_m"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Next" />
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".05" />
+
+                </TableRow>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_FarmInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/txt_FarmInformation"
+                        style="@style/simpletextHeadingblack_x2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/Margin_x2"
+                        android:text="@string/FarmInformation"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imvw_Dropdown"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:background="@drawable/icon_dropdown" />
+
+                    <ImageView
+                        android:id="@+id/imvw_DropUp"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_18sdp"
+                        android:background="@drawable/icon_dropup"
+                        android:visibility="gone" />
+                </TableRow>
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:id="@+id/tbwFarmName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_FarmName"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/FarmNames" />
+
+                            <TextView
+                                android:id="@+id/edit_FarmName"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+
+
+                        </TableRow>
+
+                        <LinearLayout
+                            android:id="@+id/ll_farmInf"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TableRow
+                                android:id="@+id/tbwStateName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_StateName"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/State" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_StateNames"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbwDistrictName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_DistrictName"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/District" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_DistrictNames"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbwBlockName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_BlockName"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/Block" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_BlockNames"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbwVillageName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_VillageName"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/Village" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_VillageNames"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbwCropName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_CropName"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/Crops" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_CropNames"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbw_Variety"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_Variety"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/Varieties" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_Varietys"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbw_FarmArea_farm"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_FarmArea_farm"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/FarmArea" />
+
+                                <TableRow
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center">
+
+                                    <TextView
+                                        android:id="@+id/txt_FarmAreas_farm"
+                                        style="@style/edittextnormal_l"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+
+                                    <ImageView
+                                        android:id="@+id/imgvw_FarmMarker"
+                                        android:layout_width="@dimen/_25sdp"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginRight="@dimen/_30sdp"
+                                        android:background="@drawable/icon_farmmakerprimary" />
+                                </TableRow>
+
+                            </TableRow>
+
+                            <TableRow
+                                android:id="@+id/tbwPlantingTranplantingDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txt_PlantingTranplantingDate"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".3"
+                                    android:text="@string/PlantingTranplantingDate" />
+
+
+                                <TextView
+                                    android:id="@+id/txt_PlantingTranplantingDates"
+                                    style="@style/edittextnormal_l"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                        </LinearLayout>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_2sdp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/txt_LandDocumentPhoto"
+                                        style="@style/simpletextQuestBlack_l"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="@string/LandDocumentPhoto" />
+
+                                    <TextView
+                                        android:id="@+id/txt_LandDocumentPhotoCount"
+                                        style="@style/simpletextQuestBlack_l"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="@dimen/_2sdp"
+                                        android:text="" />
+                                </TableRow>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:background="@drawable/bg_box">
+
+                                    <ImageView
+                                        android:id="@+id/choose_image1"
+                                        android:layout_width="@dimen/_140sdp"
+                                        android:layout_height="@dimen/_120sdp"
+                                        android:layout_margin="@dimen/_10sdp"
+                                        android:background="@drawable/image_upload_icon"
+                                        android:scaleType="fitXY" />
+                                </LinearLayout>
+
+                                <Button
+                                    android:id="@+id/imageupload1"
+                                    style="@style/buttontext_m"
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="@dimen/_22sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="@dimen/_5sdp"
+                                    android:background="@drawable/btn_bg"
+                                    android:text="@string/Upload" />
+
+
+                            </LinearLayout>
+                        </TableRow>
+
+                    </LinearLayout>
+                </ScrollView>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <Button
+                        android:id="@+id/Prev2"
+                        style="@style/buttontext_m"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Prev" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/Next2"
+                        style="@style/buttontext_m"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Next" />
+
+                </TableRow>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_PolicyInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_PolicyInformation"
+                    style="@style/simpletextHeadingblack_x2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/Margin_x2"
+                    android:text="@string/PolicyInformation"
+                    android:textStyle="bold" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:id="@+id/tbwPolicyStartDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_PolicyStartDate"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/PolicyStartDate" />
+
+
+                            <TextView
+                                android:id="@+id/txt_PolicyStartDates"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwPolicyCloseDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_PolicyCloseDate"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/PolicyCloseDate" />
+
+
+                            <TextView
+                                android:id="@+id/txt_PolicyCloseDates"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwFarmArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_FarmArea"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/FarmArea" />
+
+
+                            <TextView
+                                android:id="@+id/txt_FarmAreas"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwBenchmarkYield"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_BenchmarkYield"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/BenchmarkYields" />
+
+
+                            <TextView
+                                android:id="@+id/txt_BenchmarkYields"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwValueAssured"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_ValueAssured"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/ValueAssured" />
+
+
+                            <TextView
+                                android:id="@+id/txt_ValueAssureds"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwFee"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_Fee"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/Fee" />
+
+
+                            <TextView
+                                android:id="@+id/txt_Fees"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbwExpectedHarvestingDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txt_ExpectedHarvestingDate"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight=".3"
+                                android:text="@string/ExpectedHarvestingDate" />
+
+
+                            <TextView
+                                android:id="@+id/txt_ExpectedHarvestingDates"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="@dimen/_150sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:background="@drawable/line" />
+                        </TableRow>
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp">
+
+                    <Button
+                        android:id="@+id/Prev3"
+                        style="@style/buttontext_m"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Prev" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/Submit"
+                        style="@style/buttontext_m"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="left"
+                        android:layout_weight=".5"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Submit" />
+
+
+                </TableRow>
+            </LinearLayout>
+
+
+        </TableRow>
+
+
+    </LinearLayout>
+</layout>

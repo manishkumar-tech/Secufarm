@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/ttttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:id="@+id/ddd"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+
+                android:paddingLeft="7dp"
+                android:text="Date"
+                android:textSize="12dp" />
+
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/un_selected_button_background" />
+            <TextView
+                android:id="@+id/maxt_a"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="MaxTemp Act"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/un_selected_button_background" />
+
+
+            <TextView
+                android:id="@+id/maxt_f"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="MaxTemp For"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/un_selected_button_background" />
+
+
+            <TextView
+                android:id="@+id/mint_a"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="MinTemp Act"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/un_selected_button_background" />
+
+
+            <TextView
+                android:id="@+id/mint_f"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="MinTemp For"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/un_selected_button_background" />
+
+
+            <TextView
+
+                android:id="@+id/rain_act"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Rain Act"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="@color/un_selected_button_background" />
+
+
+            <TextView
+
+                android:id="@+id/rain_for"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Rain For"
+                android:textSize="12dp" />
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/ddd"
+            android:background="@color/un_selected_button_background" />
+
+    </RelativeLayout>
+
+</LinearLayout>

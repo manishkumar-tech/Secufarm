@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/tool_bar"></include>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin_x3"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/Question_x3"
+            android:paddingRight="@dimen/Question_x3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/Question_x3"
+                android:paddingRight="@dimen/Question_x3">
+
+
+                <TextView
+                    android:id="@+id/txt_username"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/heading_x4"
+                    android:text="@string/CreateUsernames" />
+
+                <EditText
+                    android:id="@+id/edit_createusername"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:hint="@string/CreateUsername"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="false" />
+
+
+                <TextView
+                    android:id="@+id/txt_VisibleNames"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:text="@string/VisibleNames" />
+
+                <EditText
+                    android:id="@+id/edit_visibleusername"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:ems="10"
+                    android:hint="@string/VisibleName"
+                    android:padding="@dimen/_5sdp" />
+
+
+                <TextView
+                    android:id="@+id/txt_MobileNumbers"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:text="@string/MobileNumbers" />
+
+                <EditText
+                    android:id="@+id/edit_mobileno"
+                    style="@style/edittextmobileno_l"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:ems="10"
+                    android:hint="@string/MobileNumber"
+                    android:padding="@dimen/_5sdp" />
+
+
+                <TextView
+                    android:id="@+id/txt_Passwords"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:text="@string/Passwords" />
+
+                <EditText
+                    android:id="@+id/edit_password"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:ems="10"
+                    android:hint="@string/Password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/_5sdp" />
+
+
+                <TextView
+                    android:id="@+id/txt_ConfirmPasswords"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:text="@string/ConfirmPasswords" />
+
+                <EditText
+                    android:id="@+id/edit_confirmpassword"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:ems="10"
+                    android:hint="@string/ConfirmPassword"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/_5sdp" />
+
+
+                <TextView
+                    android:id="@+id/txt_EmailAddressoptional"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:text="@string/EmailAddressoptional" />
+
+                <EditText
+                    android:id="@+id/edit_emailaddress"
+                    style="@style/edittextemail_l"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:background="@drawable/line"
+                    android:hint="@string/EmailAddress"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/Margin_x2" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Submit" />
+                </LinearLayout>
+
+                <android.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/mainheading_x5" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

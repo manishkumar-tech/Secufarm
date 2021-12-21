@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/ttttt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:background="@color/ColorPrimary"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_cross"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/back_btn"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/CropStatus" />
+
+
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/weather_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ttttt"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@color/table_row_alternate_2"
+            android:scrollbars="vertical" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

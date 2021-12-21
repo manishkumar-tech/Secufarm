@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/heading_text"
+        style="@style/simpletextHeading_sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="@string/AddProject" />
+
+
+    <EditText
+        android:id="@+id/project_name"
+        style="@style/edittextemail"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/heading_text"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/border"
+        android:hint="@string/Search"
+        android:padding="@dimen/_5sdp" />
+
+    <Button
+        android:id="@+id/done_addpopup"
+        style="@style/buttontext"
+        android:layout_width="match_parent"
+        android:layout_below="@id/project_name"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/Add" />
+
+
+</RelativeLayout>

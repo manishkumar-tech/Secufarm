@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/prt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/border">
+
+                        <Spinner
+                            android:id="@+id/voda_state_spinner"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border">
+
+                        <Spinner
+                            android:id="@+id/voda_district_Spinner"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent" />
+                    </RelativeLayout>
+
+                </TableRow>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/design_layouts"
+                    android:visibility="gone">
+
+                    <Spinner
+                        android:id="@+id/voda_station_Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtffrom_date"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ffrom_date" />
+
+                            <TextView
+                                android:id="@+id/dateET_voda"
+                                style="@style/edittextemail"
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/border"
+                                android:editable="false"
+                                android:ems="10"
+                                android:focusable="false"
+                                android:hint="@string/select_date"
+                                android:paddingLeft="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txttto_date"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tto_date" />
+
+                            <TextView
+                                android:id="@+id/dateToET_voda"
+                                style="@style/edittextemail"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/border"
+                                android:editable="false"
+                                android:ems="10"
+                                android:focusable="false"
+                                android:hint="@string/select_date"
+                                android:paddingLeft="@dimen/_10sdp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/btn_update"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/icon_refresh_primary"
+                            android:visibility="gone" />
+                    </TableRow>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/type_of_report" />
+
+                        <Spinner
+                            android:id="@+id/status_Spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_below="@+id/tt"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/design_layouts" />
+                    </RelativeLayout>
+
+
+                    <Button
+                        android:id="@+id/submit_voda"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Submit"
+                        android:textColor="#ffffff"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/tubeMap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_below="@+id/prt"
+                android:layout_marginTop="@dimen/_10sdp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/tubewell_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/min_max_btn"
+                android:layout_below="@+id/tubeMap"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_5sdp" />
+
+            <LinearLayout
+                android:id="@+id/voda_show_data_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/min_max_vol"
+                    style="@style/buttontext"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/min_max_vol"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/max_cur_btn"
+                    style="@style/buttontext"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/max_current"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/start_stop_btn"
+                    style="@style/buttontext"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/motor_start_stop"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/elc_status_brn"
+                    style="@style/buttontext"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/electric_status"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/min_max_btn"
+        style="@style/buttontext"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/Next" />
+
+</LinearLayout>

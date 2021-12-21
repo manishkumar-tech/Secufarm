@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSMS"
+            style="@style/GridTextStyleSmall"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:text=""
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            style="@style/GridTextStyleSmall"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@color/secondary_green1"
+            android:textSize="@dimen/_8sdp" />
+
+        <TableRow
+            android:id="@+id/tb_Yesno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/btn_No"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="@string/No"
+                android:textStyle="bold"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/btn_Yes"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="@string/Yes"
+                android:textColor="@color/ColorPrimary"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_details_YesNo"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:background="@drawable/icon_details_all" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/viewline"
+        style="@style/SimpleTextAlarm_View"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp" />
+</LinearLayout>

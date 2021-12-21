@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/mainheading_x5"
+    android:background="@color/wallet_dim_foreground_holo_dark"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_popup"
+        style="@style/simpletextHeadingwhite_x3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainheading_xl5"
+        android:background="@color/ColorPrimary"
+        android:gravity="center"
+        android:text="Title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/wallet_dim_foreground_holo_dark"
+        android:scrollbars="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_soilvalue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/Question_x3"
+            android:layout_marginBottom="@dimen/Question_x3"
+            android:background="@color/wallet_dim_foreground_holo_dark"
+            android:scrollbars="vertical" />
+
+    </ScrollView>
+
+
+</LinearLayout>

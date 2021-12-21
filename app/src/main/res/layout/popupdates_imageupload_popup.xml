@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_320sdp"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/heading_text"
+            style="@style/simpletextHeadingwhite_x1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/UploadImage"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_cross"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/cross_btn" />
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_5sdp">
+
+        <LinearLayout
+            android:id="@+id/image_lay1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/txt_closeup"
+                style="@style/buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="@string/CloseUp"
+                android:textSize="@dimen/_10sdp" />
+
+            <ImageView
+                android:id="@+id/choose_image1"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:background="@drawable/image_upload_icon"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/imageupload1"
+                style="@style/buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/Upload"
+                android:textSize="@dimen/_10sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_lay2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/txt_farm"
+                style="@style/buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="@string/Farm"
+                android:textSize="@dimen/_10sdp" />
+
+            <ImageView
+                android:id="@+id/choose_image2"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:background="@drawable/image_upload_icon"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/imageupload2"
+                style="@style/buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/btn_bg"
+                android:text="@string/Upload"
+                android:textSize="@dimen/_10sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_image_btn"
+        style="@style/buttontext"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/btn_bg"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/ActivityDone" />
+
+</LinearLayout>

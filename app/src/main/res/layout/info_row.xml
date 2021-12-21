@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/info_row"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/simpletextQuestGray_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/Margin_x2"
+                android:text="Date"/>
+
+            <ImageView
+                android:layout_width="@dimen/mainheading_x2"
+                android:layout_height="@dimen/mainheading_x2"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/nextbtn"
+                android:layout_margin="@dimen/Margin_x2"
+                android:layout_alignParentRight="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/un_selected_button_background" />
+
+        </RelativeLayout>
+</LinearLayout>

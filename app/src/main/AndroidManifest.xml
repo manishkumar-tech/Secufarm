@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.weather.risk.mfi.myfarminfo">
+    <!-- <queries> -->
+    <!-- <package android:name="com.google.android.youtube" /> -->
+    <!-- </queries> -->
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.SEND" /> <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+
+    <application
+        android:name=".home.AppController"
+        android:allowBackup="false"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/secufarm_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="LockedOrientationActivity"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".activities.YoutubeVideoPlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dialog" />
+
+        <service
+            android:name=".services.BackgroundUploadService"
+            android:enabled="true"
+            android:exported="true" /> <!-- android:usesCleartextTraffic="true" The default value in Android P is “false” -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <receiver android:name=".utils.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver> <!-- Will not be called unless the application explicitly enables it -->
+        <receiver
+            android:name=".utils.DeviceBootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.NewHomeScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.FarmSignUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".live_cotton.MessageDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Resolve Request"
+            android:windowSoftInputMode="stateHidden" />
+
+        <receiver android:name=".home.PollReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".services.AuthenticateService"
+            android:enabled="true" />
+        <service
+            android:name=".mapfragments.LatLonCellID"
+            android:enabled="true" />
+
+        <activity
+            android:name=".home.ForecastDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Forecast Detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.EditFarmActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Edit Farm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.NDVI_TouchValue"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.Moisture_TouchValue"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.MyServiceActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tubewell.ElectricStatusMain"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tubewell.StartStopMain"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tubewell.MinMaxLineChart"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tubewell.MaxCurFragment"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+    Release key : AIzaSyD3JzEWm5cih0i4k_CyA-45X6vpoQIxSaA
+
+    debug key : AIzaSyCY0kV519EanOgwL4ULx0OJgSuBR6hlC6c
+        -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/browser_key" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.maps.v2.API_KEY" -->
+        <!-- android:value="AIzaSyAak8mFLqT9K1_RnQ90upMhuGh30YEnznQ" /> &lt;!&ndash; android:value="AIzaSyDjUieCJswCOJunJtv3xG87rWdhIJieTEE" /> &ndash;&gt; -->
+        <activity
+            android:name=".activities.NewDashboardActivity"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".mapfragments.WeatherActual"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_mandi_detail_on_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.WeatherForecast_Details"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LoginWithOtp_New"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".home.Calculators"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".utils.LocationPollReceiver" /> <!-- <provider -->
+        <!-- android:name="androidx.core.content.FileProvider" -->
+        <!-- android:authorities="${applicationId}.provider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/image_paths" /> -->
+        <!-- </provider> -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".home.POPUpdates_ImageUploadDialog"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".firebasenotification.NotificationPOPDetailsDialog"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".activities.POPUpLanguageSelection"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".pdfgenerate.PDFGenerate"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".pdfgenerate.PDFGenerate_new"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".pdfgenerate.PDFGenerate_a4size"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- <service -->
+        <!-- android:name=".services.MFI_FirebaseSMSService" -->
+        <!-- android:exported="false" -->
+        <!-- android:permission="com.google.android.c2dm.permission.SEND"></service> -->
+        <!-- <service android:name=".firebasenotification.MFI_FirebaseSMSService" /> -->
+        <service android:name=".services.MFI_FirebaseSMSService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity
+            android:name=".googlemapdistance.DistanceFarmer"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".googlemapdistance.DistanceFarmerNavigationTracking"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".customcamera.CameraSurfaceView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- Machine Learning Image Level -->
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+
+        <activity
+            android:name=".activities.PlantDoctors"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- Phone call Receiver -->
+        <!--
+    android:description="@string/device_description"
+        android:label="@string/device_admin_label"
+        -->
+        <!-- <receiver -->
+        <!-- android:name=".services.DeviceAdminDemo" -->
+        <!-- android:permission="android.permission.BIND_DEVICE_ADMIN"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.app.device_admin" -->
+        <!-- android:resource="@xml/my_admin" /> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" /> -->
+        <!-- <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" /> -->
+        <!-- <action android:name="android.app.action.DEVICE_ADMIN_DISABLE_REQUESTED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <service android:name=".services.TService"></service> -->
+        <activity
+            android:name=".activities.MainProfileActivity"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".services.CallRecordingService" />
+
+        <activity
+            android:name=".youtubevideostream.YoutubeVideoStreamActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="" />
+        <activity
+            android:name=".youtubevideostream.YoutubeWebview"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.DiseaseDisgnosis"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.TubewellMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".firebasenotification.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.google.android.gcm.demo.app" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".youtubevideostream.YoutubeVideoRecyclerView" />
+        <activity
+            android:name=".marketplace.AddFarmOnMap_New"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_add_farm_map"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.FarmerListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.FarmRegistrationNew"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.ProductActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.MyCartActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.CheckoutActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.OrderDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.OtpVerifyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.FarmerDetailsActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.NewProductActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.MyCartNew"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".marketplace.CheckoutActivityNew"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".payment.PaymentListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".payment.OrderHistoryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".payment.PaySurveyorAmount"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".payment.PaymentDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".activities.AdminDashboard_New"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- Cattle Dashboard -->
+        <activity
+            android:name=".cattledashboard.CattleDashboards"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleWeather"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleActualWeather"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleWeatherForecast"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleDoctors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleAdvisory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleFarmDraw"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.FertilizerCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".marketplace.ProductOrderDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MandiInformation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cattledashboard.CattleFood"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".policyregistration.PolicyList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".policyregistration.PolicyRegistrationNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".policyregistration.PolicyPayment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".policyregistration.ServiceHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".policyregistration.PolicyFarmList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".groundwater.GroundWaterForecasting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".groundwater.GroundWaterGoogleMap"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

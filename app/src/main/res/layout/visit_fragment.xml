@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optimalMandiLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/hide_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="@drawable/design_layouts">
+
+                <Spinner
+                    android:id="@+id/distSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/sub_distLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="@drawable/design_layouts"
+                android:visibility="gone">
+
+                <Spinner
+                    android:id="@+id/sub_distSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_margin="7dp"
+                android:background="@drawable/design_layouts">
+
+                <Spinner
+                    android:id="@+id/villSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="@drawable/design_layouts">
+
+                <Spinner
+                    android:id="@+id/farmSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/comment_visit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/design_layouts"
+        android:gravity="start"
+        android:hint="Comments"
+        android:inputType="text"
+        android:lines="5"
+        android:maxEms="10"
+        android:maxLength="300"
+        android:maxLines="5"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/image_visit_btn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="Select Image"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/submit_visit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

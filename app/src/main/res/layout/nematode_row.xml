@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/hhhh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/design_layouts"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/nematode_image"
+            android:layout_width="30dp"
+            android:scaleType="fitXY"
+            android:layout_margin="3dp"
+            android:layout_height="30dp"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/un_selected_button_background" />
+
+        <TextView
+            android:id="@+id/nematode_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Scientific Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

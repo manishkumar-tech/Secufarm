@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_above="@+id/bottom_lay"
+        android:orientation="vertical">
+
+        <TableRow
+            android:id="@+id/tab_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:background="@color/ColorPrimary"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_cross"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/back_btn"
+                android:gravity="right" />
+            <TextView
+                android:id="@+id/text_geotag_heading"
+                style="@style/simpletextHeading_sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/GeoTag"
+                android:textColor="@color/white" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txt_searchlocation"
+                style="@style/edittextemail_sdp"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/line"
+                android:hint="@string/EnterYourLocation"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/ic_search" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_geotag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:background="@color/ColorPrimary"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1" />
+
+            <ImageView
+                android:id="@+id/img_delete"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_delete" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2" />
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_back" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2" />
+
+            <ImageView
+                android:id="@+id/img_clear"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_clear" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5" />
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Area"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" : "
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_area"
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0.0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:text="@string/acre"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_6sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2" />
+
+            <ImageView
+                android:id="@+id/img_savenext"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_save" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tab_geotagging"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:background="@color/ColorPrimary"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".05" />
+
+            <ImageView
+                android:id="@+id/img_delete_geotag"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_delete" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1" />
+
+            <ImageView
+                android:id="@+id/img_start"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_start" />
+
+
+            <ImageView
+                android:id="@+id/img_stop"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_stop" />
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/simpletextQuestionsmall_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Area"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/simpletextQuestionsmall_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" : "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_area_geotag"
+                    style="@style/simpletextQuestionsmall_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="0.0"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/simpletextQuestionsmall_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/acre"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_6sdp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <ImageView
+                android:id="@+id/img_savenext_geotag"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:background="@drawable/icon_save" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".05" />
+        </TableRow>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/alertTitle"
+                style="@style/simpletextHeading_sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/fltbtn_geoTag"
+                android:background="@color/red_alret"
+                android:gravity="center"
+                android:text="@string/NOGPS"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/fltbtn_editfarm"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@id/map"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="-100dp"
+                android:background="@drawable/icon_edit" />
+
+            <Button
+                android:id="@+id/fltbtn_geoTag"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@id/map"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="-50dp"
+                android:background="@drawable/icon_plus" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/bottom_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_weight=".05" />
+
+        <Button
+            android:id="@+id/home_btn"
+            style="@style/buttontext_m"
+            android:layout_width="0dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:background="@drawable/btn_bg"
+            android:text="@string/GotoHome" />
+
+
+        <TextView
+            android:id="@+id/txtblank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+
+        <Button
+            android:id="@+id/product_btn"
+            style="@style/buttontext_m"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/product_page" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+    </TableRow>
+
+
+</RelativeLayout>

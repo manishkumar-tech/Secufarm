@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl4"
+            android:background="@color/ColorPrimary">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_btn"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/txt_FarmRegistration"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/payment_history" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/row"
+            android:layout_below="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="@string/collected_amount" />
+
+                <TextView
+                    android:id="@+id/collected_amount"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text=" " />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="@string/transfered_amount" />
+
+                <TextView
+                    android:id="@+id/transferre_amount"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text=" " />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="@string/pending_amount_rs" />
+
+                <TextView
+                    android:id="@+id/pending_amount"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red_alret"
+                    android:layout_weight="1"
+                    android:text=" " />
+
+            </LinearLayout>
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center">
+
+                <TextView
+
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/payable_amount"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/collect_amount"
+                    style="@style/edittextdecimal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/line"
+                    android:hint="Enter Amount" />
+            </TableRow>
+
+
+            <Button
+                android:id="@+id/pay_now"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/pay_via_upi"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/btn_bg"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp"
+                android:padding="@dimen/_5sdp"
+               />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</layout>

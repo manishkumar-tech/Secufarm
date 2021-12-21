@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borderline"
+    android:minHeight="@dimen/_150sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        style="@style/simpletextQuestion_sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_1sdp"
+        android:background="@color/ColorPrimary"
+        android:gravity="center"
+        android:text="@string/mfinotification"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp" />
+</LinearLayout>

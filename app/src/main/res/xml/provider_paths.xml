@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="external_files" path="." />
+    <files-path  name="SecurFarm"  path="images/" />
+    <files-path  name="SecurFarm"  path="." />
+    <external-path name="SecurFarm" path="/" />
+    <external-path  name="DCIM" path="/" />
+    <files-path name="DCIM" path="." />
+</paths>

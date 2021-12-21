@@ -1,0 +1,1608 @@
+<resources>
+    <!-- <string name="release_key">AIzaSyDjUieCJswCOJunJtv3xG87rWdhIJieTEE</string>
+     <string name="debug_key">AIzaSyDjUieCJswCOJunJtv3xG87rWdhIJieTEE</string>-->
+
+    <!--No need to Change language-->
+    <string name="browser_key">AIzaSyAak8mFLqT9K1_RnQ90upMhuGh30YEnznQ</string>
+    <string name="language_pref_key">language_pref_key</string>
+    <string name="dashboard_pref_key">dashboard_pref_key</string>
+    <string name="default_notification_channel_id">MFINotification</string>
+    <string name="CHANNEL_NAME">MFI Notification</string>
+    <string name="Bengali">বাংলা</string>
+    <string name="English">English</string>
+    <string name="Chooseyourlanguage">Choose your language</string>
+    <string name="Hindi">हिंदी</string>
+    <string name="Gujarati">ગુજરાતી</string>
+    <string name="Tamil">తెలుగు</string>
+    <string name="Marathi">मराठी</string>
+    <string name="CacheClear">Cache Clear</string>
+    <string name="doyouwantcacheclear">Do you want to clear the local data / cache data?</string>
+    <string name="Thelocaldataclear">The local data has been cleared successfully and refresh the application</string>
+    <string name="India">India</string>
+    <string name="Version">Version (117.0.4) </string>
+    <string name="VersionLang">Version (117.0.4) </string>
+    <string name="app_name">SecuFarm</string>
+    <string name="title_activity_navigation_drawer">SecuFarm</string>
+    <!--No need to change the language-->
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_rb_normal">Normal</string>
+    <string name="str_rb_satellite">Satellite</string>
+    <string name="str_rb_terrain">Terrain</string>
+    <string name="services">Services</string>
+    <string name="contact">Contact</string>
+    <string name="login_signup">Sing Up</string>
+    <string name="sync">Sync</string>
+    <string name="offline">Offline</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_add_farm_map">Map</string>
+    <string name="title_activity_mandi_detail_on_map">Map</string>
+
+    <string name="network_not_available">Check Newtork Connection</string>
+    <!--    <string name="title_activity_navigation_drawer">MyFarmInfo</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="toast_crash">My Farm Info has been crashed</string>
+    <string name="monthly_membership">Monthly Membership \n for Rs 3,500</string>
+    <string name="terms">Billed monthly at Rs 3,500 / month \n Cancel anytime \n 15-day money back guarantee</string>
+    <string name="deta">Precise soil analysis within your budget</string>
+
+
+    <string name="no_device">You don\'t have any irrigation system associated with your account.\n Do you want to update number?</string>
+    <string name="update_device">You have already irrigation system associated with your account.\n Do you want to update number?</string>
+    <string name="start">Your irrigation already started.\n Do you want to Off?</string>
+    <string name="moisture_txt">Soil moisture in your field is too low.\n Do you want to start irrigation?</string>
+
+    <string name="ll">Select your Language\nअपनी भाषा का चयन करें તમારી ભાષા પસંદ કરો</string>
+    <string-array name="nutritionCrop">
+        <item>Cotton</item>
+        <item>Wheat</item>
+        <item>Paddy</item>
+        <item>Kinnow</item>
+    </string-array>
+
+    <string-array name="nutritionStatus">
+        <item>Fertile</item>
+        <item>Low Fertile</item>
+    </string-array>
+
+
+    <string-array name="irrigation">
+
+        <item>Good Irrigation</item>
+        <item>Rainfed</item>
+        <item>Protective Irrigation</item>
+    </string-array>
+
+    <string-array name="soil">
+
+        <item>Clayey</item>
+        <item>Loamy</item>
+        <item>Sandy</item>
+    </string-array>
+    <string name="aaaaa"><![CDATA[<ul><li><b>पोषणमूल्यांची कमतरता: </b> पोपचा संदर्भ घ्या. 2% डीएपी + 9 0% एमजीएसओ 4 चे फुलिश फवारणी घ्या </li>" + "<li> <b> सांस्कृतिक क्रियाकलाप: </बी > तण नियंत्रणासाठी पिके घेणे /हाताळणी करणे </li> "+" <li> <b> सिंचन: </b> 4 था सिंचन </li> "+" <li> <b> आजार: </b> अलटनारिया लीफ ब्लॉट /पॅरा विल्ट </li> "+" <li> <b> रोग व्यवस्थापन: </b> एम -45 0 आर कॉपर ऑक्सीक्लोराईड @ 1.25-1.5 किलो /हेक्टर) फवारणी + स्ट्र्रेप्टोकीक्लिन (15-20 ग्राम /हेक्टर) कीटक- व्हाईटfly, थ्रिप्स, जसीड, मेली बग बॉलवॉर्म (अमेरिकन /स्पॉट /गुलाबी /स्पोडोप्टेरा) </li> 400-500 लिटर पाण्यात </li> "+" <li> <b> कीटक: </b> कीटकनाशके </li> </li> </li> </li> </li> </li> </li> "<"> <li> </li> > <ul> <li> <b> ऍफिड, जसीडीसाठी: </b> स्प्रे 5% NSKE /Acitamiprid 20% SP @ 3gm प्रति 15 लिटर पाण्यात "+" स्प्रे थाओमेथॉक्साम 25% डब्ल्यू.जी. @ 3 ग्रॅम प्रति 15 लिटर पाण्यात थ्रिप्स साठी: </b> स्प्रे फिप्पिलिल @ 45 मिली प्रति 15 लिटर पाण्यात /डायमिथोएट 30% ईसी @ 20 लीटर प्रति 15 लिटर पाण्यात /फ्लोनिकॅमिड 50% डब्ल्यू.जी. @ 3 ग्रॅम प्रति 15 लिटर पाण्यात </li> </ul> </li> "+" <li> <ul> <li> <b> व्हाईटफ्लायसाठी: </b> स्प्रे 5% एनएसकेई, एसेफेट 75% एसपी @ 30 ग्राम, डीफेंथियूरॉन 50% डब्ल्यूपी @ 20 ग्राम, बायफॅथिनिन 10% EC 25 एमएल प्रति 15 लिटर पाण्यात </li> </ul> मेलीबगसाठी: </b> 75 ग्रॅम /एसेफेट 75 टक्के एसपी @ 30 ग्रॅम /क्लोरोपायरीफॉस 20 टक्के% 30 मि.ली., बेरूप्रोफेनझीन 25 टक्के स्प्रे Verticiliumlecani 25% 15 लीटर पाण्यात प्रति 30 मि.ली. </li> </ul> </li> "+" <li> <ul> <li> <b> गुलाबी बोल्म पाळांसाठी: </b> क्विनोलफॉस @ 25 वाजता स्प्रे घ्या % EC @ 20 mlor Chloropyriphos 25% EC @ 20 एमएल किंवा थिऑडिआर्ब75% WP @ 30 ग्राम प्रति 15 लिटर पाण्यात. </Li> </ul> </li> <br /> "+" <li> नेहमी पहा उत्पादनांची लेबले आणि वापरण्याकरिता सर्व तपशीलांसाठी आणि दिशानिर्देशांसाठी </li> "+" <li> <b> कीटक अनुकूल परिस्थिती: </b> कमाल तात्पुरती <36C, किमान तात्पुरती > 26 सी, आरएच. > 75 </li> </ul>]]></string>
+
+    <string name="welcometohelp">Welcome to help &amp; support</string>
+    <string name="pleasetellus">Please tell us in details about your problem</string>
+    <string name="youcanalso">You can also upload pictures and audios of your problems by pressing the button below</string>
+    <string name="Feelfree">Feel free to share us your queries by pressing the <b>plus button</b> below </string>
+
+
+    <!--Herojit String Common-->
+    <string name="SelectHindi">शुरू करने के लिए क्लिक करें</string>
+    <string name="SelectEnglish">Click here to start</string>
+    <string name="SelectGujarati">પ્રારંભ કરવા માટે અહીં ક્લિક કરો</string>
+    <string name="SelectMarathi">प्रारंभ करण्यासाठी येथे क्लिक करा</string>
+
+
+    <!--    <string name="app_name">My Farm Info</string>-->
+    <string name="entertheregistermobile">Enter your registered mobile no</string>
+    <string name="EnterMobileNo">Enter the mobile no.</string>
+    <string name="Submit">Submit</string>
+    <string name="or">(or)</string>
+    <string name="LoginWithPassword">Login with password</string>
+    <string name="Register">Register</string>
+    <string name="Dear">Dear</string>
+    <string name="areusurelogout">Do you want to logout?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="GPSOFF">GPS OFF \n\nPlease enable the GPS</string>
+    <string name="EnableGPS">Enable GPS</string>
+
+    <string name="Loadingstate">Loading state, Please wait...</string>
+    <string name="FormattingError">Formatting error</string>
+    <string name="Couldnotconnect">Could not connect to the server</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Update">Update</string>
+    <string name="GooglePlayStore">Google Play Store is available the updated version, Do you want to update ?</string>
+    <string name="Loadingcrop">Loading crop list, Please wait...</string>
+    <string name="validmobileno">Please enter the valid 10 digit mobile no.</string>
+    <string name="Ok">Ok</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="AnswerDesk">Answer Desk is ready to help you with whatever you need</string>
+    <string name="EnteryourName">Enter your name </string>
+    <string name="Enteremailid">Enter Email Id</string>
+    <string name="Enteryourmessage">Enter your message</string>
+    <string name="Enteryourname">Please enter your name</string>
+    <string name="Enteryouremailid">Please enter your Email Id</string>
+    <string name="Enteryourphoneno">Please enter your phone no.</string>
+    <string name="Enteryourpassword">Please enter your password</string>
+    <string name="Enteryourconfirmpassword">Please enter your confirm password</string>
+    <string name="OTPhasbeen">OTP has been sent to entered mobile no., Please use OTP as a password.</string>
+    <string name="Pleasewait">Please wait...</string>
+    <string name="Mobilenoisnot">Mobile no. is not registered</string>
+    <string name="login">Login</string>
+    <string name="Username">UserName / Email / MobileNo</string>
+    <string name="Password">Password</string>
+    <string name="SavePassword">Save Password</string>
+    <string name="ForgotPassword">Forgot Password</string>
+    <string name="Pleaseentervalid">Please enter the valid mobile no.</string>
+    <string name="Pleaseentervalidemail">Please enter the valid registered email Id</string>
+    <string name="youarealreadylogiin">You are already logged in</string>
+    <string name="wantotexit">Are you sure you want to exit?</string>
+    <string name="Success">Success</string>
+    <string name="PleaseCheck">Please, Check your mail id and change your password.</string>
+    <string name="LogginIn">Loggin In... </string>
+    <string name="IncorrectUsernameorPassword">Incorrect User name or Password </string>
+    <string name="ServerError">Server Error</string>
+    <string name="Verifyingemail">Verifying email... </string>
+    <string name="emailiddoesnotexist">Email Id does not not exist</string>
+    <string name="Farmnotavailable">Farm is not available</string>
+
+    <!--Registration-->
+    <string name="UserRegistration">User Registration</string>
+    <string name="CreateUsernames">Create username *</string>
+    <string name="CreateUsername">Create username</string>
+    <string name="VisibleNames">Visible Name *</string>
+    <string name="VisibleName">Visible Name</string>
+    <string name="MobileNumbers">Mobile Number *</string>
+    <string name="MobileNumber">Mobile Number</string>
+    <string name="Passwords">Password *</string>
+    <string name="ConfirmPasswords">Confirm Password *</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="EmailAddressoptional">Email Address (Optional)</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="Emailaddressalready">Email address already exist. Please try another email or login with this Id</string>
+    <string name="entervisiblename">Please enter your visible name</string>
+    <string name="passwordconfirmpassword">Password and confirm password must be same</string>
+    <string name="entercity">Please enter your city</string>
+    <string name="validemailid">Please enter the valid Email Id</string>
+    <string name="Somethingwentwrong">Something went wrong, please fill empty field.</string>
+    <string name="usersaved">User has been saved</string>
+
+    <!--Admin-->
+    <string name="Admin">Admin</string>
+    <string name="Surveyor">Surveyor</string>
+    <string name="Farmer">Farmer</string>
+    <string name="Logout">Logout</string>
+
+    <!--DashBoard-->
+    <string name="Weather">Weather</string>
+    <string name="PlantDoctor">Plant Doctor</string>
+    <string name="SoilDoctor">Soil Doctor</string>
+    <string name="CropInformation">Crop Information</string>
+    <string name="POPUpdates">POP Updates</string>
+    <string name="Emergency">Emergency</string>
+    <string name="Alerts">Alerts</string><!--google-->
+    <string name="PestDiseaseAlert">Pest &amp; Disease Alert</string><!--Google Translation-->
+    <string name="IrrigationAdvisory">Irrigation Advisory</string><!--Google Translation-->
+    <string name="Disease">Disease</string><!--Google Translation-->
+    <string name="Growth">Growth</string><!--Google Translation-->
+
+    <!--Message google translation-->
+    <string name="Pleaseselectyour">Please select your farm</string>
+    <string name="norecordfarm">There is no record againts the selected crop</string>
+    <string name="Nodataavailable">No data is available</string>
+
+    <!--Crop Status-->
+    <string name="CropStatus">Crop Status</string>
+    <string name="Normal">Normal</string>
+    <string name="NotNormal">Not Normal</string>
+    <string name="Stress">Stress</string>
+    <string name="understress">under stress</string>
+    <string name="Status">Status</string>
+    <string name="Benchmark">Benchmark</string>
+    <string name="NDVI">NDVI</string>
+    <string name="Rain">Rain</string>
+    <string name="SoilMoisture">Soil Moisture</string>
+    <string name="SoilDeficiency">Soil Deficiency</string>
+    <string name="PestandDisease">Pest &amp; Disease</string>
+    <string name="NDVIData">NDVI Data</string>
+    <string name="Date">Date</string>
+    <string name="Value">Value</string>
+    <string name="Clouded">Clouded</string>
+    <string name="Alert">Alert</string>
+    <string name="Good">Good</string>
+    <string name="Bad">Bad</string>
+
+    <!--Next Step-->
+    <string name="NextStep">Next Step</string>
+    <string name="Intercultural">Intercultural</string>
+    <string name="Activity">Activity</string>
+    <string name="Pest">Pest</string>
+    <string name="Identification">Identification</string>
+    <string name="Naturalenemypopulation">Natural enemy population</string>
+    <string name="Insects">Insects</string>
+    <string name="PestManagement">Pest Management</string>
+    <string name="InsectConduciveCondition">Insect Conducive Condition</string>
+
+    <!--Weather-->
+    <string name="Forecast">Forecast</string>
+    <string name="ActualWeather">Actual Weather</string>
+    <string name="WeatherForecast">Weather Forecast</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Wind">Wind</string>
+    <string name="Veryhot">Very hot</string>
+    <string name="Cloudy">Cloudy</string>
+    <string name="Showers">Showers</string>
+
+
+    <!--Plant Doctor-->
+    <string name="Mymessages">My messages</string>
+    <string name="Youhaventmade">You haven\'t made any requests</string>
+    <string name="Startnow">Start now</string>
+    <string name="lognewrequest">log new request</string>
+    <string name="Image">Image</string>
+    <string name="Voicerecord">Voice record</string>
+    <string name="message">Message</string>
+    <string name="Texthere">Text here</string>
+    <string name="logrequest">log request</string>
+    <string name="Record">Record</string>
+    <string name="Stop">Stop</string>
+    <string name="Play">Play</string>
+    <string name="Stopplayingrecording">Stop playing recording</string>
+    <string name="UploadVoice">Upload Voice</string>
+
+    <!--Soil Doctor-->
+    <string name="SoilInformation">Soil Information</string>
+    <string name="SoilTestingreport">Soil testing report</string>
+    <string name="Indiafirstondemand">India\'s first on-demand national soil testing service</string>
+    <string name="Enteryourcontactdetails">Enter your contact details to get your soil tested</string>
+    <string name="Name">Name</string>
+    <string name="Phoneno">Phone no.</string>
+    <string name="EmailID">Email Id</string>
+    <string name="Address">Address</string>
+    <string name="Sendmessage">Send message</string>
+
+    <!--POP Updates-->
+    <string name="Forwhichcropdoyou">For which crop do you want to know package and practices</string>
+    <string name="SelectCrop">Select Crop</string>
+    <string name="Stages">Stages</string>
+    <string name="Completed">Completed</string>
+    <string name="Pending">Pending</string>
+    <string name="Done">Done</string>
+
+    <!--Emergency-->
+    <string name="Shareyourproblem">Share your problem</string>
+    <string name="Callus">Call us</string>
+    <string name="SendPhotoorText">Send photo or text</string>
+    <string name="Call">Call</string>
+    <string name="SMS">SMS</string>
+
+    <!--Crop Information-->
+
+    <string name="CropSecure">Crop Secure</string>
+    <string name="FarmIncomeProtectionPlan">Farm Income Protection Plan</string>
+    <string name="Nematode">Nematode</string>
+    <string name="Nutrition">Nutrition</string>
+    <string name="Weed">Weed</string>
+    <string name="CropFeasibility">Crop Feasibility</string>
+    <string name="Vulnerability">Vulnerability</string>
+    <string name="DiseaseForecast">Disease Forecast</string>
+    <string name="ChancesofDiseaseOccurrence">Chances of Disease Occurrence</string>
+    <string name="Diseasehappened">Disease happened</string>
+    <string name="DiseaseSeverity">Disease Severity</string>
+    <string name="High">High</string>
+    <string name="Low">Low</string>
+    <string name="Medium">Medium</string>
+    <string name="Percentage">Percentage</string>
+    <string name="Maximumlosshappenedintheyear">Maximum loss happened in the year … between dates …and ..</string>
+    <string name="DiseaseConditions">Disease Conditions</string>
+    <string name="Forwhichcropdoyouwant">For which crop do you want to know nematode advice</string>
+    <string name="WeedManagement">Weed Management</string>
+    <string name="Selectcrop">Select crop</string>
+    <string name="BotanicalName">Botanical Name</string>
+    <string name="EnglishName">English Name</string>
+    <string name="CommonName">Common Name</string>
+    <string name="Thefarmsinyourareaare">The farms in your area are most feasiable for cultivation</string>
+    <string name="Average">Average</string>
+    <string name="Maximum">Maximum</string>
+    <string name="Minimum">Minimum</string>
+    <string name="Yield">Yield</string>
+    <string name="Year">Year</string>
+    <string name="ShowweatherData">Show weather Data</string>
+
+    <!--Google Traanslation-->
+    <string name="ViewNDVI">View NDVI</string>
+    <string name="PestDisease">Pest Disease</string>
+
+    <!--VIshal-->
+    <string name="icon_cloud_rain">&#xf019;</string>
+    <string name="icon_wind">&#xf050;</string>
+    <string name="icon_sun">&#xf00d;</string>
+    <string name="icon_rain">&#xf04e;</string>
+    <string name="Day">Day</string>
+    <string name="MT">MT</string>
+    <string name="CurrentWeather">Current Weather Information</string>
+    <string name="WeeklyWeather">Weekly Weather Forecast</string>
+
+    <!--Farmer Registration-->
+    <string name="MyServiceLogin">My Service Login</string>
+    <string name="FarmerMobile">Farmer Mobile No. </string>
+    <string name="OTP">OTP *</string>
+    <string name="EnterOTP">Enter OTP</string>
+    <string name="PanNumber">Pan Number*</string>
+    <string name="EnterPAN">Enter PAN Number</string>
+    <string name="AadharNumber">Aadhar Number *</string>
+    <string name="EnterAadharNumber">Enter Aadhar Number</string>
+    <string name="AccountType">Account Type</string>
+    <string name="Self">Self</string>
+    <string name="Other">Other</string>
+    <string name="HolderRelation">Holder Relation with Farmer</string>
+    <string name="AccountHolderName">Account Holder Name</string>
+    <string name="EnterAccountHolderName">Enter Account Holder Name</string>
+    <string name="BankName">Bank Name</string>
+    <string name="EnterBankName">Enter Bank Name</string>
+    <string name="AccountNumber">Account Number</string>
+    <string name="EnterAccountNumber">Enter Account Number</string>
+    <string name="IFSCCode">IFSC Code</string>
+    <string name="EnterIFSCCode">Enter IFSC Code</string>
+    <string name="OwnedorRentedLand">Owned or Rented Land</string>
+    <string name="VillageName">Village Name</string>
+    <string name="EnterVillageName">Enter Village Name</string>
+    <string name="BlockName">Block Name</string>
+    <string name="EnterBlockName">Enter Block Name</string>
+    <string name="District">District</string>
+    <string name="EnterDistrict">Enter District</string>
+    <string name="FarmerImage">Farmer Image</string>
+    <string name="PanCardImage">Pan Card Image</string>
+    <string name="BankPassbookImage">Bank Passbook Image</string>
+    <string name="OtherImage">Other Image</string>
+
+    <!--Farm Advisory-->
+    <string name="FarmAdvisory">Farm Advisory</string>
+    <string name="BasalDoseApplication">Basal Dose Application</string>
+    <string name="Youneedtoaddbasal">You need to add basal dose to your crop in these quantities</string>
+    <string name="AppliedKGHectare">Applied(KG/Hectare)</string>
+    <string name="N">N</string>
+    <string name="P">P</string>
+    <string name="K">K</string>
+    <string name="IdealCropDuration">Ideal Crop Duration</string>
+    <string name="Applythesemicronutrients">Apply these micronutrients on your crop</string>
+    <string name="Home">Home</string>
+    <string name="MyServices">My Services</string>
+
+    <!--Farmer Information-->
+    <string name="FarmInformation">Farm Information</string>
+    <string name="Pleaseenterbasic">Please enter basic information about farm</string>
+    <string name="EmailJson">Email Json</string>
+    <string name="FarmName">Farm Name *</string>
+    <string name="EnterFarmName">Enter Farm Name</string>
+    <string name="FarmerName">Farmer Name</string>
+    <string name="EnterFarmerName">Enter Farmer Name</string>
+    <string name="FarmerPhoneNumber">Farmer Phone Number*</string>
+    <string name="EnterFarmerPhoneNumber">Enter Farmer Phone Number</string>
+    <string name="StateName">State Name</string>
+    <string name="TaggedFarmArea">Tagged Farm Area (Acre)</string>
+    <string name="Area">Area</string>
+    <string name="ActualFarmArea">Actual Farm Area (Acre)</string>
+    <string name="EnterFarmArea">Enter Farm Area</string>
+    <string name="Crop1">Crop 1</string>
+    <string name="Crop2">Crop 2</string>
+    <string name="Crop3">Crop 3</string>
+    <string name="Crop4">Crop 4</string>
+    <string name="Crop">Crop *</string>
+    <string name="Variety">Variety *</string>
+    <string name="SowPeriodFrom">Sow Period From *</string>
+    <string name="SowPeriodTo">Sow Period To *</string>
+    <string name="HaveYouapplied">Have You applied basal dose to your crop? *</string>
+    <string name="Pleasefillbasal">Please fill the basal dose table</string>
+    <string name="KGHectare">KG/Hectare</string>
+    <string name="Whichnutrition">Which nutrition have you applied on your farm</string>
+    <string name="EnterNutrition">Enter Nutrition</string>
+    <string name="Whatisyourmain">What is your main concern ? *</string>
+    <string name="CreateAccountFor">Create account for this farmer(if not exist)</string>
+
+    <string name="GeoFarm">Geo Farm</string>
+    <string name="GeoTag">Geo Tag</string>
+    <string name="Draw">Draw</string>
+    <string name="Noforcast">No forecast found!!!!!</string>
+
+    <string name="Pressgeotag">Press geo tag icon and traverse around your farm to geo tag it</string>
+    <string name="Selectallcover">Select all corner to geo tag your farm</string>
+
+    <string name="DistrictName">District Name</string>
+    <string name="SubDistrictName">Sub District Name</string>
+    <string name="LoadingStates">Loading States......</string>
+    <string name="LoadingDistricts">Loading Districts......</string>
+    <string name="LoadingSubDistricts">Loading Sub Districts......</string>
+    <string name="LoadingVillages">Loading Villages...</string>
+    <string name="Submittingtagged">Submitting tagged data...</string>
+    <string name="LoginProgress">Login Progress...</string>
+    <string name="ServerRejected">Server rejected the request</string>
+    <string name="Networknotavailable">Network is not available</string>
+    <string name="Farmalreadyexist">Farm already exist!</string>
+    <string name="FarmSaved">Farm Saved</string>
+    <string name="Farmcannotbe">Farm can not be sent because of Low Network. \n But farm has been saved in local DB.</string>
+    <string name="NotLoggedIn">Not Logged In</string>
+    <string name="Pleaseregisterlogin">Please register or login to get your farm report</string>
+    <string name="EnterEmailmobile">Enter Email or mobile number</string>
+    <string name="Dearyouhavebeen">Dear, you have been successfully registered on MyFarmInfo with the help of your mobile number, all the features in your account will be restored in the next three 3 days.</string>
+    <string name="OtherVillageName">Other Village Name</string>
+    <string name="PleaseSelectState">Please select state</string>
+    <string name="PleaseselectDistrict">Please select district</string>
+    <string name="PleaseselectSubDistrict">Please select sub district</string>
+    <string name="Pleaseselectviilage">Please enter other village name or select the village name</string>
+    <string name="PleaseselectCrop">Please select the crop</string>
+    <string name="Pleaseselectvariety">Please select the variety</string>
+    <string name="Pleaseselectshowingduration">Please select the showing duration</string>
+    <string name="FillbeasalDose">Fill the besal dose apply field</string>
+    <string name="PleasebeasalDose">Please apply the besal dose</string>
+    <string name="Selectyourconcern">Select your concern</string>
+    <string name="Selectyourfarm">Your Farm</string>
+    <string name="WeatherDetails">Weather Details</string>
+    <string name="WeatherForecastDetails">Weather Forecast Details</string>
+    <string name="ForecastDetails">Forecast Details</string>
+    <string name="LoadingProject">Loading Project...</string>
+    <string name="Project">Project *</string>
+    <string name="OtherDistrict">Other Sub District</string>
+    <string name="Pleaseselectsubdistrict">Please enter the other sub district name or select the sub district name</string>
+    <string name="EnterProjectName">Select Project Name</string>
+    <string name="Caretakers">Caretakers *</string>
+    <string name="FarmerType">Farmer Type</string>
+
+    <!--Calculator-->
+    <string name="Calculator">NPK Calculator</string>
+    <string name="Calculationfertilizers">Calculation of NPK if fertilizer is given</string>
+    <string name="npktokg">Calculation of fertilizers if NPK is given</string>
+    <string name="Fertilizer">Fertilizer</string>
+    <string name="kgha">(kg/ha)</string>
+    <string name="RecommendedDose">Recommended Dose</string>
+    <string name="kgbag50">(50 kg bag)</string>
+    <string name="Urea">Urea</string>
+    <string name="SuperPhosphate">Super Phosphate</string>
+    <string name="MuriateofPotash">Muriate of Potash</string>
+    <string name="LoadingCrops">Loading crop, Please wait...</string>
+
+    <!--Farm Registration-->
+    <string name="FarmRegistration">Farm Registration</string>
+    <string name="SowingDate">Sowing Date</string>
+    <string name="Dates">Date *</string>
+    <string name="SlNo">Sl No.</string>
+    <string name="Description">Description</string>
+    <string name="SACCode">SAC Code</string>
+    <string name="Quantity">Quantity (per acre)</string>
+    <string name="Rate">Rate(Rs.)</string>
+    <string name="Amount">Amount(Rs.)</string>
+    <string name="Total">Total</string>
+    <string name="Crops">Crop</string>
+    <string name="FarmIncome">Farm income protection program</string>
+    <string name="MyFarmInfoService">My farm info service</string>
+    <string name="SoilTesting6">Soil testing (6 Parameters- EC, OC, N, P and K)</string>
+    <string name="SoilTesting14">Soil testing (14 Parameters- EC, OC, N, P, K and Micronutrient)</string>
+    <string name="Clear">Clear</string>
+    <string name="Set">Set</string>
+    <string name="AadharNo">Aadhar Number</string>
+    <string name="Savedsuccessfully">Saved Successfully!!</string>
+    <string name="EnterAadharother">Enter Aadhar Number or Other</string>
+    <string name="EnterDate">Enter Date</string>
+    <string name="ReceiptNo">Receipt Number</string>
+
+    <!--Geo Tagging-->
+    <string name="Pleaseclickatleast">Please click atleast 3 points.</string>
+    <string name="PleaseclickGeotag">Please click geotag button and complete the farm and then click on next.</string>
+    <string name="youareusing">You are using the other option presently</string>
+    <string name="Couldnotconnectlocation">Could not connect to the location API</string>
+    <string name="GPSnotfound">GPS is not found</string>
+    <string name="notabletocreate">Not able to create route \nPlease wait for GPS to start creating route.</string>
+    <string name="NOGPS">NO GPS</string>
+    <string name="GETGPS">GET GPS</string>
+    <string name="HelloMaps">Hello Maps</string>
+    <string name="PointsMissed">Points Missed</string>
+    <string name="Wehavemissed">We have missed some points \nPlease Recreate the farm</string>
+    <string name="Distance">Distance</string>
+    <string name="YourGPSfoundtoo">Your GPS found too far Lat-Long. Do you want acre to set minimum distance?</string>
+    <string name="Farmisincomplete">Farm is incomplete</string>
+    <string name="gotostartigpoint">Please go to the starting point \nOr \n Discard the Farm</string>
+    <string name="Discard">Discard</string>
+    <string name="Continue">Continue</string>
+    <string name="Locatethefarm">Locate the farm of your interest</string>
+    <string name="EnterYourLocation">Enter Your Location</string>
+    <string name="FarmVisit">Farm Visit</string>
+    <string name="acre">acre</string>
+    <string name="Select">Select</string>
+    <string name="Increasemyrevenue">Increase my revenue</string>
+    <string name="Increasemyyield">Increase my yield</string>
+    <string name="Getmebetterprice">Get me better price for my produce</string>
+    <string name="Save">Save</string>
+    <string name="IdealKG">Ideal(KG/Hectare)</string>
+    <string name="Successfullysentotp">Successfully sent OTP to farmer mobile no, please verify</string>
+    <string name="Youshouldsow">You should sow your crop between</string>
+    <string name="and">and</string>
+    <string name="tomaximize">to maximize yield</string>
+    <string name="IBFarmerCode">IB Farmer Code</string>
+
+    <!--Extra -->
+    <string name="FatherName">Father Name</string>
+    <string name="Farmers">Farmer *</string>
+    <string name="ActivityDate">Activity Date</string>
+    <string name="ActivityDateTo">Activity Date To</string>
+    <string name="Type">Type</string>
+    <string name="Season">Season</string>
+    <string name="Title">Title</string>
+    <string name="AddComment">Add Comment &amp; Images *</string>
+    <string name="Add">Add</string>
+    <string name="Visittowebsite">Visit to website for more images</string>
+    <string name="CareTakerList">Care Taker List</string>
+    <string name="CloseUpThumbnail">Close Up Thumbnail</string>
+    <string name="FarmThumbnail">Farm Thumbnail</string>
+    <string name="PestTrapThumbnail">Pest Trap Thumbnail</string>
+    <string name="SubmittedSuccessfully">Submitted Successfully</string>
+    <string name="thankyouforfeedback">Thank you for feedback</string>
+    <string name="ResponseFormattingError">Response formatting error</string>
+    <string name="Processing">Processing....</string>
+    <string name="MobileTypes">Mobile Type *</string>
+    <string name="MobileType">Mobile Type</string>
+    <string name="Farmnotsaved">Farm is not saved</string>
+    <string name="norecordagainstAadharno">No record is available against this Aadhar number \nPlease enter the details</string>
+    <string name="loadingAadhar">Loading aadhar number list, please wait...</string>
+    <string name="loadingInformation">Loading information, please wait...</string>
+
+
+    <string name="Dataisloading">Data is loading...</string>
+    <string name="BranchName">Branch Name</string>
+    <string name="EnterBranchName">Enter Branch Name</string>
+    <string name="Varieties">Variety</string>
+    <string name="Soiltreatmentkit">Soil treatment kit</string>
+    <string name="Seedtreatmentkit">Seed treatment kit</string>
+    <string name="Weedicideskit">Weedicides kit</string>
+    <string name="RECEIPT">RECEIPT</string>
+    <string name="GSTIN">GSTIN/UIN: 06AAACW5528Q1ZS</string>
+    <string name="WRMS">Weather Risk Management Services Pvt Ltd</string>
+    <string name="HeadOffice">Head Office: J1/37, The Prefect House, 3rd Floor, DLF City Phase 2, Sector 25, Gurgaon -122002</string>
+    <string name="Telphoneno">Tel: +91-124-4010237 / 4041239</string>
+    <string name="DisclaimerPleasenote">Disclaimer: Please note that this bill/receipt is issued on receipt of cash paid for services printed on the bill/receipt, and nothing else. Further, this bill/receipt is valid only in the case of receipt of contract by the bearer of this bill/receipt, within a period of 7 days from issue of this bill/receipt and therefore holds invalid in any othr circumstance. In case the contract has not been received within 7 days or for any queries and clarifications please contact : 7505022000</string>
+    <string name="PDFFilegenerated">PDF file has benn generated, please check to the local memory</string>
+    <string name="TakePhoto">Take photo</string>
+    <string name="Selectfromgallery">Select from gallery</string>
+    <string name="PleaseuploadImage">Please upload the receipt image</string>
+    <string name="ReceiptImage">Receipt Image *</string>
+
+    <string name="UploadComment">Upload Comment / Image</string>
+    <string name="CloseUp">Close Up</string>
+    <string name="Upload">Upload</string>
+    <string name="Writeacomment">Write a comment....</string>
+    <string name="AadharImage">Aadhar Image *</string>
+    <string name="BankPaasbookImage">Bank Passbook Image</string>
+    <string name="UploadImage">Upload Images</string>
+    <string name="Setimageupload">Set your image</string>
+    <string name="Registering">Registering the Device ID...</string>
+    <string name="SubmitGeoTag">Submit &amp; Geo Tag</string>
+    <string name="UploadImageDone">Upload Images / Done</string>
+    <string name="Farm">Farm</string>
+    <string name="selecttheimage">Please select the image</string>
+    <string name="SubmitFailed">Submit Failed</string>
+    <string name="mfinotification">MFI Notification</string>
+
+    <!--Add new After String S=has been send-->
+    <string name="Selectlocation">Select location</string>
+    <string name="Stateidsync">State ID sync is not succesfully!</string>
+    <string name="Cropinitialsync">Crop initial sync is not succesfully!</string>
+    <string name="Cropallinitialsync">Crop all initial sync is not succesfully!</string>
+    <string name="getfarmdetails">Getting the farm detail is progress...</string>
+    <string name="yourregisterhasbeen">Your registered has been successfully \nPlease login</string>
+    <string name="Pleaselogin">Please login</string>
+    <string name="EmailIDs">Email ID *</string>
+    <string name="Comingsoon">Coming soon</string>
+    <string name="CropScheduler">Crop Scheduler</string>
+    <string name="AddActivity">Add Activity</string>
+    <string name="AddProject">Add Project</string>
+    <string name="Search">Search</string>
+    <string name="Pleaseentertheproject">Please enter the project name</string>
+    <string name="Useriddoesnotfound">User Id does not found, please login once again</string>
+    <string name="Youdonthaceanyactivity">You don\'t have any activity for this project \nDo you want to create a new activity? </string>
+    <string name="Addingdata">Adding the data, Please wait</string>
+    <string name="Info">Info</string>
+    <string name="Pleaseselectanyfarm">Please select any farm</string>
+    <string name="Square">Square</string>
+    <string name="SelectCaretaker">Select Caretaker</string>
+    <string name="PestTrap">Pest Trap</string>
+    <string name="ThumbNail">Thumb Nail</string>
+    <string name="Selectfarmer">Select farmer</string>
+    <string name="SendImage">Send Image \nor text</string>
+    <string name="Yourfarmisnot">Your farm is not selected</string>
+    <string name="pleaseselectyourfarm">Please select your farm or Geo-tag your farm</string>
+    <string name="Youhavesuccessfully">You have successfully submitted your concern. \nWe will contact you soon. \nPlease also submit images of your farm highlighting the damaged portion of the plant(s) through plant doctor.</string>
+    <string name="pleasethevisitdescription">Please enter the visit descriptions</string>
+    <string name="useriddoesnot">User Id does not found</string>
+    <string name="youhavesuccessfullysubmitted">You have successfully submitted your visit log</string>
+    <string name="InternetError">Internet Error</string>
+    <string name="Doyouwantrefresh">Do you want to refresh?</string>
+    <string name="Temp">Temp</string>
+    <string name="Air">Air</string>
+    <string name="Youneedtoprovide">You need to provide data for the chart</string>
+    <string name="PackageofPractices">Package of Practices</string>
+    <string name="VisitActivity">Visit Activity</string>
+    <string name="VisitSummary">Visit Summary</string>
+    <string name="Date_s">Date : </string>
+    <string name="Value_s">Value : </string>
+    <string name="Next">Next</string>
+    <string name="Pleaseentermessage">Please enter the message</string>
+    <string name="Pleaseenteraddress">Please enter the address</string>
+    <string name="Primarysoiltexture">Primary soil texture in your area is</string>
+
+    <!--Add New-->
+
+    <!--Geo-tag open-->
+    <!--    <string name="NoofBags">Number of Bags</string>-->
+    <string name="Geotaggingisnoteligible">Your geo tagging area is not eligible for the farming</string>
+    <string name="NoofBags">No. of Bags / Additional input</string>
+    <string name="Projects">Project Name</string>
+    <string name="FarmNames">Farm Name</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+    <string name="Contourlatlong">Contour Lat-Long</string>
+    <string name="Registrationdate">Registration Date</string>
+    <string name="GeoFarmDetails">Geo Farm Details</string>
+    <!---Geo-tag close-->
+
+    <!---After Login Open-->
+    <string name="FarmerReactivation">Farm Reactivation</string>
+    <!--After Login Close-->
+
+
+    <!---Login open-->
+    <string name="WithoutPassword">Without Password</string>
+    <string name="WithPassword">With Password</string>
+    <!--Login Close-->
+
+    <!--Extra Open-->
+
+    <string name="CHANCEOFDISEASEOCCURRENCE">CHANCE OF DISEASE OCCURRENCE</string>
+    <string name="DISEASESEVERITY">DISEASE SEVERITY</string>
+    <string name="HighSeverityPercentage">High Severity Percentage</string>
+    <string name="MediumSeverityPercentage">Medium Severity Percentage</string>
+    <string name="LowSeverityPercentage">Low Severity Percentage</string>
+    <string name="ShowWeatherData">Show Weather Data</string>
+    <string name="Pleaseselecthedisease">Please select the disease</string>
+    <string name="Diseasehashappenedin">Disease has happened in </string>
+    <string name="ofthisyears">of this years</string>
+    <string name="Youdidnotselectedanycrop">You did not selected any crop during the farm tagging</string>
+    <string name="Diseaseisnotfound">Disease is not found for this crop</string>
+    <string name="Vulnerabilityisnotfound">Vulnerability is not found for this crop, Please select another crop</string>
+
+    <string name="FYMAPPLICATION">FYM APPLICATION</string>
+    <string name="Nodatafoundcrop">The data is not found for this crop</string>
+    <string name="Nointernet">No internet</string>
+    <string name="CropIDnotfound">Crop ID is not found</string>
+    <string name="Pleaseselectanothercrop">Please select another crop</string>
+    <string name="Exit">Exit</string>
+    <string name="Doyouwantdelete">Do you want to delete this item?</string>
+    <string name="AVERAGELOSS">AVERAGE LOSS</string>
+    <string name="yeild">yeild</string>
+    <string name="MAXIMUMLOSS">MAXIMUM LOSS</string>
+    <string name="MINIMUMLOSS">MINIMUM LOSS</string>
+    <string name="Showdata">Show data</string>
+    <string name="Thefarmsinyourarea">The farms in your area are </string>
+    <string name="forcultivation">for cultivation</string>
+    <string name="thedatanotfoundcrop">The data is not found for this crop, Please select another crop</string>
+
+
+    <string name="Somthingwentwrongapi">Something went wrong in the API</string>
+    <string name="APKUpdate">App Update</string>
+    <string name="GoogleAPIkeyfor_youtube">AIzaSyDA4AybcmC51nzPZ87jXLLm3pLpKByzyDs</string>
+    <string name="selecttheimageupload">Please select the image and upload the image</string>
+    <string name="PleaseFatherNameEnter">Please enter the father name</string>
+    <string name="Reactivation">Reactivation</string>
+    <string name="SowPeriodFroms">Sow Period From</string>
+    <string name="SowPeriodTos">Sow Period To</string>
+    <string name="AddressProof">Address Proof *</string>
+    <string name="SelectQuestionNumber">Select the question</string>
+    <string name="Pleaseenterthecomment">Please enter the comment</string>
+    <string name="ON">ON</string>
+    <string name="OFF">OFF</string>
+    <string name="POP">POP</string>
+    <!--Extra Close-->
+
+    <!--Common Text Open-->
+    <string name="Management">Management</string>
+    <string name="User">User</string>
+    <string name="Pleaseselecttheseason">Please select the season</string>
+    <string name="Pleaseselectthesoil">Please select the soil</string>
+    <string name="Pleaseselecttheirrigation">Please select the irrigation</string>
+    <string name="Pleaseselectthestatus">Please select the status</string>
+
+    <string name="Permissionigranted">The permission is granted</string>
+    <string name="Permissionisdenied">The permission is denied</string>
+    <string name="entervalidname">Please enter the valid name</string>
+    <string name="MessageDetail">Message Detail</string>
+    <string name="Send">Send</string>
+    <string name="FilterFarms">Filter Farms</string>
+    <string name="AllFarms">All Farms</string>
+    <string name="WindSpeed">Wind Speed</string>
+    <string name="data_not_found">List is empty!!!</string>
+    <string name="refresh">Refresh</string>
+    <string name="data_not_available">Record not found</string>
+    <string name="server_not_found">Server error</string>
+    <string name="network_error">Internet is not available</string>
+    <string name="retry">Try Again</string>
+    <string name="some_thing_went_wrong">Something went wrong</string>
+    <string name="internal_error">Internal server error</string>
+    <string name="please_login_again">Please Login Again</string>
+    <string name="All">All</string>
+    <string name="FarmView">Farm View</string>
+    <!--Common Text Close-->
+
+    <!---Farmer DashBoard Open-->
+    <string name="CropManagement">Crop Information</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="UpdasteSowingdate">Update Sowing Date</string>
+    <string name="WeatherAlert">Weather Alert</string>
+    <string name="FarmScore">Farm Score</string>
+    <string name="ThereisnoYouTube">There is no YouTube videos or live videos against the User ID</string>
+    <string name="VideoRecords">Video Records</string>
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="Thefarmernocontour">The farmer has no contour values. So you can\'t open the map.</string>
+    <string name="UnderStress">Under Stress</string>
+    <!--Crop Status Open-->
+    <string name="FromSowingDate">(Sowing till now)</string>
+    <string name="Past5daysvalues">(For last 5-15 days)</string>
+    <string name="Next7days">(Next 7 days)</string>
+    <string name="Conducivedays">Conducive days</string>
+    <string name="NDVICropStandard">NDVI is a crop standard derived from images taken by satellites. Which gives the status of the crop.</string>
+    <!--Crop Status Close-->
+    <!---Farmer DashBoard Close-->
+
+    <!--Plant Doctor Open-->
+    <string name="MyMessages">My Messages</string>
+    <string name="LogNewRequest">Log New Request</string>
+    <string name="ResolveRequests">Resolve Requests</string>
+    <string name="SendResolution">Send Resolution</string>
+    <string name="OnHold">On Hold</string>
+    <string name="Report">Report</string>
+    <string name="Draft">Draft</string>
+    <string name="Utilities">Utilities</string>
+    <string name="AddCrop">    Add Crop</string>
+    <string name="UpdateLocation">    Update Location</string>
+    <string name="Searchs">    Search</string>
+    <string name="GotoHome">Go to Home</string>
+    <string name="Doyouwanttoexit">Do you want to exit?</string>
+    <string name="Underthemaintenance">Under the maintenance</string>
+    <string name="Enterphoneno">Enter phone no.</string>
+    <string name="Location">Location</string>
+    <string name="Enterlocation">Enter location</string>
+    <string name="LogRequest">Log Request</string>
+    <string name="StopPlayingRecording">Stop Playing Recording</string>
+    <string name="Pleaserecordthevoicefirst">Please record the voice first</string>
+    <string name="Recordingisstarted">Recording is started</string>
+    <string name="Recordingiscompleted">Recording is completed</string>
+    <string name="Recordingisplaying">Recording is playing</string>
+    <string name="Voiceuploadedsuccessfully">The voice is uploaded successfully</string>
+    <string name="holdmorethan">Please hold more than 1 second for the recording</string>
+    <string name="voicerecordupload">The voice record is uploaded successfully</string>
+    <string name="ReopentheThread">Reopening the thread, Please wait...</string>
+    <string name="imageuploadedwithsmsandrecord">Image uploaded, click on Submit button after entering your query to log request</string>
+    <string name="yourrequestnologged">Your request is not logged. Are you sure do you want to close?</string>
+    <string name="Confirmation">Confirmation</string>
+    <string name="Networknotavailablenow">Network is not available now, it will auto upload when the network is available</string>
+    <string name="Networknotavailableclicksubmit">Network is not available now, Click the submit button and it will be auto uploaded later</string>
+    <string name="Yourlimitedexpired">Your today\'s limit has been expired, Please share the image after 12 hrs.</string>
+    <!--Plant Doctor Close-->
+
+    <!---Crop Scheduler open-->
+    <string name="Useridortask">User id or task id is missing</string>
+    <string name="PleaseEnabletheGPS0">Your Latitude and Longitude value is 0, So, please enable the GPS and restart the camera</string>
+    <string name="Youcantbeimage10">You can\'t be uploaded more than 10 images</string>
+    <string name="Thefarmernocontourfarm">The farmer has no contour values. So you can\'t view the farm.</string>
+    <string name="Doyouwanttogiveimagename">Do you want to give the image name?</string>
+    <string name="Pleasenetertheimagename">Please Enter the Image name</string>
+    <string name="OnlineImage">Online Image Capture</string>
+    <string name="Distancemeter">Distance (m)</string>
+    <string name="Details">Details</string>
+    <string name="OfflineImage">Offline Image Capture</string>
+    <string name="ImageSecufarmfolder">Image SecuFarm folder is empty </string>
+    <string name="PleaseSelectfromSecurFarm">Please select the image from the SecuFarm folder.</string>
+    <!--Crop Scheduler Close-->
+
+    <!--Image Click Check open-->
+    <string name="DistancefromCurrent">Distance from Current Location to Farmer registered location</string>
+    <string name="Go">Go</string>
+    <string name="yourdistanceis0km">Your distance is 0 km, so you cannot be track the location</string>
+    <string name="Updating">Updating...</string>
+    <string name="Yourmobilecameramore">Your mobile camera distance should be more than </string>
+    <string name="Yourmobilecameraless">Your mobile camera distance should be less than </string>
+    <string name="NoSky">There is no sky in the image</string>
+    <string name="Theproperskynotcovered">The proper sky is not covered in the image</string>
+    <string name="Entertheactivityname">Enter the activity name</string>
+    <!--Image Click Check Close-->
+    <!--  <string name="CropManagement">Crop Management</string>-->
+
+
+    <!--  <string name="status">Status</string>-->
+    <!--Soil Doctor Open-->
+
+    <string name="FarmLevelData">Farm Level Data</string>
+    <string name="VillageLevelData">Village Level Data</string>
+    <string name="CATIONEXCHANGECAPACITY">CATION EXCHANGE CAPACITY</string>
+    <string name="CLAYINSOIL">CLAY % IN SOIL</string>
+    <string name="SOILPHCM">SOIL PH (0-5 CM)</string>
+    <string name="SANDINSOIL">SAND % IN SOIL</string>
+    <string name="BULKDENSITY">BULK DENSITY </string>
+    <string name="COARSEFRAGMENTS">COARSE FRAGMENTS </string>
+    <string name="SOILORGANICCARBON">SOIL ORGANIC CARBON</string>
+    <string name="SILTINSOIL">SILT % IN SOIL</string>
+    <string name="ZINCDEFICIENCY">ZINC DEFICIENCY</string>
+    <string name="NITROGEN">NITROGEN</string>
+    <string name="PHOSPHORUS">PHOSPHORUS</string>
+    <string name="POTASSIUM">POTASSIUM</string>
+    <string name="SOIL">SOIL</string>
+    <string name="MICRONUTRIENTS">MICRONUTRIENTS</string>
+    <string name="soil">Soil</string>
+    <string name="BenchMark">Bench Mark</string>
+    <string name="ActivityDone">Activity Done</string>
+    <string name="AllActivityDone">All Activities Done</string>
+    <string name="WelcomeMr">Welcome Mr.</string>
+    <string name="CropAdvisory">Crop Advisory</string>
+    <string name="CorrectiveMeasures">Corrective Measures</string>
+    <string name="WeeklyWeatherdata">Weekly Weather Data</string>
+    <string name="VeryLow">Very Low</string>
+    <string name="GetExpertadvice">Get Expert advice and suggestions on your mobile to resolve all your farm related queries and problems</string>
+    <string name="DoyouhaveQuestion">Do you have Question?</string>
+    <string name="YourQueryHistory">Your Query History</string>
+    <string name="Pleasetextaudiosms">Please enter the text message or audio record message </string>
+
+    <string name="PH">pH</string>
+    <string name="Electricalconductivity">Electrical Conductivity</string>
+    <string name="OrganicCarbon">Organic Carbon</string>
+    <string name="Nitrogen">Nitrogen</string>
+    <string name="Phosphorus">Phosphorus</string>
+    <string name="Potassium">Potassium</string>
+    <string name="Sulphur">Sulphur</string>
+    <string name="Zinc">Zinc</string>
+    <string name="Iron">Iron</string>
+    <string name="Copper">Copper</string>
+    <string name="Manganese">Manganese</string>
+    <string name="Boron">Boron</string>
+    <!--Soil Doctor Close-->
+
+
+    <!--Disease Diagnosis Open-->
+    <string name="DiseaseDiagnosis">Disease Diagnosis</string>
+    <string name="SownOn">Sown On</string>
+    <string name="Preparatoryactivites">Preparatory Activites</string>
+    <string name="Questiontype">Question Type</string>
+    <string name="Seed">Seed</string>
+    <string name="InterCrop">InterCrop</string>
+    <string name="ResistanttoSucking">Resistant to Sucking Pest</string>
+    <string name="Recommendation">Recommendation</string>
+    <string name="Choose">Choose</string>
+    <string name="Biofertilizers">Biofertilizers</string>
+    <string name="Saverecommendation">Save Recommendation</string>
+    <string name="DAP">DAP</string>
+    <string name="MOP">MOP</string>
+    <string name="Dose1">Dose 1</string>
+    <string name="Dose2">Dose 2</string>
+    <string name="Dose3">Dose 3</string>
+    <string name="Dose4">Dose 4</string>
+    <string name="Days30">30 Days</string>
+    <string name="Days60">60 Days</string>
+    <string name="Days90">90 Days</string>
+    <string name="DuringPrepatory">During Prepatory Phase</string>
+    <!--Cotton-->
+    <string name="SownOnEarlyMay_Cotton">Vegetative Phase - Early May to July \nFlowering Phase - Mid July to Mid August \nBoll Formation - Mid August to Mid September</string>
+    <string name="SownOnLateMay_Cotton">Vegetative Phase - Late May to July End \nFlowering Phase - Entire August \nBoll Formation - Entire September \nHarvest - Entire October</string>
+    <string name="SownOnEarlyJune_Cotton">Vegetative Phase - Early June to Early August \nFlowering Phase - Mid August to Mid September \nBoll Formation - Mid September to Mid October \nHarvest - Late October</string>
+    <string name="SownOnLateJune_Cotton">Vegetative Phase - Late June to August End \nFlowering Phase - Entire September \nBoll Formation - Entire October \nHarvest - November</string>
+    <!--Maize-->
+    <string name="SownOnEarlyMay_Maize">Vegetative - Early May to Mid June \nTasseling - Mid June - Mid July \nCob Setting - Mid July - Mid August \nMaturity/Harvesting - End August</string>
+    <string name="SownOnLateMay_Maize">Vegetative - Late May to End June \nTasseling - End June - End July \nCob Setting - End July - End August \nMaturity/Harvesting - Mid August</string>
+    <string name="SownOnEarlyJune_Maize">Vegetative - Early June to Mid July \nTasseling - Mid July - Mid August \nCob Setting - Mid August - Mid September \nMaturity/Harvesting - September</string>
+    <string name="SownOnLateJune_Maize">Vegetative - Late June to End July \nTasseling - End July - End August \nCob Setting - End August - End September \nMaturity/Harvesting - Mid September</string>
+    <!--Rice-->
+    <string name="SownOnEarlyMay_Rice">Nursery/ Germination - Early May to June \nSeedling Emergence/Transplanting- June \nTillering - Mid June to End July \nHeading - End July to Mid August \nPanicle Initiation - September \nGrain fIlling / Harvesting- Mid August to October</string>
+    <string name="SownOnLateMay_Rice">Nursery/ Germination - Late May to Mid June \nSeedling Emergence/Transplanting- Mid June \nTillering - July to Mid August \nHeading - Mid August to Septmeber \nPanicle Initiation - Mid September \nGrain fIlling / Harvesting- September to Mid October</string>
+    <string name="SownOnEarlyJune_Rice">Nursery/ Germination - Early June to July \nSeedling Emergence/Transplanting- July \nTillering - Mid July to End August \nHeading - September to Mid September \nPanicle Initiation - October \nGrain fIlling / Harvesting- Mid September to November</string>
+    <string name="SownOnLateJune_Rice">Nursery/ Germination - Mid June to Mid July \nSeedling Emergence/Transplanting- Mid July \nTillering - August to September \nHeading - Mid September to September 4th Week \nPanicle Initiation - Mid October \nGrain fIlling / Harvesting- October to Mid November</string>
+
+    <string name="SeedRequirement">1. Seed Requirement: 5-6 Kgs \n2.Seed Treatment: Trichoderma Viridae - 2kgs/Acre \n3. Spacing: 90*60cm /90*90cm</string>
+    <string name="Intercrop_Red">1. Ratio: 5:1 \n2. Refuge Crop: Non-BT/Red Gram \n3. Trap Crop: Marigold/Castor</string>
+    <string name="Intercrop_Greed">1. Ratio: 2:1 \n2. Refuge Crop \n3. Trap Crop</string>
+    <string name="Intercrop_Soyabeen">1. Ratio: 1:1 \n2. Refuge Crop \n3. Trap Crop:</string>
+    <string name="Intercrop_Cariander">1. Ratio: 1:1 \n2. Refuge Crop \n3. Trap Crop:</string>
+
+    <string name="Dose1SMS">25kg Urea+50kg DAP+10kg Mop</string>
+    <string name="Dose2SMS">25kg Urea + 12kg MOP</string>
+    <string name="Dose3SMS">25kg Urea + 13kg MOP</string>
+    <string name="Dose4SMS">25kg Urea + 12kg MOP</string>
+
+    <string name="TriclodermaViridae">Tricloderma Viridae (1 Kg/Acre)</string>
+    <string name="TriclodermaViridaeSMS">Tricloderma Viridae - 25kg/Acre</string>
+    <string name="selectquestiontype">Please select the question type</string>
+    <string name="Diseasess"> (Disease)</string>
+    <string name="Diagnosis">Diagnosis</string>
+    <string name="select_crops">Select Crops</string>
+    <string name="Cotton">Cotton</string>
+    <string name="Chilli">Chilli</string>
+    <string name="Groundnut">Groundnut</string>
+    <string name="Maize">Maize</string>
+    <string name="Paddy">Paddy</string>
+    <string name="Potato">Potato</string>
+    <string name="Rice">Rice</string>
+    <string name="Soyabean">Soyabean</string>
+    <string name="Vegetables">Vegetables</string>
+    <string name="Dataisnotfound">Data is not found</string>
+    <string name="Nodataisavailablesubmitted">No data is available for the submitted period</string>
+    <string name="Thesesymptomsarenotmatched">These symptoms are not matched with the Pest and Disease listed</string>
+    <string name="SelectSymptoms">Select Symptoms</string>
+    <string name="PleaseselectSymptoms">Please select the Symptoms</string>
+    <!--Disease Diagnosis Close-->
+
+    <!--Tubewell Open-->
+    <string name="Tubewell">Tubewell</string>
+    <string name="select_date">Select Date</string>
+    <string name="ffrom_date">From Date *</string>
+    <string name="tto_date">To Date *</string>
+    <string name="type_of_report">Type Of Report</string>
+    <string name="min_max_vol">Min/Max Vol</string>
+    <string name="max_current">Max Current</string>
+    <string name="motor_start_stop">Motor Start/Stop</string>
+    <string name="electric_status">Electric Status</string>
+    <string name="elec_avbl">Elec avbl</string>
+    <string name="elec_cut">Elec Cut</string>
+    <string name="hour">Hour</string>
+    <string name="no_data">No Data</string>
+    <string name="astart_time">Start Time</string>
+    <string name="astop_time">Stop Time</string>
+    <string name="HealthVault">Health Vault</string>
+    <string name="Pleaseselecttodate">Please select to date</string>
+    <string name="Pleaseselectfromdate">Please select from date</string>
+    <string name="Pleaseselectstation">Please select the station</string>
+    <string name="TubewellIDnotfound">Tubewell Id is not found</string>
+    <string name="Tubewellisinactive">Tubewell is inactive</string>
+    <string name="fetchingtubewellpleasewait">Fetching the Tubewell list, please wait...</string>
+    <!--Tubewell Close-->
+
+    <!---Crop Scheduler open-->
+    <string name="Areyousuredoyouwant">Are you sure do you want to close without submit the images?</string>
+    <string name="Areyousuredoyouwantscreen">Are you sure do you want to close the screen without save the images?</string>
+    <!--Crop Scheduler Close-->
+
+    <!--Geotagging open-->
+    <string name="GeoTaggingFarmEdi">GeoTagging Farm Edit</string>
+    <string name="Drawthefarm">The farmer has no contour values. Please draw the farm</string>
+    <!--Geotagging Close-->
+
+    <!--Cattle Registration open-->
+    <string name="FarmerInformation">Farmer Information</string>
+    <string name="FarmerDashbaord">Farmer Dashboard</string>
+    <string name="CattleInformation">Cattle Information</string>
+    <string name="CattleDashbaord">Cattle Dashboard</string>
+    <string name="CattleRegistration">Cattle Registration</string>
+    <string name="FarmerDetails">Farmer Details</string>
+    <string name="CattleDetails">Cattle Details</string>
+    <string name="Calf">Calf</string>
+    <string name="Heifer">Heifer</string>
+    <string name="PregnantHeifer">Pregnant Heifer</string>
+    <string name="Milking">Milking</string>
+    <string name="PregnantMilking">Pregnant Milking</string>
+    <string name="PregnantDry">Pregnant Dry</string>
+    <string name="Dry">Dry</string>
+    <string name="SaveNext">Save &amp; Next</string>
+    <string name="CattleType">Cattle Type</string>
+    <string name="LifeStage">Life Stage</string>
+    <string name="Gender">Gender</string>
+    <string name="Age">Age</string>
+    <string name="Breed">Breed</string>
+    <string name="BodyWeight">Body Weight (Kg)</string>
+    <string name="SelectCattleType">Select Cattle Type</string>
+    <string name="Buffalo">Buffalo</string>
+    <string name="Cow">Cow</string>
+    <string name="SelectLifeStage">Select Life Stage</string>
+    <string name="SelectGender">Select Gender</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="SelectBreed">Select Breed</string>
+    <string name="Desi">Desi</string>
+    <string name="HF">HF</string>
+    <string name="Jersey">Jersey</string>
+    <string name="Sahiwal">Sahiwal</string>
+    <string name="Deworming">Deworming</string>
+    <string name="DewormingDate">Deworming Date</string>
+    <string name="Vaccination">Vaccination</string>
+    <string name="NameoftheVaccination">Name of Vaccinations </string>
+    <string name="VaccinationDate">Vaccination Dates</string>
+    <string name="TypeofFeed">Type of Feed</string>
+    <string name="FeedName">Feed Name</string>
+    <string name="FeedingPerDay">Feeding Per Day (Kg)/Animal</string>
+    <string name="Conceivedate">Conceive Date</string>
+    <string name="InseminationBreedName">Insemination Breed Name</string>
+    <string name="PregnancyTest">Pregnancy Test</string>
+    <string name="PregnancyTestDate">Pregnancy Test Date</string>
+    <string name="PregnancyStatus">Pregnancy Status</string>
+    <string name="DiseaseHistory">Disease History</string>
+    <string name="IfYesThanDiseaseName">If Yes Than Disease Name</string>
+    <string name="MotherMilkYieldPerDay">Mother Milk Yield Per Day (Liter)</string>
+    <string name="RepeatHeatIssue">Repeat Heat Issue</string>
+    <string name="SelectVaccination">Select Vaccination</string>
+    <string name="SelectDeworming">Select Deworming</string>
+    <string name="SelectPregnancyTest">Select Pregnancy Test</string>
+    <string name="SelectPregnancyStatus">Select Pregnancy Status</string>
+    <string name="SelectDiseaseHistory">Select Disease History</string>
+    <string name="SelectIssue">Select Issue</string>
+    <string name="CalvingDate">Calving Date</string>
+    <string name="NumberOfCalving">Number of Calving</string>
+    <string name="MilkYieldPerday">Milk Yield Per day</string>
+    <string name="MastitisIssue">Mastitis Issue</string>
+    <string name="AverageMilkYieldinlastlactation">Average Milk Yield in last lactation (Per day)</string>
+    <string name="DryingOffDate">Drying Off Date</string>
+    <string name="EnfertilityIssue">Enfertility Issue</string>
+
+    <string name="Adult">Adult</string>
+    <string name="Gir">Gir</string>
+    <string name="RedSindhi">Red Sindhi</string>
+    <string name="Tharparkar">Tharparkar</string>
+    <string name="Rathi">Rathi</string>
+    <string name="Hariyana">Hariyana</string>
+    <string name="BrownSwiss">Brown Swiss</string>
+    <string name="HolsteinFriesian">Holstein Friesian</string>
+    <string name="Ayrshire">Ayrshire</string>
+    <string name="Others">Others</string>
+
+    <!--Vaccination NAME open-->
+    <string name="FMD">FMD</string>
+    <string name="Haemorrhagic">Haemorrhagic</string>
+    <string name="Septicaemia">Septicaemia (HS)</string>
+    <string name="BlackQuarter">Black Quarter (BQ)</string>
+    <string name="Brucellosis">Brucellosis</string>
+    <string name="Theileriosis">Theileriosis</string>
+    <string name="Anthrax">Anthrax</string>
+    <string name="IBR">IBR</string>
+    <string name="Please">Please</string>
+    <string name="Pleaseenterthe">Please enter the </string>
+    <string name="SimpleFeed">Simple Feed</string>
+    <string name="CompoundFeed">Compound Feed</string>
+    <string name="GreenFodder">Green Fodder</string>
+
+    <string name="SimpleFeedName">Simple Feed Name</string>
+    <string name="GreenFodderName">Green Fodder Name</string>
+    <string name="WheatBran">Wheat Bran</string>
+    <string name="MusterdCacke">Mustard Cacke</string>
+    <string name="CottonCake">Cotton Cake</string>
+    <string name="GramByProduct">Gram By Product</string>
+    <string name="GramHusk">Gram Husk</string>
+    <string name="SoyabeenHusk">Soyabeen Husk</string>
+    <string name="CottonSeed">Cotton Seed</string>
+    <string name="MaizeProduct">Maize Product</string>
+    <string name="WheatDaliya">Wheat Daliya</string>
+    <string name="Barseem">Barseem</string>
+    <string name="SudanGras">Sudan Gras</string>
+    <string name="Oat">Oat</string>
+    <string name="Pregnant">Pregnant</string>
+    <string name="NotPregnant">Not Pregnant</string>
+    <string name="Matitis">Matitis</string>
+    <string name="TB">TB</string>
+    <string name="DYSTOKIA">DYSTOKIA</string>
+    <string name="PROLAPSEOFUTERUS">Prolapse of Uterus</string>
+    <string name="RETAINEDPLACENTA">Retained Placenta</string>
+    <string name="DiseaseName">Disease Name</string>
+    <string name="DiseaseDate">Disease Date</string>
+    <string name="Pleasentename">Please enter the name</string>
+
+    <string name="Cattletypedataloading">Cattle Life Stage data is loading...</string>
+    <string name="Breeddetailsdata">Breed details data is loading...</string>
+    <string name="Count">Count</string>
+    <string name="ResponseError">Response Error</string>
+    <string name="BreedAge">Breed &amp; Age</string>
+    <string name="CattleImage">Cattle Image</string>
+
+    <string name="HeatDate">Heat Date</string>
+    <string name="CattleName">Cattle Name</string>
+    <string name="Remarks">Remarks</string>
+    <string name="CattleShed">Cattle Shed</string>
+    <string name="ShedName">Shed Name</string>
+    <string name="Newcattleshed">New Cattle Shed</string>
+    <string name="Oldcattleshed">Old Cattle Shed</string>
+    <string name="SelectShedName">Select Shed Name</string>
+    <string name="ShedGeoTag">Shed Geo Tag</string>
+    <string name="Newcattle">New Cattle</string>
+    <string name="Oldcattle">Old Cattle</string>
+    <string name="SelectCattle">Select Cattle Name</string>
+    <string name="SelectOwner">Select Owner</string>
+    <string name="NewOwner">New Owner</string>
+    <string name="OldOwner">Old Owner</string>
+    <string name="Pleaseentertheshedname">Please enter the Shed Name or select the Shed Name</string>
+    <string name="PleaseselectGeoTag">Please select your Geo Tag</string>
+    <string name="Pleaseenteraadharnumber">Please enter the Aadhar Number</string>
+    <string name="Pleaseenterthecattlename">Please enter the Cattle Name or select the Cattle Name</string>
+    <string name="GetFarmer">Get Farmer</string>
+    <string name="FarmerList">Farmer List</string>
+    <string name="OR">OR</string>
+    <string name="Shedlistdata">Shed list data is laoding...</string>
+    <string name="Ownerlistdata">Owner list data is laoding...</string>
+    <string name="EnterAadharPhoneVillage">Please enter the valid Aadhar or Phone number or select the State, District,SUb District and Village</string>
+    <string name="FarmerDetailsdata">Farmer Details data is loading... </string>
+    <string name="Pleaseslecttheowner">Please select the Owner Name</string>
+    <string name="CattleThumbnail">Cattle Thumbnail</string>
+    <string name="FarmerThumbnail">Farmer Thumbnail</string>
+    <string name="OwnerImage">Owner Image</string>
+    <!--Cattle Registration close-->
+
+    <!--Crop Scheduler-->
+    <string name="noimagesctivity">There is no image in the activity ,\nDo you want to save the data without the images</string>
+    <string name="ImageUploadingError">Image Uploading Error</string>
+    <string name="Onlyrecentaredisplaying">Only recent images are displaying here. Older images can be viewed on web portal.</string>
+    <string name="Pleaseait10secs">Please wait 10 secs, your GPS service is restarting in the background</string>
+
+    <!--Vishal Code-->
+    <string name="farmer_details">Farmer Details</string>
+    <string name="edit">Edit</string>
+    <string name="view_farmer_image">View Farmer Image</string>
+    <string name="view_passbook_image">View Passbook Image</string>
+    <string name="product_page">Product Page</string>
+    <string name="success_product_msg">Payment has been collected successfully.\nConfirmation message with collected amount and order number has been sent to farmer.</string>
+    <string name="collected_amount">Collected Amount</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp">OTP</string>
+    <string name="order_details">Order Details</string>
+    <string name="verify_otp">VERIFY OTP</string>
+    <string name="tagged_info">Tagged Info</string>
+
+    <!--Selection dropdown-->
+    <string name="SelectFarm">Select Farm</string>
+    <string name="SelectState">Select State</string>
+    <string name="SelectVariety">Select Variety</string>
+    <string name="SelectDistrict">Select District</string>
+    <string name="SelectSubDistrict">Select Sub District</string>
+    <string name="SelectVillage">Select Village</string>
+    <string name="SelectPhoneType">Select Phone Type</string>
+    <string name="SelectAadharNumber">Select Aadhar Number</string>
+
+    <string name="payable_amount">Payable Amount (Rs.)</string>
+    <string name="total_amount">Total Amount (Rs.)</string>
+    <string name="balance_amount">Balance Amount (Rs.)</string>
+    <string name="please_select_category">Please select Category</string>
+    <string name="payment">Payment Collection</string>
+    <string name="total_farmer_s">Total Farmer (s):</string>
+    <string name="area_acre">Area (acre):</string>
+    <string name="total_amount_rs">Total Amount (Rs.):</string>
+    <string name="pending_amount_rs">Pending Amount (Rs.):</string>
+    <string name="geo_tag_area_acre">Geo Tag Area (acre)</string>
+    <string name="payment_summary">Payment Summary</string>
+    <string name="payment_list">Payment List</string>
+    <string name="you_don_t_have_any_pending_payment_yet">You don\'t have any pending payment yet !!!</string>
+
+    <string name="ImageDetection">Image Detection</string>
+    <string name="activity_name_classification">Classify</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="MyCart">My Cart</string>
+    <string name="HomePage">Home Page</string>
+    <string name="EnterAmount">Enter Amount</string>
+    <string name="SENDOTP">SEND OTP</string>
+    <string name="TotalQuantity">Total Quantity</string>
+    <string name="Orderdate">Order date</string>
+    <string name="OrderNumber">Order Number</string>
+
+    <string name="EventLogErrordataProcessing">Event Log Error Data loading...</string>
+    <string name="ResetyourLanguage">Please select your Language</string>
+
+    <!--    Market Place-->
+    <string name="market_place">Market Place</string>
+    <string name="order_history">Order History</string>
+    <string name="validity">Validity :</string>
+    <string name="upi">UPI</string>
+    <string name="pay">PAY</string>
+    <string name="cash">Cash</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="previous_balance_amount">Previous Balance Amount (Rs.)</string>
+    <string name="transfered_amount">Transferred Amount(Rs.):</string>
+    <string name="payment_history">Payment History</string>
+    <string name="pay_via_upi">Pay Via UPI</string>
+    <string name="delivery_status">Delivery Status</string>
+    <string name="payment_type">Payment Type :</string>
+    <string name="payment_mode">Payment Mode :</string>
+    <string name="order_as_delivered">Order As Delivered</string>
+    <string name="pay_now">Pay now</string>
+    <string name="ProductList">Product List</string>
+    <string name="SelectFarm_market">Select Farm *</string>
+    <string name="SelectCategory">Select Category *</string>
+    <string name="YourCart">Your Cart</string>
+    <string name="MoreProducts">More Products</string>
+    <string name="ProceedToCheckout">Proceed To Checkout</string>
+    <string name="Back">Back</string>
+    <string name="CheckOut">Check Out</string>
+    <string name="PlaceOrder">Place Order</string>
+    <!--  close  Market Place-->
+
+    <string name="GooglePlayStoreUpdate">Google Play Store Update Version is checking...</string>
+    <string name="ScreenTrackingDatais">Screen Tracking Data is loading...</string>
+
+    <!--    Cattle Dashboard-->
+    <string name="CattleDoctor">Cattle Doctor</string>
+    <string name="CattleAdvisory">Cattle Advisory</string>
+
+    <!--    Cattle Advisory -->
+    <string name="DAS_10">-10 DAS (10 Day before calving)</string>
+    <string name="DAS_0">0 DAS (Calving Time)</string>
+    <string name="DAS_010">0-10 DAS (Calving Time ( after Parturition period))</string>
+    <string name="DAS_1120">11-20 DAS (Milking)</string>
+    <string name="DAS_2150">21-50 DAS (Milking)</string>
+    <string name="DAS_5080">50-80 DAS (Milking)</string>
+    <string name="DAS_80130">80-130 DAS (Heat Detection Time)</string>
+    <string name="DAS_130200">130-200 DAS (Pregnant Milking)</string>
+    <string name="DAS_200290">200-290 DAS (Pregnant Milking)</string>
+    <string name="DAS_290320">290-320 DAS (Pregnant Milking)</string>
+    <string name="DAS_320380">320-380 DAS (Dry Period)</string>
+
+
+    <!--  Cattle Advisory Details-->
+    <string name="DAS_10_Dets">1- in case pregnant not shifted in loose box so immediate shift in loose box \n2- Stop Milking (in case animal milking stage) \n3- Large doses of Vitamin A,D &amp; E may be given to cow about a Week. \n4- Offer water at least twice a day for drinking and groomd daily. \n5 Avoid rough handling, walking long distance and exercise</string>
+    <string name="DAS_0_Dets">1- Used Soft, Disinfected and clean bad for Parturition \n2- Parturition period in cow between 2-3 Hours and first time calvers 4-5 horus or some more \n3- If placenta is not discharged within 7-10 Hours call Doctor</string>
+    <string name="DAS_010_Dets">1- Provide limited green fodder, concentrate feed, Compound feed. Do not provide Cold and hot water. \n2-After placenta discharge provide Lukewarm water for drink, this practice follow next 2-3 day. \n3- Protection from cold or hot wind and extremes temperature. \n4- Feeding a  Lukewarm crude sugar mixed with bran mash \n5- Milked first time, milker must ensure that all blockages from teats removed. \n6- Succulent green, palatable fodders containing 50-60% legumes are suitable while amount concentrates should be increased gradually in three weeks.</string>
+    <string name="DAS_1120_Dets">1- keep Clean and fresh water supply daily basis \n2- Three times milking per day will yield 25% more milk, especially in high yielder cow \n3- as per chart provide Balanced ration to cow \n4- Water supply for drinking- 31.8+3 liter minimum (per liter milk produced)</string>
+    <string name="DAS_2150_Dets">1-Mastitis Test required \n2- as per chart provide Balanced ration to cow  \n3- Water supply for drinking- 31.8+3 liter minimum (per liter milk produced)</string>
+    <string name="DAS_5080_Dets">1-Mastitis Test required \n2- as per chart provide Balanced ration to cow  \n3-Check Regularly Heat in cow \n4-Water supply for drinking- 31.8+3 liter (per liter milk produced) </string>
+    <string name="DAS_80130_Dets">1- Check Regularly Heat in cow \n2- In case Cow showing Heat, call the AI worker for AI \n3- AI compleat between 12-24 Hours \n4- as per chart provide Balanced ration to cow \n5-Water supply for drinking- 31.8+3 liter (per liter milk produced)</string>
+    <string name="DAS_130200_Dets">1- as per chart provide Balanced ration to cow \n2-Water supply for drinking- 31.8+3 liter (per liter milk produced) \n3- Check Pregnancy status with help of Expert </string>
+    <string name="DAS_200290_Dets">1- as per chart provide Balanced ration to cow  \n2-Water supply for drinking- 31.8+3 liter (per liter milk produced)</string>
+    <string name="DAS_290320_Dets">1- as per chart provide Balanced ration to cow \n2-Water supply for drinking- 31.8+3 liter (per liter milk produced)</string>
+    <string name="DAS_320380_Dets">1- as per chart provide Balanced ration to cow  \n2-Offer water at least twice a day for drinking and groomd daily \n3-  If cow milking above 5 liter milk, will also reduced feed quantity \n4- Skip milking one time, then 2 time milking and once a day for few days and stop milking completely. \n5- Add in Mineral Mixture, Calcium and vitamin D in feed. \n6- Avoid rough handling, walking long distance and exercise</string>
+
+    <string name="RegistrationDetails">Registration Details</string>
+    <string name="PleaseselectCattleName">Please select the Cattle Name</string>
+    <string name="activependingactivity">You don\'t have any active-pending activities in this project. \nDo you want to select all Activitites?</string>
+    <string name="Allpendingactivity">You don\'t have any pending activities in this project. \nDo you want to select all Activitites?</string>
+    <string name="Activeactivity">You don\'t have any active activities in this project. Do you want to select all Activitites? </string>
+
+    <string name="LoginCattleDashboardData">Login Cattle Dashboard Data is checking...</string>
+
+    <!-- NPK Calculator-->
+    <string name="PlotSize">Plot Size</string>
+    <string name="UreaSPPMOP">Urea, SSP, MOP</string>
+    <string name="DAPMOPUrea">DAP, MOP, Urea</string>
+    <string name="Calculators">Calculators</string>
+    <string name="SSP">SSP</string>
+    <string name="Numberofkgbag">* Note : Number of kg in per bag</string>
+    <string name="UreaSSPMOP">- Urea - 45 kg, SSP - 50 kg, MOP - 50 kg</string>
+    <string name="DAPMOPUreas">- DAP - 50 kg, MOP - 50 kg, Urea - 45 kg</string>
+    <!--close  NPK Calculator-->
+
+    <string name="Thereisnocrop">There is no Crop for your selected Farm, So you cant\'t detect the image</string>
+    <string name="theimageisdetecting">The Image is detecting..</string>
+    <string name="ImageDiagnosis">Image Diagnosis</string>
+
+    <!--NDVI-->
+    <string name="Noemailapplicationisavailble">No email application is available to share the error log file</string>
+    <string name="MFI_pepsicoErrorLogfiledoes">MFI_pepsico ErrorLog file does not exist </string>
+    <string name="NDVIDataisnotfound">NDVI Data is not found</string>
+    <string name="MoistureDataisnotfound">Moisture Data is not found</string>
+
+    <string name="NewRegistration">New Registration</string>
+    <string name="farmer_registration">Farmer Registration</string>
+    <string name="product">Product</string>
+    <string name="SelectCropss">Select Crop *</string>
+    <string name="ServiceType">Service Type *</string>
+    <string name="OnlyDelivery">Only Delivery</string>
+    <string name="OnlyCollection">Only Collection</string>
+    <string name="CollectionDelivery">Collection &amp; Delivery</string>
+    <string name="Tax">Tax</string>
+    <string name="Listisemptypleasefillnewenrolmentform">List is empty please fill new enrolment form</string>
+
+    <string name="OrderNumbers">Order Number : </string>
+    <string name="OrderDetails">Order Details</string>
+    <string name="Category">Category : </string>
+    <string name="Brand">Brand : </string>
+    <string name="QuantityPurchased">Quantity Purchased : </string>
+    <string name="Pleaseaddatleastoneiteminacart">Please add atleast one item in a cart</string>
+    <string name="Currentlytherearenoproductsavailable">Currently there are no products available for your area</string>
+    <string name="FarmerRegistration">Farmer Registration</string>
+    <string name="ViewDetail">View Detail</string>
+
+    <string name="Trichoderma">Trichoderma</string>
+    <string name="Vermicompost">Vermicompost</string>
+    <string name="NeemOil">Neem Oil</string>
+
+    <string name="Pleaseselectpaymenttype">Please select the payment type</string>
+    <string name="Pleaseadditem">Please add the item</string>
+    <string name="Yourorderhasbeenbooked">Your order has been booked successfully.\nOrder number is " + numb + ".\nThe order will be deliver soon.</string>
+    <string name="NoUPIappfound">No UPI app is found, please install one to continue</string>
+    <string name="Paymentcancelledbyuser">Payment is cancelled by the user</string>
+    <string name="TransactionfailedPleasetryagain">Transaction is failed. Please try again</string>
+    <string name="Internetconnectionisnotavailable">Internet connection is not available. Please check and try again</string>
+    <string name="Pleaseselectyourfarmfarmer">Please select your farm / farmer</string>
+    <string name="Currentlythereisnoserviceavailable">Currently there is no service available for your area. \nPlease select another Farm / Crop</string>
+    <string name="Currentlythereisnocategory">Currently there is no category available for your area. \nPlease select another Service.</string>
+    <string name="Currentlytherearenoproducts">Currently there are no products available for your area. \nPlease select another Category.</string>
+    <string name="PleaseenterthevalidAadhar">Please enter the valid Aadhar or Phone number or Village</string>
+    <string name="Nofarmerisfound">No farmer is found</string>
+
+    <string name="CollectionDeliveryList">Collection &amp; Delivery List</string>
+    <string name="CollectionDeliveryDetails">Collection &amp; Delivery Details</string>
+    <string name="CollectionDeliverySummary">Collection &amp; Delivery Summary</string>
+    <string name="FarmerOrders">Farmer Orders</string>
+    <string name="FarmerOrdersDetails">Farmer Order Details</string>
+    <string name="CollectionDeliveryVerification">Collection &amp; Delivery Verification</string>
+    <string name="Transactioniscompleted">Transaction is completed successfully</string>
+    <string name="OrderhasbeenDeliveredsuccessfully">Order has been Delivered successfully. \nConfirmation message with amount and order number has been sent to farmer.</string>
+    <string name="Paymenthasbeencollected">Payment has been collected successfully. \nConfirmation message with collected amount and order number has been sent to farmer.</string>
+    <string name="Ordernumberisnotfound">Order number is not found</string>
+    <string name="PleaseentervalidOTP">Please enter the valid OTP</string>
+    <string name="Useridisnotfound">User id is not found</string>
+
+    <string name="CaptureImage">Capture Image *</string>
+    <string name="Youcannotentermore">You can not enter more than total amount</string>
+    <string name="Pleaseentertheamount">Please enter the amount</string>
+    <string name="Pleaseselectpaymentmode">Please select the payment mode</string>
+    <string name="Transactionissuccessfully">Transaction is successfully</string>
+    <string name="Idnotfound">Id is not found</string>
+
+    <string name="LogDataisLoading">Log Data is loading...</string>
+    <string name="order_no">Order No.</string>
+    <string name="OrderNoisnot">Order Number is not found.</string>
+
+    <string name="WeedManagements">Weed \nManagement</string>
+    <string name="scientific_name">Scientific Name</string>
+    <string name="DamageIntensity">Damage Intensity </string>
+    <string name="ManagementthroughPreEmergence">Management through Pre-Emergence</string>
+    <string name="ManagementthroughPostEmergence">Management through Post-Emergence</string>
+    <string name="PostHarvestManagement_H">Post Harvest Management</string>
+    <string name="PostHarvestManagement">Post Harvest \nManagement</string>
+    <string name="Dataisnotfoundforthiscrop">Data is not found for this crop</string>
+    <string name="NutritionManagement">Nutrition \nManagement</string>
+    <string name="NutritionManagement_H">Nutrition Management</string>
+    <string name="IrrigationManagement">Irrigation \nManagement</string>
+    <string name="IrrigationManagement_H">Irrigation Management</string>
+    <string name="DAS">DAS</string>
+    <string name="Notification">Notification</string>
+    <string name="Mandi">Mandi \nInformation</string>
+    <string name="Mandi_H">Mandi Information</string>
+    <string name="show_data">Show Data</string>
+    <string name="optimal_mandi">Optimal Mandi</string>
+    <string name="Mandiisnotfound">Mandi is not found</string>
+    <string name="nno_data_found">No Data Found !!!!</string>
+    <string name="FetchingVariety">Fetching the Variety list, Please wait...</string>
+    <string name="FetchingOptimalMandi">Fetching the Optimal Mandi, Please wait...</string>
+    <string name="Distancekm">Distance (km)</string>
+    <string name="Pricers">Price(Rs)/ \nQuintal</string>
+
+    <string name="FetchingNDVIData">Fetching the NDVI data, Please wait...</string>
+    <string name="FetchingData">Fetching the data, Please wait...</string>
+    <string name="ServerTimeout">Server Timeout</string>
+    <string name="Modelisnotfound">Model is not found for the image</string>
+
+    <string name="Pleaseshaareyourproblems">Please share your concern either through call or text with  highlighting the damaged portion of the plant(s)</string>
+
+    <!--Cattle Food-->
+    <string name="CattleFood">Cattle Food</string>
+    <string name="Weightkg">Body Weight (Kg)</string>
+    <string name="Milklt">Milk (Litres)</string>
+    <string name="Doseperday">Meal Dose \n(per day)</string>
+    <string name="GainProduct">Gain Product</string>
+    <string name="GainbyProduct">Gain by Product</string>
+    <string name="OilCake">Oil Cake</string>
+    <string name="Salt">Salt</string>
+    <string name="MineralMixture">Mineral Mixture</string>
+    <string name="Mightbeyourinformation">According to our animal body weight records : </string>
+    <string name="CalfAlert"> Calf Body weight ranges below 90 kg  </string>
+    <string name="HeiferAlert"> Heifer Body weight in the ranges between 90 kg to 320 kg</string>
+    <string name="DryHeiferAlert"> Dry / Pregnant Dry / Pregnant Heifer Body weight in the ranges between 230 kg to 520 kg</string>
+    <string name="CowandBuffalorange">According to our Cow and Buffalo Milk records : </string>
+    <string name="CowAlert">Cow Milk Range is below 15 litres</string>
+    <string name="BuffaloAlert">Buffalo Milk Range is below 15 litres</string>
+    <string name="Accordingtoourrecords">According to our record range, your information is not updated</string>
+    <string name="YeildImprovement">Yield \nImprovement</string>
+    <string name="IrrigationScheduler">Irrigation \Scheduler</string>
+    <string name="Guideliness">Guide \nLines</string>
+    <string name="Guideliness_H">Guide Lines</string>
+    <string name="YeildImprovement_H">Yield Improvement</string>
+    <!--Setting-->
+    <string name="ResetLanguage">Change Languages</string>
+    <string name="FarmMarker">Farm Marker</string>
+    <string name="YoutubeVideos">Youtube Videos</string>
+    <string name="Symptoms">Symptoms</string>
+    <string name="ControlMeasures">Control Measures</string>
+
+    <!--Plant Doctor Questionnaries Drop Down -->
+    <string name="SelectYourConcerned">Select Your Concerned</string>
+    <string name="RegardingtheCropHealth">Regarding the Crop Health</string>
+    <string name="RegardingtheCropDiseases">Regarding the Crop Diseases</string>
+    <string name="RegardingtheCropDamages">Regarding the Crop Damages</string>
+    <string name="Pleaseselectyourconcerned">Please select your concerned</string>
+
+    <!--Policy-->
+    <string name="PolicyRegistration">Service Registration</string>
+    <string name="PolicyStartDate">Service Start Date</string>
+    <string name="PolicyCloseDate">Service Close Date</string>
+    <string name="Transplantingate">Transplanting Date</string>
+    <string name="ExpectedHarvestingDate">Expected Harvesting Date</string>
+    <string name="Compensation">Compensation</string>
+    <string name="ValueAssured">Max Value Assured (Rs.)</string>
+    <string name="Fee">Total Price</string>
+    <string name="AadharCardPhoto">Aadhar Card Photo</string>
+    <string name="LandDocumentPhoto">Land Document Photo</string>
+    <string name="AccountName">Account Name</string>
+    <string name="SelectCompensation">Select Compensation</string>
+    <string name="SelectBank">Select Bank</string>
+
+    <string name="PolicyStartDates">Service Date :</string>
+    <string name="SettlementLevel">Settlement Level :</string>
+    <string name="ValueAssureds">Max Value Assured (Rs.):</string>
+    <string name="BenchmarkYields">Benchmark Yield (kg)</string>
+    <string name="BenchmarkYield">Benchmark Yield (kg):</string>
+    <string name="AadharNos">Aadhar Number *</string>
+    <string name="Registration">Registration</string>
+    <string name="DownloadDocs">Download Docs</string>
+    <string name="ImageUploadedSuccessfully">Image Uploaded Successfully</string>
+    <string name="PleaseenterthePolicyStartDate">Please enter the Service Start Date</string>
+    <string name="PleaseenterthePolicyCloseDate">Please enter the Service Close Date</string>
+    <string name="PleaseentertheTransplantingDate">Please enter the Transplanting Date</string>
+    <string name="PleaseentertheExpectedHarvestingDate">Please enter the Expected Harvesting Date</string>
+    <string name="Pleaseenterthevalidmobile">Please enter the valid Mobile Number</string>
+    <string name="PleaseenterthevalidAadharno">Please enter the valid Aadhar Number</string>
+    <string name="FileDownloading">File Downloading...</string>
+    <string name="PolicyDocument">Service Document</string>
+    <string name="Documentdownloaded">Document has been downloaded successfully inside the Internal Storage SecuFarm Folder(Internal Storage > SecuFarm > Yourdownloaded Document)</string>
+    <string name="OpenDocument">Open Document</string>
+    <string name="NoApplicationavailable">No Application available to view PDF</string>
+    <string name="PolicyList">Service List</string>
+    <string name="YeildAssurance">Yield Assurance</string>
+    <string name="PolicyHistory">Service History</string>
+    <string name="FarmerInfo">Farmer Info</string>
+    <string name="FarmInfo">Farm Info</string>
+    <string name="PolicyInfo">Service Info</string>
+    <string name="BuyPolicy">Buy Service</string>
+    <string name="FarmArea">Farm Area (Acre)</string>
+    <string name="CropName">Crop Name</string>
+    <string name="PolicyInformation">Service Information</string>
+    <string name="Prev">Prev</string>
+    <string name="FarmerIdisblanked">FarmerId is blanked</string>
+    <string name="BookPolicy">Book Service</string>
+    <string name="State">State</string>
+    <string name="Block">Block</string>
+    <string name="Village">Village</string>
+    <string name="PlantingTranplantingDate">Planting / Transplanting Date</string>
+    <string name="Farms">Farm *</string>
+    <string name="ServiceHistory">Service History</string>
+    <string name="Servicedataisloading">Services data is loading</string>
+    <string name="Fees">Fees (Rs.)</string>
+    <string name="TotalFees">Total Fees (Rs.)</string>
+    <string name="PendingFees">Pending Fees (Rs.)</string>
+    <string name="PaidFees">Paid Fees (Rs.)</string>
+    <string name="ServiceNumber">Service Number </string>
+    <string name="BookingDate">Booking Date</string>
+    <string name="ServiceStatus">Service Status</string>
+    <string name="PolicyDetails">Policy Details</string>
+
+    <string name="RefreshFarm">Refresh Farm</string>
+    <string name="ServiceOTPVerification">Service OTP Verification</string>
+    <string name="PleaseenterOTP">Please enter the valid OTP</string>
+    <string name="OTPnotmatched">OTP is not matched, Please enter the correct OTP</string>
+    <string name="OTPVerifying">Please wait, your OTP is verifying...</string>
+    <string name="Youcantentermorethan">You can\'t enter more than the total amount</string>
+    <string name="FarmID">Farm ID</string>
+    <string name="payment_modes">Payment Mode </string>
+    <string name="PolicyServiceDate">Service Date </string>
+    <string name="PolicyName">Policy Name </string>
+    <string name="BookingStatus">Booking Status</string>
+
+    <!--SMS login-->
+    <string name="FarmercantLogin">Farmer can\'t login in the Surveyor Application !</string>
+    <string name="SurveyorcantLogin">Surveyor can\'t login in the Secufarm Application !</string>
+
+    <string name="Thereisnoefarmagainstheuser">There is no farm against the user</string>
+    <string name="totalFees">Total Fees (Rs.)</string>
+    <string name="payableFees">Payable Fees (Rs.)</string>
+    <string name="ServiceFees">Service Fees (Rs.)</string>
+    <string name="ThereisnoNotification">There is no notification messages</string>
+
+    <string name="Pleaseentethedaterange">Please enter the date range betweens 10 days</string>
+    <string name="InfoSummary">Summary Info</string>
+
+    <!--Market Place-->
+    <string name="Itemremovedsuccessfully">Your item has been removed successfully</string>
+    <string name="Thereisnoitems">There is no items in your card list, Please add the items in your card</string>
+
+    <!--LocalTranslation-->
+    <string name="TranslationDataisdownloading">App content is downloading, Please wait...</string>
+
+    <string name="VerificationStatus">Verification Status</string>
+    <string name="AssessmentType">Assessment Type : </string>
+    <string name="Benchmarks">Benchmark : </string>
+
+    <!--Dashboard-->
+    <string name="AdvisoryMessages">Advisory Messages</string>
+    <string name="Istheadvisoryhelpful">Was the advisory helpful?</string>
+
+    <string name="RefreshLanguages">Refresh Contents</string>
+
+    <!--   Ground Water Forecasting-->
+    <string name="Groundwaterforecadting">Ground Water Forecasting</string>
+    <string name="Grid">Grid</string>
+    <string name="Waterlevelbase">Water Level \n (Last Year)</string>
+    <string name="WaterlevelForecasted">Water Level \n (Forecasted)</string>
+    <string name="GroundWaterlevelStatus">Ground Water Level Status</string>
+    <string name="GroundWaterleveltill">Ground water level till October 31, 2021</string>
+    <string name="Mapview">Map View</string>
+    <string name="GroundWaterMap">Ground Water Map</string>
+    <string name="Improved">Improved</string>
+    <string name="Decline">Decline</string>
+    <string name="GeotagFarmLocation">Geotag Farm Location</string>
+    <string name="CurrentLocation">Current Location</string>
+    <string name="CurrentlyDataisnotavailable">Currently, Data is not available in the above selected location</string>
+
+    <!--Weather Forecast-->
+    <string name="DailyWeatherForecast">Daily Weather Forecast</string>
+    <string name="DailyWeatherData">Daily Weather Data</string>
+
+    <!--Market Place-->
+    <string name="Quantitys">Quantity :</string>
+    <string name="Addedinyourcart">Added in your cart</string>
+    <string name="Pleaseenterquantity">Please enter the quantity</string>
+    <string name="Pleaseselectproject">Please select the Project</string>
+    <string name="REMOVE">REMOVE</string>
+    <string name="NoUPIAppisfound">No UPI app is found, please install and continue</string>
+    <string name="Areyousureyourpayment">Are you sure, Do you want your payment via </string>
+    <string name="Yourorderbooked">Your order has been booked successfully.</string>
+    <string name="Theorderwillbedeliver">The order will be deliver soon.</string>
+    <string name="Ordernumberis">Order number is </string>
+
+    <!--Policy Registration-->
+    <string name="Registrationisfailed">Registration is failed, Due to Policy is overlapped</string>
+
+    <!--    Tubewell-->
+    <string name="TubewellInfo">Tubewell Info</string>
+    <string name="ElectricityStatus">Electricity Status</string>
+    <string name="MotorStatus">Motor Status</string>
+    <string name="CurrentAmpStatus">Current(Amp) Status</string>
+    <string name="VoltageStatus">Voltage Status</string>
+    <string name="Max_R">Max_R</string>
+    <string name="Max_Y">Max_Y</string>
+    <string name="Max_B">Max_B</string>
+    <string name="Min_R">Min_R</string>
+    <string name="Min_Y">Min_Y</string>
+    <string name="Min_B">Min_B</string>
+
+    <!--CLaculator-->
+    <string name="kg">kg</string>
+    <string name="Bags">Bags</string>
+
+    <string name="SelectConcerned">Select Concerns</string>
+    <string name="Userdoesnotexistcerned">User does not exist</string>
+    <string name="InvalidEntry">Invalid Entry</string>
+    <string name="UnregisteredMobileNo">Unregistered Mobile Number</string>
+    <string name="GetOTP">Get OTP</string>
+    <string name="OTPissending">OTP is sending</string>
+    <string name="Allfieldmandetory">All the fields are mandatory</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Pleasenetervalidotp">Please enter the valid OTP</string>
+    <string name="Pleasenetertheotp">Please enter the OTP from the register mobile number</string>
+
+    <!--Service Registration-->
+    <string name="TheServicenumberis">The Service number is </string>
+    <string name="Youcantracktheservice">You can track the service status in the service status section</string>
+
+    <!--Geo Tagging-->
+    <string name="ProjectIDnotfound">Project ID is not found</string>
+    <string name="FarmerIDnotfound">Farmer ID is not found</string>
+
+    <string name="Pleaseselectsowingdatefrom">Please select the sow period from</string>
+    <string name="Pleaseselectsowingdateto">Please select the sow period to</string>
+    <string name="Pleaseselectsowingdateduration">Please select the valid sowing period,the sow period to should be greater than sow period from</string>
+
+    <string name="Promisetopaydate">Promise to pay date</string>
+
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:layout_margin="5dp"
+            android:background="@drawable/line">
+
+
+            <LinearLayout
+                android:id="@+id/row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/next"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/project_name"
+                    style="@style/simpletextQuestBlack_xs"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green_alert"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:text="" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1.1"
+                        android:text="@string/total_farmer_s" />
+
+                    <TextView
+                        android:id="@+id/total_farmer"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:text=" " />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1.1"
+                        android:text="@string/geo_tag_area_acre" />
+
+                    <TextView
+                        android:id="@+id/area"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:text=" " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1.1"
+                        android:text="@string/total_amount_rs" />
+
+                    <TextView
+                        android:id="@+id/total_amount"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:text=" " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1.1"
+                        android:text="@string/pending_amount_rs" />
+
+                    <TextView
+                        android:id="@+id/pending_amount"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red_alret"
+                        android:layout_weight="1"
+                        android:text=" " />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/pendig_msg"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nextbtn"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="@dimen/_5sdp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/drawable/bg_checkbox.xml" value="0.2169230769230769" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/drawable/bg_checkbox_diseasediagnosis.xml" value="0.2074074074074074" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/drawable/btn_bg.xml" value="0.2074074074074074" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/drawable/btn_bg_gray.xml" value="0.2169230769230769" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/drawable/line.xml" value="0.2101851851851852" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/drawable/searchcustomsize.xml" value="0.2046875" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/activity_sign_up.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/addfarmonmap_new.xml" value="0.12635869565217392" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cart_activity.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cart_row.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cattleadvisory.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cattledashboardfarmerpopup.xml" value="0.11956521739130435" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cattledoctors.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cattlesdashboards.xml" value="0.11956521739130435" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/checkout_activity.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/crop_management_popup.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/cropstatus_row_new.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/dashboarsmslistadapter.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/dialog_confirmation.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/diseasediagnosisadapter.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/diseasediagnosisimageadapter.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/diseasedisgnosis.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/electric_status_main.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/farmregistrationnew.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/farmsignup.xml" value="0.2" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/fertilizercalculator.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/forecast_adapter.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/fragment_locate_yout_farm.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/geotaggingeditfarm.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/gps_popup.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/groundwaterforecasting.xml" value="0.22" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/groundwaterforecastingadapter.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/groundwatergooglemap.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/image_popup.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/imageopen_popup.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/irrigationmngtadapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/loginforgotpassword_popup.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/loginwithotp_new.xml" value="0.21" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/mainprofileact_dashboard.xml" value="0.22" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/max_cur_lay.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/message_detail_activity.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/message_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/min_max_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/mobileotp.xml" value="0.2" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/new_adapter_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/new_dashboard.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/new_pest_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/newhomescreen.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/notificationpopupdetails.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/notificationsms_adpater.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/nutrition_popup_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/nutritionmngtadapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/openbannerpopup.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/order_history_activity.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/order_row.xml" value="0.22" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/package_parctices.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/package_row.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/placed_order_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/plantdoctors.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/policyfarmlist.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/policyfarmlistadapter.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/policylist.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/policypayment.xml" value="0.18" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/policyregistrationnew.xml" value="0.21" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/pop_languageselection.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/pop_pestdiseasedetails.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/pop_popup.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/pop_row.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/popdashbaordfarmselection.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/popup_plantsdoctor.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/popupdates_imageupload_popup.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/postharvmngtadapter.xml" value="0.25" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/product_activity.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/product_order_detail_activity.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/product_order_detail_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/product_row.xml" value="0.22" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/product_row_new.xml" value="0.25" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/screen_popup.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/screentoolbar.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/search_farm_activity.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/selected_farm.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/servicehistory.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/servicehistoryadapter.xml" value="0.22" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/soil_doctor.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/start_stop_main.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/thumbnail_image_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/thumbnail_imagediagnosis_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/tube_info_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/tubewell_info.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/tubewell_row.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/tubewellmainactivity.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/vodafone_fragment.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/weather_forecast.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/weatheractual.xml" value="0.15" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/weatherforecast_details.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/weedmanagement_popup.xml" value="0.13949275362318841" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/weedmanagementadapter.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/weedmngt_popup.xml" value="0.12" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/youtubevideorecyclerview.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/layout/youtubevideostream.xml" value="0.1" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/menu/menu_cacheclear.xml" value="0.16111111111111112" />
+        <entry key="..\:/Herojit/Android Studio Project/MFI_android/app/src/main/res/menu/menu_dashboard.xml" value="0.16574074074074074" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/activity_youtube_video_player.xml" value="0.1453125" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/addfarmonmap_new.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/admindashboard_new.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/crop_management_popup.xml" value="0.264" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/cropstatus_row.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/cropstatus_row_new.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/dashboarsmslistadapter.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/forecast_adapter_list.xml" value="0.11927083333333334" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/fragment_locate_yout_farm.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/loginwithotp_new.xml" value="0.1527777777777778" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/mainprofileact_dashboard.xml" value="0.2" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/new_dashboard.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/newhomescreen.xml" value="0.2" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/notificationpopup.xml" value="0.176" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/notificationsms_adpater.xml" value="0.2" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/order_row.xml" value="0.16" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/package_parctices.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/package_row.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/pest_disease_popup.xml" value="0.18541666666666667" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/policyfarmlist.xml" value="0.176" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/pop_languageselection.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/pop_row.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/popup_plantsdoctor.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/weather_forecast.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/weatheractual.xml" value="0.18697916666666667" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/weed_fragment.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/weedmanagement_popup.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/youtube_video_custom_layout.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/youtubeplayerlay.xml" value="0.2171875" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/layout/youtubevideorecyclerview.xml" value="0.15520833333333334" />
+        <entry key="..\:/Projects_12_10_21/GitProject/SecuFarm/app/src/main/res/menu/menu_cacheclear.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

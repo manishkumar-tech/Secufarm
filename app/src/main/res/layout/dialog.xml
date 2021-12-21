@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:orientation="vertical">
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="@dimen/_90sdp"
+      android:layout_marginTop="@dimen/_5sdp"
+      android:gravity="center">
+
+    <ImageView
+        android:id="@+id/progrress"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/spinner" />
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textdown"
+        style="@style/simpletextHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="@string/Dataisloading"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp" />
+  </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/heading_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Upload Image"
+
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:id="@+id/image_lay1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/image_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:text="Image 1" />
+
+            <ImageView
+                android:id="@+id/choose_image1"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/image_upload_icon"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_lay2"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:text="Image 2" />
+
+            <ImageView
+                android:id="@+id/choose_image2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/image_upload_icon"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_lay3"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:text="Image 3" />
+
+            <ImageView
+                android:id="@+id/choose_image3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/image_upload_icon"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/image_lay4"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16sp"
+                android:text="Image 4" />
+
+            <ImageView
+                android:id="@+id/choose_image4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+
+                android:layout_marginTop="7dp"
+                android:background="@drawable/image_upload_icon"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/submit_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:padding="7dp"
+        android:textColor="@android:color/white"
+        android:text="UPLOAD"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

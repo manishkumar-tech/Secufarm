@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl4"
+            android:background="@color/ColorPrimary">
+
+            <TextView
+                android:id="@+id/txt_FarmRegistration"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/FarmerRegistration" />
+
+
+        </RelativeLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@+id/actionbar"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/Question_x3"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/Question_x3">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center">
+
+                    <TextView
+
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/AadharNumber" />
+
+
+                    <EditText
+                        android:id="@+id/edt_aadhar_no"
+                        style="@style/edittextmobileno_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/line"
+                        android:hint="@string/EnterAadharNumber"
+                        android:inputType="text"
+                        android:maxLength="12" />
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/OR"
+                        android:textSize="10sp" />
+
+
+                </TableRow>
+
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center">
+
+                    <TextView
+
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/MobileNumber" />
+
+
+                    <EditText
+                        android:id="@+id/edt_mobile_no"
+                        style="@style/edittextmobileno_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/line"
+                        android:hint="@string/EnterMobileNo"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/OR"
+                        android:textSize="10sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/line">
+
+                        <Spinner
+                            android:id="@+id/spin_state"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/line">
+
+                        <Spinner
+                            android:id="@+id/spin_district"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/line">
+
+                        <Spinner
+                            android:id="@+id/spin_subdistrict"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/line">
+
+                        <Spinner
+                            android:id="@+id/spin_villageName"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center">
+
+                    <TextView
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/OR"
+                        android:textSize="10sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center">
+
+                    <TableRow
+                        android:layout_width="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/txt_Project"
+                            style="@style/simpletextQuestBlack_l"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/Project" />
+
+                        <ImageView
+                            android:id="@+id/project_refresh"
+                            android:layout_width="@dimen/mainheading_x5"
+                            android:layout_height="@dimen/mainheading_x5"
+                            android:layout_marginRight="@dimen/Question_x3"
+                            android:background="@drawable/icon_refresh" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="@dimen/_170sdp"
+                        android:background="@drawable/line">
+
+                        <Spinner
+                            android:id="@+id/spin_project"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_35sdp" />
+                    </TableRow>
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/submit"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginRight="@dimen/_7sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/GetFarmer" />
+
+                    <Button
+                        android:id="@+id/new_enrollment_btn"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/NewRegistration" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/empty_list"
+                    style="@style/simpletextHeadingwhite_x1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/_15sdp"
+                    android:text="@string/Listisemptypleasefillnewenrolmentform"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/farm_recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:scrollbarThumbVertical="@android:color/transparent"
+                    android:scrollbars="vertical"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/distance_10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="10 M"
+        android:background="@drawable/line" />
+    <Button
+        android:id="@+id/distance_20"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="20 M"
+        android:background="@drawable/line" />
+    <Button
+        android:id="@+id/distance_50"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="50 M"
+        android:background="@drawable/line" />
+    <Button
+        android:id="@+id/distance_100"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="100 M"
+        android:background="@drawable/line" />
+    <Button
+        android:id="@+id/nolimit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="No Limit"
+        android:background="@drawable/line" />
+
+
+</LinearLayout>

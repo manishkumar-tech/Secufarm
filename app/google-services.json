@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "799273316721",
+    "firebase_url": "https://mfi-wrms.firebaseio.com",
+    "project_id": "mfi-wrms",
+    "storage_bucket": "mfi-wrms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799273316721:android:382a4d8e8d38779b9b86d0",
+        "android_client_info": {
+          "package_name": "com.weather.risk.mfi.myfarminfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799273316721-hd92p1brd4pkehbrv46572c537n4hiab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.weather.risk.mfi.myfarminfo",
+            "certificate_hash": "bae39e7bfc6efb307ed5fdabc466a5b920055b44"
+          }
+        },
+        {
+          "client_id": "799273316721-5pu1l0a3gbb47k2d5krr3pm3aog5cusf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMRTUAAtRAazJ3lCwJ7K5-xyBTmrN4gUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799273316721-5pu1l0a3gbb47k2d5krr3pm3aog5cusf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

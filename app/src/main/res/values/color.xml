@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="ColorPrimary">#7AB96E</color>-->
+    <!--6ABD46- 106,189,70-->
+    <color name="ColorPrimary">#6ABD46</color>
+<!--    <color name="ColorPrimary">#1D4380</color>-->
+<!--    <color name="ColorPrimary">#6086CA</color>-->
+    <color name="darkgreen">#5F8925</color>
+    <color name="ColorPrimaryLight">#5EA975</color>
+    <color name="ColorPrimaryDark">#1B5E20</color>
+    <color name="Pistachio_Green">#39ac39</color>
+
+    <color name="heading_color">#ffffff</color>
+    <color name="selected_button_background">#4DFF9800</color>
+    <color name="un_selected_button_background">#4D9E9E9E</color>
+    <color name="table_row_alternate_1">#FAFAFA</color>
+    <color name="table_row_alternate_2">#F5F5F5</color>
+    <color name="whiteq">#fffff1</color>
+
+    <color name="lightgray">#D3D3D3</color>
+    <color name="gray">#4D9E9E9E</color>
+    <color name="red_alret">#e13b0d</color>
+    <color name="green_alert">#37c634</color>
+    <color name="black">#000000</color>
+    <color name="purpule">#c211b1</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="bottom_blue">#1B2934</color>
+    <color name="orange">#F88017</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="Ash_Gray">#666362</color>
+    <color name="lightpink">#ef8989</color>
+    <color name="lightgreen">#42bd85</color>
+
+
+    <!--New Color-->
+    <!--Primary Colors-->
+    <color name="primary_blue">#1D4380</color>
+    <color name="primary_green">#6ABD46</color>
+    <color name="primary_black">#010101</color>
+
+    <color name="secondary_blue1">#4069B2</color>
+    <color name="secondary_blue2">#6086CA</color>
+    <color name="secondary_blue3">#86A5D6</color>
+
+    <color name="secondary_black">#212121</color>
+    <color name="secondary_gray">#595A5A</color>
+    <color name="secondary_green1">#87C76B</color>
+    <color name="secondary_green2">#A4D38F</color>
+    <color name="secondary_green3">#C4E1B5</color>
+
+    <color name="white">#ffffff</color>
+    <color name="whitetransparent">#00ff001C</color>
+
+
+    <color name="Battleship_Gray">#848482</color>
+    <color name="Frog_Green">#99C68E</color>
+    <color name="LightWhite">#F9FAFC</color>
+    <color name="fulllightgreen">#e6ffee</color>
+    <color name="lightorange">#fdce9b</color>
+
+</resources>

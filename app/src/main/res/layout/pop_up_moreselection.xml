@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/ColorPrimary"
+    android:paddingBottom="5dp"
+    android:id="@+id/parentTee">
+
+
+    <TextView
+        android:id="@+id/popup_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="YOU HAVE SUCCESSFULLY CREATED YOUR EVENT"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:textSize="13dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+
+        android:textColor="@color/white"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/close_popup"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="7dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLOSE"
+                android:textSize="13dp"
+
+                android:textColor="@color/ColorPrimary"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

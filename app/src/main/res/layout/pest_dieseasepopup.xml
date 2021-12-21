@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@color/ColorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_PD_heading"
+            style="@style/simpletextHeadingwhite_x3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/Margin_x5"
+            android:text="@string/PestDisease"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/vulnerability_popup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/mainheading_xl2"
+                        android:layout_height="@dimen/mainheading_xl2"
+                        android:layout_margin="@dimen/Margin_x5"
+                        app:srcCompat="@drawable/vulnerability_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_Vulnerability"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/Vulnerability" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/disease_forecast_popup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/mainheading_xl2"
+                        android:layout_height="@dimen/mainheading_xl2"
+                        android:layout_margin="@dimen/Margin_x5"
+                        android:background="@drawable/disease_forecast" />
+
+                    <TextView
+                        android:id="@+id/txt_PD_PestDisease"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/PestDisease" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/mainheading_xl2"
+                        android:layout_height="@dimen/mainheading_xl2"
+                        android:layout_margin="@dimen/Margin_x5"
+                        android:background="@drawable/disease_forecast"
+
+                        />
+
+                    <TextView
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/DiseaseForecast" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

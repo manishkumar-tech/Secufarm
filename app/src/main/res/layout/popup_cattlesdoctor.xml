@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl6"
+            android:layout_gravity="center"
+            android:background="@color/ColorPrimary"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_LogNewRequest"
+                style="@style/simpletextHeadingwhite_x3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/LogNewRequest" />
+
+            <ImageView
+                android:id="@+id/imgeview_cross"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/cross_btn" />
+        </TableRow>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:orientation="vertical">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <TextView
+                        android:id="@+id/txt_Image"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Image" />
+
+                    <ImageView
+                        android:id="@+id/imgeview_logrequest"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:scaleType="fitXY"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/icon_cameragray" />
+
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/txt_closeup"
+                            style="@style/buttontext"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/btn_bg"
+                            android:gravity="center"
+                            android:text="@string/CloseUp"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <ImageView
+                            android:id="@+id/choose_image1"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:background="@drawable/image_upload_icon"
+                            android:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/imageupload1"
+                            style="@style/buttontext"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/btn_bg"
+                            android:text="@string/Upload"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <Button
+                            android:id="@+id/ImageDetection1"
+                            style="@style/buttontext"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/btn_bg"
+                            android:text="@string/ImageDetection"
+                            android:textSize="@dimen/_6sdp"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/txt_farm"
+                            style="@style/buttontext"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/btn_bg"
+                            android:gravity="center"
+                            android:text="@string/Farm"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <ImageView
+                            android:id="@+id/choose_image2"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_100sdp"
+                            android:background="@drawable/image_upload_icon"
+                            android:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/imageupload2"
+                            style="@style/buttontext"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/btn_bg"
+                            android:text="@string/Upload"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <Button
+                            android:id="@+id/ImageDetection2"
+                            style="@style/buttontext"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_22sdp"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/btn_bg"
+                            android:text="@string/ImageDetection"
+                            android:textSize="@dimen/_6sdp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_Voicerecord"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:text="@string/Voicerecord" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn_recording"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="@drawable/icon_recordingoff" />
+
+                    <Button
+                        android:id="@+id/btn_stop"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:background="@drawable/icon_stopoff" />
+
+                    <Button
+                        android:id="@+id/btn_play"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:background="@drawable/icon_playingoff" />
+
+                    <Button
+                        android:id="@+id/btn_speaker"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:background="@drawable/icon_speakeroff" />
+
+                    <Button
+                        android:id="@+id/btn_clear"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:background="@drawable/icon_clearoff" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/uploadBTN"
+                        style="@style/buttontext"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/UploadVoice" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".05" />
+
+                    <Button
+                        android:id="@+id/cancelBTN"
+                        style="@style/buttontext"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Cancel" />
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_message"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/message" />
+
+                    <EditText
+                        android:id="@+id/log_new_message"
+                        style="@style/edittextemail_lmultilanguage"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/line"
+                        android:gravity="start"
+                        android:hint="@string/Texthere"
+                        android:inputType="textMultiLine"
+                        android:lines="5"
+                        android:maxLength="500"
+                        android:padding="@dimen/_10sdp"
+                        android:scrollHorizontally="false" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_LogRequest"
+                    style="@style/buttontext_m"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/Submit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

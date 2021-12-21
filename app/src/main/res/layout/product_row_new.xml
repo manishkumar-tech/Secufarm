@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:padding="@dimen/_3sdp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/product_name"
+                    style="@style/simpletextHeadingblack_x3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/image"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="@string/Name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/price_per_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:visibility="visible">
+
+
+                <TextView
+                    android:id="@+id/txtServiceFees"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ServiceFees"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:id="@+id/amount"
+                    style="@style/simpletextHeadingblack_x3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/unit"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <TextView
+                    android:id="@+id/gst_excluded"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/validity_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtvalidity"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/validity"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/validity"
+                        style="@style/simpletextHeadingblack_x3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_yeildInsurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:id="@+id/tblrwPolicyStartDates"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+
+                    <TextView
+                        android:id="@+id/txtPolicyStartDate"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PolicyStartDates"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtPolicyStartDates"
+                        style="@style/simpletextHeadingblack_x3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/tblrwSettlementLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+
+                    <TextView
+                        android:id="@+id/txtSettlementlvl"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SettlementLevel"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtSettlementLevel"
+                        style="@style/simpletextHeadingblack_x3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblrwValueAssured"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+
+                    <TextView
+                        android:id="@+id/txtValueAssur"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ValueAssureds"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtValueAssured"
+                        style="@style/simpletextHeadingblack_x3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblrwBenchmarkYield"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+
+                    <TextView
+                        android:id="@+id/txtBenchmarkYild"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Benchmarks"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtBenchmarkYield"
+                        style="@style/simpletextHeadingblack_x3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblrwAssismentName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+
+                    <TextView
+                        android:id="@+id/txtAssessmentType"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/AssessmentType"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txtAssismentName"
+                        style="@style/simpletextHeadingblack_x3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imgvw_downloaddocs"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/icon_downloaded" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/Registration_btn"
+                        style="@style/buttontext_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/btn_bg"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:text="@string/PolicyRegistration" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imgvw_sharedocs"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/icon_share" />
+                </TableRow>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

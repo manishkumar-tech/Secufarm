@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/ttttt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/ColorPrimary">
+
+            <TextView
+                android:id="@+id/titleee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:text="Farm Detail"/>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/farm_detail_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ttttt"
+            android:layout_margin="2dp"
+            android:background="@android:color/white"
+            android:scrollbars="vertical" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

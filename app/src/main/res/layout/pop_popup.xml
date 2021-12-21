@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wallet_dim_foreground_holo_dark"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainheading_xl4"
+        android:layout_gravity="center"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/heading"
+            style="@style/simpletextHeadingwhite_x3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/mainheading_x5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Info"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/package_image"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/no_image"
+                android:scaleType="fitXY" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pop_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@color/wallet_dim_foreground_holo_dark"
+                android:scrollbars="vertical">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/done_pop"
+                style="@style/buttontext_m"
+                android:layout_width="match_parent"
+                android:layout_below="@id/ll_heading"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:text="@string/AllActivityDone" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

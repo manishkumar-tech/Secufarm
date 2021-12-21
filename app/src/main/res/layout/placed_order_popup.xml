@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/success"
+            style="@style/simpletextHeadingwhite_x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Your order has been booked successfully.\nOrder number is ABCD.\nThe order will be deliver soon."
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/okay_btn"
+            style="@style/buttontext_m"
+            android:layout_width="100dp"
+            android:layout_below="@+id/success"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_7sdp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/Ok" />
+    </RelativeLayout>
+</layout>

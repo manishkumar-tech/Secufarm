@@ -1,0 +1,1587 @@
+<resources>
+
+    <!-- <string name="release_key">AIzaSyDjUieCJswCOJunJtv3xG87rWdhIJieTEE</string>
+     <string name="debug_key">AIzaSyDjUieCJswCOJunJtv3xG87rWdhIJieTEE</string>-->
+
+    <!--No need to Change language-->
+    <string name="browser_key">AIzaSyAak8mFLqT9K1_RnQ90upMhuGh30YEnznQ</string>
+    <string name="language_pref_key">language_pref_key</string>
+    <string name="dashboard_pref_key">dashboard_pref_key</string>
+    <string name="default_notification_channel_id">MFINotification</string>
+    <string name="CHANNEL_NAME">MFI Notification</string>
+    <string name="Bengali">বাংলা</string>
+    <string name="English">English</string>
+    <string name="Chooseyourlanguage">Choose your language</string>
+    <string name="Hindi">हिंदी</string>
+    <string name="Gujarati">ગુજરાતી</string>
+    <string name="Tamil">తెలుగు</string>
+    <string name="Marathi">मराठी</string>
+    <string name="doyouwantcacheclear">Do you want to clear the local data / cache data?</string>
+    <string name="Thelocaldataclear">The local data has been cleared successfully and refresh the application</string>
+    <string name="India">India</string>
+    <string name="Version">Version (117.0.4)  </string>
+    <string name="VersionLang">आवृत्ती (117.0.4) </string>
+    <string name="app_name">SecuFarm</string>
+    <string name="title_activity_navigation_drawer">SecuFarm</string>
+    <!--No need to change the language-->
+
+
+    <string name="CacheClear">Cache Clear</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">सेटिंग</string>
+    <string name="str_rb_normal">सामान्य</string>
+    <string name="str_rb_satellite">उपग्रह</string>
+    <string name="str_rb_terrain">भूप्रदेश</string>
+    <string name="services">सेवा</string>
+    <string name="contact">संपर्क करा</string>
+    <string name="login_signup">साइन अप</string>
+    <string name="sync">समक्रमण</string>
+    <string name="offline">ऑफलाइन</string>
+    <string name="sync_data">डेटा समक्रमित करा</string>
+    <string name="title_activity_sign_up">साइन अप गतिविधि</string>
+    <string name="title_activity_sign_in">साइन इन गतिविधि</string>
+    <string name="title_activity_add_farm_map">नकाशा</string>
+    <string name="title_activity_mandi_detail_on_map">नकाशा</string>
+    <string name="network_not_available">नेटवर्क कनेक्शन तपासा</string>
+    <!--    <string name="title_activity_navigation_drawer">माय शेत इन्फो</string>-->
+
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा</string>
+    <string name="toast_crash">माझी शेत माहिती बंद झाली आहे</string>
+    <string name="monthly_membership">३५०० रुपये मासिक सदस्यता वर्गणी</string>
+    <string name="terms">मासिक बिल 3,500 प्रती महिना , कधीही रद्द करा 15 दिवसांत पैसे परत मिळण्याची हमी</string>
+    <string name="deta">आपल्या बजेटमध्ये मातीचे अचूक विश्लेषण</string>
+
+
+    <string name="no_device">आपल्याकडे आपल्या खात्याशी संबंधित कोणतीही सिंचन प्रणाली नाही. आपण क्रमांक अपडेट करू इच्छिता?</string>
+    <string name="update_device">आपल्याकडे आधीपासून आपल्या खात्याशी संबंधित एक सिंचन प्रणाली आहे. आपण क्रमांक अद्यतनित करू इच्छिता?</string>
+    <string name="start">तुमची सिंचन आधी सुरू झाली आहे. आपण बंद करू इच्छिता?</string>
+    <string name="moisture_txt">आपल्या शेतात मातीची ओलावा खूप कमी आहे. तुम्हाला सिंचन सुरू करायचं आहे?</string>
+    <string name="ll">Select your Language\nअपनी भाषा का चयन करें તમારી ભાષા પસંદ કરો</string>
+    <string-array name="nutritionCrop">
+        <item>कापूस</item>
+        <item>गहू</item>
+        <item>भात</item>
+        <item>किन्नू</item>
+    </string-array>
+
+    <string-array name="nutritionStatus">
+        <item>सुपीक</item>
+        <item>कमी सुपीक</item>
+    </string-array>
+
+
+    <string-array name="irrigation">
+        <item>चांगली सिंचन</item>
+        <item>पाऊस पडला</item>
+        <item>संरक्षण सिंचन</item>
+    </string-array>
+
+    <string-array name="soil">
+
+        <item>चिकन माती</item>
+        <item>पोयटा माती</item>
+        <item>वालुकामय माती</item>
+    </string-array>
+    <string name="aaaaa"><![CDATA[<ul><li><b>पोषणमूल्यांची कमतरता: </b> पोपचा संदर्भ घ्या. 2% डीएपी + 9 0% एमजीएसओ 4 चे फुलिश फवारणी घ्या </li>" + "<li> <b> सांस्कृतिक क्रियाकलाप: </बी > तण नियंत्रणासाठी पिके घेणे /हाताळणी करणे </li> "+" <li> <b> सिंचन: </b> 4 था सिंचन </li> "+" <li> <b> आजार: </b> अलटनारिया लीफ ब्लॉट /पॅरा विल्ट </li> "+" <li> <b> रोग व्यवस्थापन: </b> एम -45 0 आर कॉपर ऑक्सीक्लोराईड @ 1.25-1.5 किलो /हेक्टर) फवारणी + स्ट्र्रेप्टोकीक्लिन (15-20 ग्राम /हेक्टर) कीटक- व्हाईटfly, थ्रिप्स, जसीड, मेली बग बॉलवॉर्म (अमेरिकन /स्पॉट /गुलाबी /स्पोडोप्टेरा) </li> 400-500 लिटर पाण्यात </li> "+" <li> <b> कीटक: </b> कीटकनाशके </li> </li> </li> </li> </li> </li> </li> "<"> <li> </li> > <ul> <li> <b> ऍफिड, जसीडीसाठी: </b> स्प्रे 5% NSKE /Acitamiprid 20% SP @ 3gm प्रति 15 लिटर पाण्यात "+" स्प्रे थाओमेथॉक्साम 25% डब्ल्यू.जी. @ 3 ग्रॅम प्रति 15 लिटर पाण्यात थ्रिप्स साठी: </b> स्प्रे फिप्पिलिल @ 45 मिली प्रति 15 लिटर पाण्यात /डायमिथोएट 30% ईसी @ 20 लीटर प्रति 15 लिटर पाण्यात /फ्लोनिकॅमिड 50% डब्ल्यू.जी. @ 3 ग्रॅम प्रति 15 लिटर पाण्यात </li> </ul> </li> "+" <li> <ul> <li> <b> व्हाईटफ्लायसाठी: </b> स्प्रे 5% एनएसकेई, एसेफेट 75% एसपी @ 30 ग्राम, डीफेंथियूरॉन 50% डब्ल्यूपी @ 20 ग्राम, बायफॅथिनिन 10% EC 25 एमएल प्रति 15 लिटर पाण्यात </li> </ul> मेलीबगसाठी: </b> 75 ग्रॅम /एसेफेट 75 टक्के एसपी @ 30 ग्रॅम /क्लोरोपायरीफॉस 20 टक्के% 30 मि.ली., बेरूप्रोफेनझीन 25 टक्के स्प्रे Verticiliumlecani 25% 15 लीटर पाण्यात प्रति 30 मि.ली. </li> </ul> </li> "+" <li> <ul> <li> <b> गुलाबी बोल्म पाळांसाठी: </b> क्विनोलफॉस @ 25 वाजता स्प्रे घ्या % EC @ 20 mlor Chloropyriphos 25% EC @ 20 एमएल किंवा थिऑडिआर्ब75% WP @ 30 ग्राम प्रति 15 लिटर पाण्यात. </Li> </ul> </li> <br /> "+" <li> नेहमी पहा उत्पादनांची लेबले आणि वापरण्याकरिता सर्व तपशीलांसाठी आणि दिशानिर्देशांसाठी </li> "+" <li> <b> कीटक अनुकूल परिस्थिती: </b> कमाल तात्पुरती <36C, किमान तात्पुरती > 26 सी, आरएच. > 75 </li> </ul>]]></string>
+
+    <string name="welcometohelp">मदत आणि समर्थन आपले स्वागत आहे</string>
+    <string name="pleasetellus">कृपया आपल्या समस्येबद्दल तपशीलांमध्ये आम्हाला सांगा</string>
+    <string name="youcanalso">आपण खालील बटण दाबून आपल्या समस्यांचे चित्रे आणि ऑडिओ देखील अपलोड करू शकता</string>
+    <string name="Feelfree">खाली प्लस बटण दाबून आपल्या क्वेरी सामायिक करण्यास मोकळ्या मनाने</string>
+
+
+    <!--Herojit String Common-->
+    <string name="SelectHindi">शुरू करने के लिए क्लिक करें</string>
+    <string name="SelectEnglish">प्रारंभ करण्यासाठी येथे क्लिक करा</string>
+    <string name="SelectGujarati">પ્રારંભ કરવા માટે અહીં ક્લિક કરો</string>
+    <string name="SelectMarathi">प्रारंभ करण्यासाठी येथे क्लिक करा</string>
+
+    <!--    <string name="app_name">My Farm Info</string>-->
+    <string name="entertheregistermobile">तुमचा नोंदणीकृत मोबाइल क्रमांक</string>
+    <string name="EnterMobileNo">मोबाइल क्रमांक प्रविष्ट करा</string>
+    <string name="Submit">सबमिट करा</string>
+    <string name="or">(किंवा)</string>
+    <string name="LoginWithPassword">संकेतशब्दासह लॉगिन करा</string>
+    <string name="Register">नोंदणी करा</string>
+    <string name="Dear">प्रिय</string>
+    <string name="areusurelogout">आपण लॉगआउट करू इच्छिता?</string>
+    <string name="Yes">होय</string>
+    <string name="No">नाही</string>
+    <string name="GPSOFF">जीपीएस बंद: कृपया जीपीएस सक्षम करा</string>
+    <string name="EnableGPS">जीपीएस सक्षम करा</string>
+
+    <string name="Loadingstate">लोड करीत आहे स्थिती, कृपया प्रतीक्षा करा ...</string>
+    <string name="FormattingError">स्वरूपन त्रुटी</string>
+    <string name="Couldnotconnect">सर्व्हरशी कनेक्ट करणे शक्य झाले नाही</string>
+    <string name="Cancel">रद्द करा</string>
+    <string name="Update">अद्यतनित करा</string>
+    <string name="GooglePlayStore">गुगल प्ले स्टोअर ही अद्ययावत आवृत्ती आहे, आपणास अद्ययावत करायचे आहे?</string>
+    <string name="Loadingcrop">क्रॉप यादी लोड करीत आहे, कृपया प्रतीक्षा करा ...</string>
+    <string name="validmobileno">कृपया वैध 10 अंकी मोबाइल क्रमांक प्रविष्ट करा</string>
+    <string name="Ok">ठीक आहे</string>
+    <string name="ContactUs">आमच्याशी संपर्क साधा</string>
+    <string name="AnswerDesk">आपल्याला आवश्यक असलेल्या सर्व गोष्टींसाठी उत्तर डेस्क सज्ज आहे</string>
+    <string name="EnteryourName">आपले नांव लिहा</string>
+    <string name="Enteremailid">ईमेल आयडी प्रविष्ट करा</string>
+    <string name="Enteryourmessage">आपला संदेश प्रविष्ट करा</string>
+    <string name="Enteryourname">कृपया आपले नाव प्रविष्ट करा</string>
+    <string name="Enteryouremailid">कृपया आपला ईमेल आयडी प्रविष्ट करा</string>
+    <string name="Enteryourphoneno">कृपया आपला फोन प्रविष्ट करा</string>
+    <string name="Enteryourpassword">कृपया आपला संकेतशब्द प्रविष्ट करा</string>
+    <string name="Enteryourconfirmpassword">कृपया आपला पुष्टीकरण संकेतशब्द प्रविष्ट करा</string>
+    <string name="OTPhasbeen">मोबाइल नंबरवर ओटीपी पाठविला गेला आहे, कृपया पासवर्ड म्हणून ओटीपी वापरा.</string>
+    <string name="Pleasewait">कृपया थांबा ...</string>
+    <string name="Mobilenoisnot">मोबाईल क्र. नोंदणीकृत नाही</string>
+    <string name="login">लॉगिन</string>
+    <string name="Username">वापरकर्तानाव / ईमेल / मोबाईल क्रमांक</string>
+    <string name="Password">संकेतशब्द</string>
+    <string name="SavePassword">संकेतशब्द जतन करा</string>
+    <string name="ForgotPassword">संकेतशब्द विसरलात?</string>
+    <string name="Pleaseentervalid">कृपया एक वैध मोबाइल क्रमांक प्रविष्ट करा</string>
+    <string name="Pleaseentervalidemail">कृपया वैध नोंदणीकृत ईमेल आयडी प्रविष्ट करा</string>
+    <string name="youarealreadylogiin">आपण आधीच लॉग इन केले आहे</string>
+    <string name="wantotexit">आपली खात्री आहे की आपण बाहेर पडू इच्छिता?</string>
+    <string name="Success">यश</string>
+    <string name="PleaseCheck">कृपया तुमचा मेल आयडी तपासा व तुमचा पासवर्ड बदला.</string>
+    <string name="LogginIn">लॉगइन इन ...</string>
+    <string name="IncorrectUsernameorPassword">वापरकर्त्याचे नाव अथवा पासवर्ड चुकीचा</string>
+    <string name="ServerError">सर्व्हर त्रुटी</string>
+    <string name="Verifyingemail">ईमेल सत्यापित करीत आहे ...</string>
+    <string name="emailiddoesnotexist">ईमेल आयडी विद्यमान नाही</string>
+    <string name="Farmnotavailable">शेत उपलब्ध नाही</string>
+
+    <!--Registration-->
+    <string name="UserRegistration">वापरकर्ता नोंदणी</string>
+    <string name="CreateUsernames">वापरकर्तानाव * तयार करा</string>
+    <string name="CreateUsername">वापरकर्तानाव तयार करा</string>
+    <string name="VisibleNames">दृश्य नाव *</string>
+    <string name="VisibleName">दृश्य नाव</string>
+    <string name="MobileNumbers">मोबाइल नंबर*</string>
+    <string name="MobileNumber">मोबाइल नंबर</string>
+    <string name="Passwords">संकेतशब्द *</string>
+    <string name="ConfirmPasswords">पासवर्डची पुष्टी करा *</string>
+    <string name="ConfirmPassword">पासवर्डची पुष्टी करा</string>
+    <string name="EmailAddressoptional">ईमेल पत्ता (पर्यायी)</string>
+    <string name="EmailAddress">ईमेल पत्ता</string>
+    <string name="Emailaddressalready">ईमेल पत्ता आधीपासून विद्यमान आहे. कृपया दुसरा ईमेल वापरून पहा किंवा या आयडीसह लॉगिन करा.</string>
+    <string name="entervisiblename">कृपया आपले दृश्य नाव प्रविष्ट करा</string>
+    <string name="passwordconfirmpassword">संकेतशब्द आणि पुष्टीकरण संकेतशब्द समान असणे आवश्यक आहे</string>
+    <string name="entercity">कृपया आपले शहर प्रविष्ट करा</string>
+    <string name="validemailid">कृपया वैध ईमेल आयडी प्रविष्ट करा</string>
+    <string name="Somethingwentwrong">काहीतरी चूक झाली, कृपया रिक्त फील्ड भरा.</string>
+    <string name="usersaved">वापरकर्ता जतन केला गेला आहे</string>
+
+    <!--Admin-->
+    <string name="Admin">प्रशासन</string>
+    <string name="Surveyor">सर्वेक्षण करणारा</string>
+    <string name="Farmer">शेतकरी</string>
+    <string name="Logout">बाहेर पडणे</string>
+
+    <!--DashBoard-->
+    <string name="Weather">हवामान</string>
+    <string name="PlantDoctor">वनस्पती डॉक्टर</string>
+    <string name="SoilDoctor">मृदा डॉक्टर</string>
+    <string name="CropInformation">पिकाची माहिती</string>
+    <string name="POPUpdates">पीओपी अद्यतने</string>
+    <string name="Emergency">आणीबाणी</string>
+    <string name="Alerts">सतर्कता</string><!--google-->
+    <string name="PestDiseaseAlert">कीटक व रोगाचा इशारा</string><!--Google Translation-->
+    <string name="IrrigationAdvisory">सिंचन सल्लागार</string><!--Google Translation-->
+    <string name="Disease">आजार</string><!--Google Translation-->
+    <string name="Growth">वाढ</string><!--Google Translation-->
+
+    <!--Message google translation-->
+    <string name="Pleaseselectyour">कृपया आपले शेत निवडा</string>
+    <string name="norecordfarm">शेतकर्‍याविरूद्ध कोणतीही नोंद सापडली नाही!</string>
+    <string name="Nodataavailable">कोणताही डेटा उपलब्ध नाही</string>
+
+
+    <!--Crop Status-->
+    <string name="CropStatus">पीक स्थिती</string>
+    <string name="Normal">सामान्य</string>
+    <string name="NotNormal">सामान्य नाही</string>
+    <string name="Stress">ताण</string><!--google-->
+    <string name="understress">तणावा खाली</string><!--google-->
+    <string name="Status">स्थिती</string>
+    <string name="Benchmark">बेंचमार्क</string>
+    <string name="NDVI">एनडीव्हीआय</string>
+    <string name="Rain">पाऊस</string>
+    <string name="SoilMoisture">माती ओलावा</string>
+    <string name="SoilDeficiency">मातीची कमतरता</string>
+    <string name="PestandDisease">कीड व रोग</string>
+    <string name="NDVIData">एनडीव्हीआय डेटा</string>
+    <string name="Date">तारीख</string>
+    <string name="Value">मूल्य</string>
+    <string name="Clouded">ढगाळ</string>
+    <string name="Alert">सतर्क</string>
+    <string name="Good">चांगले</string>
+    <string name="Bad">वाईट</string>
+
+    <!--Next Step-->
+    <string name="NextStep">पुढचे पाऊल</string>
+    <string name="Intercultural">आंतर सांस्कृतिक</string>
+    <string name="Activity">क्रियाकलाप</string>
+    <string name="Pest">कीटक</string>
+    <string name="Identification">ओळख</string>
+    <string name="Naturalenemypopulation">नैसर्गिक शत्रूंची लोकसंख्या</string>
+    <string name="Insects">किडे</string>
+    <string name="PestManagement">कीड व्यवस्थापन</string>
+    <string name="InsectConduciveCondition">कीटक सुसंस्कृत स्थिती</string>
+
+    <!--Weather-->
+    <string name="Forecast">अंदाज</string>
+    <string name="ActualWeather">वास्तविक हवामान</string>
+    <string name="WeatherForecast">हवामान अंदाज</string>
+    <string name="Monday">सोमवार</string>
+    <string name="Tuesday">मंगळवार</string>
+    <string name="Wednesday">बुधवार</string>
+    <string name="Thursday">गुरुवार</string>
+    <string name="Friday">शुक्रवार</string>
+    <string name="Saturday">शनिवार</string>
+    <string name="Sunday">रविवारी</string>
+    <string name="Temperature">तापमान</string>
+    <string name="Humidity">आर्द्रता</string>
+    <string name="Wind">वारा</string>
+    <string name="Veryhot">फार गरम</string>
+    <string name="Cloudy">बहुतांशी ढगाळ</string>
+    <string name="Showers">सरी</string>
+
+
+    <!--Plant Doctor-->
+    <string name="Mymessages">माझे संदेश</string>
+    <string name="Youhaventmade">आपण कोणती ही विनंती केली नाहीत</string>
+    <string name="Startnow">आता प्रारंभ करा</string>
+    <string name="lognewrequest">नवीन विनंती लॉग करा</string>
+    <string name="Image">प्रतिमा</string>
+    <string name="Voicerecord">ध्वनि रेकॉर्ड</string>
+    <string name="message">संदेश</string>
+    <string name="Texthere">मजकूर येथे</string>
+    <string name="logrequest">लॉग विनंती</string>
+    <string name="Record">विक्रम</string>
+    <string name="Stop">थांबा</string>
+    <string name="Play">खेळा</string>
+    <string name="Stopplayingrecording">रेकॉर्डिंग चालणे करणे थांबवा</string>
+    <string name="UploadVoice">ध्वनि अपलोड करा</string>
+
+    <!--Soil Doctor-->
+    <string name="SoilInformation">मातीची माहिती</string>
+    <string name="SoilTestingreport">माती परीक्षण अहवाल</string>
+    <string name="Indiafirstondemand">भारतातील पहिली मागणीनुसार राष्ट्रीय माती परीक्षण सेवा</string>
+    <string name="Enteryourcontactdetails">आपल्या मातीची चाचणी घेण्यासाठी आपले संपर्क तपशील प्रविष्ट करा</string>
+    <string name="Name">नाव</string>
+    <string name="Phoneno">दूरध्वनी क्रमांक</string>
+    <string name="EmailID">ई - मेल आयडी</string>
+    <string name="Address">पत्ता</string>
+    <string name="Sendmessage">संदेश पाठवा</string>
+
+    <!--POP Updates-->
+    <string name="Forwhichcropdoyou">कोणत्या पिकासाठी आपल्याला पॅकेज आणि पद्धती जाणून घ्यायच्या आहेत</string>
+    <string name="SelectCrop">पीक निवड करा</string>
+    <string name="Stages">टप्पे</string>
+    <string name="Completed">पूर्ण झाले</string>
+    <string name="Pending">प्रलंबित</string>
+    <string name="Done">पूर्ण झाले</string>
+
+    <!--Emergency-->
+    <string name="Shareyourproblem">आपली समस्या सामायिक करा</string>
+    <string name="Callus">आम्हाला संपर्क करा</string>
+    <string name="SendPhotoorText">फोटो किंवा मजकूर पाठवा</string>
+    <string name="Call">संपर्क करा</string><!--Google Translation-->
+    <string name="SMS">एसएमएस</string>
+
+    <!--Crop Information-->
+
+    <string name="CropSecure">पीक सुरक्षित</string>
+    <string name="FarmIncomeProtectionPlan">शेती उत्पन्न संरक्षण योजना</string>
+    <string name="Nematode">नेमाटोड</string>
+    <string name="Nutrition">पोषण</string>
+    <string name="Weed">तण</string>
+    <string name="CropFeasibility">पीक व्यवहार्यता</string>
+    <string name="Vulnerability">असुरक्षितता</string>
+    <string name="DiseaseForecast">रोगाचा अंदाज</string>
+    <string name="ChancesofDiseaseOccurrence">रोग दिसण्याची शक्यता</string>
+    <string name="Diseasehappened">रोग झाला आहे</string>
+    <string name="DiseaseSeverity">रोग तीव्रता</string>
+    <string name="High">उंच</string>
+    <string name="Low">कमी</string>
+    <string name="Medium">मध्यम</string>
+    <string name="Percentage">टक्केवारी</string>
+    <string name="Maximumlosshappenedintheyear">वर्षात सर्वाधिक नुकसान ... तारखांच्या दरम्यान .. आणि ...</string>
+    <string name="DiseaseConditions">रोगाची अवस्था</string>
+    <string name="Forwhichcropdoyouwant">कोणत्या पिकासाठी आपण नेमाटोड सल्ला जाणून घेऊ इच्छित आहात</string>
+    <string name="WeedManagement">तण व्यवस्थापन</string>
+    <string name="Selectcrop">पीक निवडा</string>
+    <string name="BotanicalName">वनस्पति नाव</string>
+    <string name="EnglishName">इंग्रजी नाव</string>
+    <string name="CommonName">सामान्य नाव</string>
+    <string name="Thefarmsinyourareaare">आपल्या क्षेत्रातील शेती या पिकाच्या लागवडीसाठी सर्वात योग्य आहेत</string>
+    <string name="Average">सरासरी</string>
+    <string name="Maximum">जास्तीत जास्त</string>
+    <string name="Minimum">किमान</string>
+    <string name="Yield">उत्पन्न</string>
+    <string name="Year">वर्ष</string>
+    <string name="ShowweatherData">हवामान डेटा दर्शवा</string>
+
+    <!--Google Traanslation-->
+    <string name="ViewNDVI">एनडीव्हीआय पहा</string>
+    <string name="PestDisease">कीड रोग</string>
+
+
+    <!--VIshal-->
+    <string name="icon_cloud_rain">&#xf019;</string>
+    <string name="icon_wind">&#xf050;</string>
+    <string name="icon_sun">&#xf00d;</string>
+    <string name="icon_rain">&#xf04e;</string>
+    <string name="Day">दिवस</string>
+    <string name="MT">मेट्रिक टन</string>
+    <string name="CurrentWeather">सद्याची हवामानाची माहिती</string>
+    <string name="WeeklyWeather">साप्ताहिक हवामान अंदाज</string>
+
+    <!--Farmer Registration-->
+    <string name="MyServiceLogin">माझी सेवा लॉगिन</string>
+    <string name="FarmerMobile">शेतकरी मोबाईल क्रमांक</string>
+    <string name="OTP">ओटीपी *</string>
+    <string name="EnterOTP">ओटीपी प्रविष्ट करा</string>
+    <string name="PanNumber">पॅन क्रमांक *</string>
+    <string name="EnterPAN">पॅन क्रमांक प्रविष्ट करा</string>
+    <string name="AadharNumber">आधार क्रमांक *</string>
+    <string name="EnterAadharNumber">आधार क्रमांक प्रविष्ट करा</string>
+    <string name="AccountType">खाते प्रकार</string>
+    <string name="Self">स्वतः</string>
+    <string name="Other">इतर</string>
+    <string name="HolderRelation">शेतकरी सह धारक संबंध</string>
+    <string name="AccountHolderName">खातेधारकाचे नाव</string>
+    <string name="EnterAccountHolderName">खातेधारकाचे नाव प्रविष्ट करा</string>
+    <string name="BankName">बँकेचे नाव</string>
+    <string name="EnterBankName">बँकेचे नाव प्रविष्ट करा</string>
+    <string name="AccountNumber">खाते क्रमांक</string>
+    <string name="EnterAccountNumber">खाते क्रमांक प्रविष्ट करा</string>
+    <string name="IFSCCode">आयएफएससी कोड</string>
+    <string name="EnterIFSCCode">आयएफएससी कोड प्रविष्ट करा</string>
+    <string name="OwnedorRentedLand">मालकीची किंवा भाड्याने दिलेली जमीन</string>
+    <string name="VillageName">गावाचे नाव</string>
+    <string name="EnterVillageName">गाव नाव प्रविष्ट करा</string>
+    <string name="BlockName">ब्लॉक नाव</string>
+    <string name="EnterBlockName">ब्लॉक नाव प्रविष्ट करा</string>
+    <string name="District">जिल्हा</string>
+    <string name="EnterDistrict">जिल्हा प्रविष्ट करा</string>
+    <string name="FarmerImage">शेतकरी प्रतिमा</string>
+    <string name="PanCardImage">पॅन कार्ड प्रतिमा</string>
+    <string name="BankPassbookImage">बँक पासबुक प्रतिमा</string>
+    <string name="OtherImage">इतर प्रतिमा</string>
+
+    <!--Farm Advisory-->
+    <string name="FarmAdvisory">शेती सल्लागार</string>
+    <string name="BasalDoseApplication">प्राथमिक खत नियोजन</string>
+    <string name="Youneedtoaddbasal">आपल्याला या प्रमाणात आपल्या पिकामध्ये बेसल डोस जोडण्याची आवश्यकता आहे</string>
+    <string name="AppliedKGHectare">लागू (केजी / हेक्टर)</string>
+    <string name="N">नत्र</string>
+    <string name="P">स्फुरद</string>
+    <string name="K">पलाश</string>
+    <string name="IdealCropDuration">आदर्श पीक कालावधी</string>
+    <string name="Applythesemicronutrients">हे सूक्ष्म पोषक द्रव्य आपल्या पिकावर फवारा</string>
+    <string name="Home">मुख्यपृष्ठ</string>
+    <string name="MyServices">माझ्या सेवा</string>
+
+    <!--Farmer Information-->
+    <string name="FarmInformation">शेती माहिती</string>
+    <string name="Pleaseenterbasic">कृपया शेता बद्दल मूलभूत माहिती प्रविष्ट करा</string>
+    <string name="EmailJson">ईमेल Json</string>
+    <string name="FarmName">शेत नाव *</string>
+    <string name="EnterFarmName">शेत नाव प्रविष्ट करा</string>
+    <string name="FarmerName">शेतकरी नाव</string>
+    <string name="EnterFarmerName">शेतकरी नाव प्रविष्ट करा</string>
+    <string name="FarmerPhoneNumber">शेतकरी फोन नंबर *</string>
+    <string name="EnterFarmerPhoneNumber">शेतकरी फोन नंबर प्रविष्ट करा</string>
+    <string name="StateName">राज्याचे नाव</string>
+    <string name="TaggedFarmArea">टॅग केलेले शेत क्षेत्र (एकर)</string>
+    <string name="Area">क्षेत्रफळ</string>
+    <string name="ActualFarmArea">वास्तविक शेती क्षेत्र (एकर)</string>
+    <string name="EnterFarmArea">शेत क्षेत्र प्रविष्ट करा</string>
+    <string name="Crop1">पीक 1</string>
+    <string name="Crop2">पीक 2</string>
+    <string name="Crop3">पीक 3</string>
+    <string name="Crop4">पीक 4</string>
+    <string name="Crop">पीक *</string>
+    <string name="Variety">विविधता *</string>
+    <string name="SowPeriodFrom">पासून पेराचा कालावधी *</string>
+    <string name="SowPeriodTo">कालावधी पर्यंत पेरणे *</string>
+    <string name="HaveYouapplied">आपण आपल्या पिकावर बेसल डोस लागू केला आहे? *</string>
+    <string name="Pleasefillbasal">कृपया बेसल डोस टेबल भरा</string>
+    <string name="KGHectare">किलो प्रति हेक्टर</string>
+    <string name="Whichnutrition">आपण आपल्या शेतात कोणती पोषकद्रव्ये वापरली आहेत</string>
+    <string name="EnterNutrition">पोषण प्रविष्ट करा</string>
+    <string name="Whatisyourmain">आपली मुख्य चिंता काय आहे? *</string>
+    <string name="CreateAccountFor">या शेतकर्‍यासाठी खाते तयार करा (नसल्यास)</string>
+
+
+    <string name="GeoFarm">जिओ शेत</string>
+    <string name="GeoTag">जिओटॅग</string>
+    <string name="Draw">काढा</string>
+    <string name="Noforcast">कोणताही अंदाज सापडला नाही !!!</string>
+    <string name="Pressgeotag">भौगोलिक टॅग करण्यासाठी भौगोलिक टॅग चिन्ह दाबा आणि आपल्या शेतात फिरवा</string>
+    <string name="Selectallcover">आपल्या शेतात टॅग करण्यासाठी सर</string>
+
+
+    <string name="DistrictName">जिल्हा नाव</string>
+    <string name="SubDistrictName">उपजिल्हा नावे</string>
+    <string name="LoadingStates">लोड करीत राज्ये...</string>
+    <string name="LoadingDistricts">जिल्हे लोड करीत आहेत...</string>
+    <string name="LoadingSubDistricts">उपजिल्हा जिल्हे लोड करीत आहे...</string>
+    <string name="LoadingVillages">गावे लोड करीत आहे...</string>
+    <string name="Submittingtagged">टॅग केलेला डेटा सबमिट करीत आहे...</string>
+    <string name="LoginProgress">लॉगिन प्रगती...</string>
+    <string name="ServerRejected">सर्व्हरने विनंती नाकारली</string>
+    <string name="Networknotavailable">नेटवर्क उपलब्ध नाही</string>
+    <string name="Farmalreadyexist">शेत आधीच अस्तित्वात आहे!</string>
+    <string name="FarmSaved">शेत जतन</string>
+    <string name="Farmcannotbe">लो नेटवर्कमुळे शेतीत पाठविले जाऊ शकत नाही. परंतु स्थानिक डीबीमध्ये हे शेत वाचले आहे.</string>
+    <string name="NotLoggedIn">लॉग इन नाही</string>
+    <string name="Pleaseregisterlogin">कृपया आपला शेती अहवाल मिळविण्यासाठी नोंदणी करा किंवा लॉगिन करा</string>
+    <string name="EnterEmailmobile">ईमेल किंवा मोबाइल नंबर प्रविष्ट करा</string>
+    <string name="Dearyouhavebeen">प्रिय, आपल्या मोबाइल नंबरच्या मदतीने आपण मायफर्मइम्फोवर यशस्वीरित्या नोंदणीकृत आहात, पुढील तीन दिवसात आपल्या खात्यातील सर्व वैशिष्ट्ये पुनर्संचयित केली जातील.</string>
+    <string name="OtherVillageName">इतर गावांची नावे</string>
+    <string name="PleaseSelectState">कृपया राज्य निवडा</string>
+    <string name="PleaseselectDistrict">कृपया जिल्हा निवडा</string>
+    <string name="PleaseselectSubDistrict">कृपया उपजिल्हा निवडा</string>
+    <string name="Pleaseselectviilage">कृपया दुसर्‍या गावाचे नाव प्रविष्ट करा किंवा गावाचे नाव निवडा</string>
+    <string name="PleaseselectCrop">कृपया पीक निवडा</string>
+    <string name="Pleaseselectvariety">कृपया विविधता निवडा</string>
+    <string name="Pleaseselectshowingduration">कृपया दर्शविणारा कालावधी निवडा</string>
+    <string name="FillbeasalDose">बेसल डोस अर्ज फील्ड भरा</string>
+    <string name="PleasebeasalDose">कृपया बेसल डोस लागू करा</string>
+    <string name="Selectyourconcern">आपली चिंता निवडा</string>
+    <string name="Selectyourfarm">आपले शेत</string>
+    <string name="WeatherDetails">हवामान तपशील</string>
+    <string name="WeatherForecastDetails">हवामान अंदाज तपशील</string>
+    <string name="ForecastDetails">अंदाज तपशील</string>
+    <string name="LoadingProject">प्रकल्प लोड करीत आहे...</string>
+    <string name="Project">प्रकल्प *</string>
+    <string name="OtherDistrict">इतर उपजिल्हा</string>
+    <string name="Pleaseselectsubdistrict">कृपया अन्य उपजिल्हा नाव प्रविष्ट करा किंवा उपजिल्हा नाव निवडा</string>
+    <string name="EnterProjectName">प्रकल्प नाव निवडा</string>
+    <string name="Caretakers">काळजीवाहू *</string>
+    <string name="FarmerType">शेतकरी प्रकार</string>
+
+    <!--Calculator-->
+    <string name="Calculator">NPK कॅल्क्युलेटर</string>
+    <string name="Calculationfertilizers">खत दिल्यास एनपीकेची गणना</string>
+    <string name="npktokg">एनपीके दिल्यास खतांची गणना</string>
+    <string name="Fertilizer">खते</string>
+    <string name="kgha">(किलो / हेक्टर)</string>
+    <string name="RecommendedDose">शिफारस केलेली मात्रा</string>
+    <string name="kgbag50">(५० किलो बॅग)</string>
+    <string name="Urea">युरिया</string>
+    <string name="SuperPhosphate">सुपर फॉस्फेट</string>
+    <string name="MuriateofPotash">म्युरेट ऑफ पोटॅश</string>
+    <string name="LoadingCrops">पीक लोड करीत आहे, कृपया प्रतीक्षा करा...</string>
+
+    <!--Farm Registration-->
+    <string name="FarmRegistration">शेत नोंदणी</string>
+    <string name="SowingDate">पेरणीची तारीख</string>
+    <string name="Dates">तारीख *</string>
+    <string name="SlNo">क्र.</string>
+    <string name="Description">वर्णन</string>
+    <string name="SACCode">एसएसी कोड</string>
+    <string name="Quantity">प्रमाण (प्रति कंस)</string>
+    <string name="Rate">दर (रुपये)</string>
+    <string name="Amount">रक्कम (रु.)</string>
+    <string name="Total">एकूण</string>
+    <string name="Crops">पीक</string>
+    <string name="FarmIncome">शेती उत्पन्न संरक्षण कार्यक्रम</string>
+    <string name="MyFarmInfoService">माझी शेती माहिती सेवा</string>
+    <string name="SoilTesting6">माती चाचणी (6 पॅरामीटर्स- ईसी, ओसी, एन, पी आणि के)</string>
+    <string name="SoilTesting14">माती चाचणी (१ Para पॅरामीटर्स- ईसी, ओसी, एन, पी, के आणि मायक्रोन्यूट्रिएंट)</string>
+    <string name="Clear">साफ</string>
+    <string name="Set">सेट</string>
+    <string name="AadharNo">आधार क्रमांक</string>
+    <string name="Savedsuccessfully">यशस्वीरित्या जतन केले!</string>
+    <string name="EnterAadharother">आधार क्रमांक किंवा इतर प्रविष्ट करा</string>
+    <string name="EnterDate">तारीख प्रविष्ट करा</string>
+    <string name="ReceiptNo">पावती क्रमांक</string>
+
+    <!--Geo Tagging-->
+    <string name="Pleaseclickatleast">कृपया किमान ठिकाण गुणांवर क्लिक करा</string>
+    <string name="PleaseclickGeotag">कृपया जिओटॅग बटणावर क्लिक करा आणि फॉर्म पूर्ण करा आणि नंतर पुढील वर क्लिक करा</string>
+    <string name="youareusing">आपण सध्या इतर पर्याय वापरत आहात</string>
+    <string name="Couldnotconnectlocation">स्थान API शी कनेक्ट करणे शक्य झाले नाही</string>
+    <string name="GPSnotfound">जीपीएस आढळला नाही</string>
+    <string name="notabletocreate">मार्ग तयार करण्यात सक्षम नाही कृपया जीपीएस मार्ग तयार करण्यास प्रारंभ होण्याची प्रतीक्षा करा</string>
+    <string name="NOGPS">नाही जीपीएस</string>
+    <string name="GETGPS">जीपीएस मिळवा</string>
+    <string name="HelloMaps">नकाशे</string>
+    <string name="PointsMissed">काही मुद्दे सापडले नाही</string>
+    <string name="Wehavemissed">आमच्याकडे काही मुद्दे चुकले आहेत कृपया शेत पून: तयार करा</string>
+    <string name="Distance">अंतर</string>
+    <string name="YourGPSfoundtoo">आपला जीपीएस बराच लांब लॅट-लाँग सापडला. आपण एकर किमान अंतर सेट करू इच्छिता?</string>
+    <string name="Farmisincomplete">शेत अपूर्ण आहे</string>
+    <string name="gotostartigpoint">कृपया प्रारंभिक बिंदूवर जा किंवा शेत काढून टाका</string>
+    <string name="Discard">मिटवून टाका</string>
+    <string name="Continue">सुरू</string>
+    <string name="Locatethefarm">आपल्या आवडीचे शेत शोधा</string>
+    <string name="EnterYourLocation">आपले स्थान प्रविष्ट करा</string>
+    <string name="FarmVisit">शेतीला भेट</string>
+    <string name="acre">एकर</string>
+    <string name="Select">निवडा</string>
+    <string name="Increasemyrevenue">माझा महसूल वाढवा</string>
+    <string name="Increasemyyield">माझे उत्पादन वाढवा</string>
+    <string name="Getmebetterprice">माझ्या उत्पादनांसाठी मला चांगली किंमत मिळऊन द्या</string>
+    <string name="Save">जतन करा</string>
+    <string name="IdealKG">आदर्श (किलो प्रति हेक्टर)</string>
+    <string name="Successfullysentotp">ओटीपीने यशस्वीपणे शेतकरी मोबाईल नंबरवर पाठविला, कृपया सत्यापित करा</string>
+    <string name="Youshouldsow">दरम्यान आपण आपले पीक पेरले पाहिजे</string>
+    <string name="and">आणि</string>
+    <string name="tomaximize">जास्तीत जास्त उत्पन्न</string>
+    <string name="IBFarmerCode">ఐబి ఫార్మర్ కోడ్</string>
+
+    <!--Extra -->
+    <string name="FatherName">वडीलांचे नावं</string>
+    <string name="Farmers">शेतकरी *</string>
+    <string name="ActivityDate">क्रियाकलाप तारीख</string>
+    <string name="ActivityDateTo">क्रियाकलाप तारीख करण्यासाठी</string>
+    <string name="Type">प्रकार</string>
+    <string name="Season">हंगाम</string>
+    <string name="Title">शीर्षक</string>
+    <string name="AddComment">टिप्पणी जोडा &amp; प्रतिमा *</string>
+    <string name="Add">जोडा</string>
+    <string name="Visittowebsite">अधिक प्रतिमांसाठी वेबसाइटला भेट द्या</string>
+    <string name="CareTakerList">केअर टेकर यादी</string>
+    <string name="CloseUpThumbnail">करीबी फोटो  लघुप्रतिमा</string>
+    <string name="FarmThumbnail">शेत लघुप्रतिमा</string>
+    <string name="PestTrapThumbnail">कीटक सापळा थंबनेल</string>
+    <string name="SubmittedSuccessfully">यशस्वीरित्या सबमिट केले</string>
+    <string name="thankyouforfeedback">Thank you for feedback</string>
+    <string name="ResponseFormattingError">प्रतिसाद स्वरूपन त्रुटी</string>
+    <string name="Processing">प्रक्रिया करीत आहे ....</string>
+    <string name="MobileTypes">मोबाइल प्रकार *</string>
+    <string name="MobileType">मोबाइल प्रकार</string>
+    <string name="Farmnotsaved">शेत वाचले नाही</string>
+    <string name="norecordagainstAadharno">या आधार क्रमांकाविरूद्ध कोणतीही नोंद उपलब्ध नाही \nकृपया तपशील प्रविष्ट करा</string>
+    <string name="loadingAadhar">आधार क्रमांक यादी लोड करीत आहे, कृपया प्रतीक्षा करा ...</string>
+    <string name="loadingInformation">माहिती लोड करीत आहे, कृपया प्रतीक्षा करा ...</string>
+
+
+    <string name="Dataisloading">डेटा लोड होत आहे ...</string>
+    <string name="BranchName">शाखेचे नाव</string>
+    <string name="EnterBranchName">शाखेचे नाव प्रविष्ट करा</string>
+    <string name="Varieties">विविधता</string>
+    <string name="Soiltreatmentkit">माती उपचार किट</string>
+    <string name="Seedtreatmentkit">बियाणे उपचार किट</string>
+    <string name="Weedicideskit">तणनाशक किट</string>
+    <string name="RECEIPT">पावती</string>
+    <string name="GSTIN">GSTIN/UIN: 06AAACW5528Q1ZS</string>
+    <string name="WRMS">Weather Risk Management Services Pvt Ltd</string>
+    <string name="HeadOffice">Head Office: J1/37, The Prefect House, 3rd Floor, DLF City Phase 2, Sector 25, Gurgaon -122002</string>
+    <string name="Telphoneno">Tel: +91-124-4010237 / 4041239</string>
+    <string name="DisclaimerPleasenote">अस्वीकरण: कृपया लक्षात घ्या की हे बिल / पावती बिल / पावतीवर छापलेल्या सेवेसाठी दिलेली रोख रक्कम आणि इतर काही दिलेली नसते. पुढे, हे बिल / पावती केवळ या बिल / पावतीच्या धारकाद्वारे, हे बिल / पावती जारी झाल्यापासू च्या दिवसांच्या कालावधीत, कराराच्या प्राप्तीच्या बाबतीतच वैध आहे आणि म्हणूनच इतर कोणत्याही परिस्थितीत अवैध आहे. जर 7 दिवसांच्या आत कंत्राट प्राप्त झाले नाही किंवा कोणत्याही शंका व स्पष्टीकरणासाठी कृपया संपर्क साधा: 7505022000</string>
+    <string name="PDFFilegenerated">पीडीएफ फाइल तयार केली गेली आहे, कृपया स्थानिक मेमरीवर तपासा</string>
+    <string name="TakePhoto">छायाचित्र घे</string>
+    <string name="Selectfromgallery">गॅलरीमधून निवडा</string>
+    <string name="PleaseuploadImage">कृपया पावती प्रतिमा अपलोड करा</string>
+    <string name="ReceiptImage">पावती प्रतिमा *</string>
+
+
+    <string name="UploadComment">टिप्पणी अपलोड करा / फोटो</string>
+    <string name="CloseUp">करीबी फोटो</string>
+    <string name="Upload">अपलोड</string>
+    <string name="Writeacomment">एक टीप्पणि लिहा....</string>
+    <string name="AadharImage">आधार प्रतिमा *</string>
+    <string name="BankPaasbookImage">बँक पासबुक प्रतिमा</string>
+    <string name="UploadImage">अपलोड फोटो</string>
+    <string name="Setimageupload">आपल्या सेट करा फोटो</string>
+    <string name="Registering">डिव्हाइस आयडी नोंदणी करीत आहे ...</string>
+    <string name="SubmitGeoTag">सबमिट करा &amp; जिओ टॅग</string>
+    <string name="UploadImageDone">अपलोड फोटो /केले</string>
+    <string name="Farm">शेत</string>
+    <string name="selecttheimage">कृपया प्रतिमा निवडा</string>
+    <string name="SubmitFailed">सबमिट करणे अयशस्वी</string>
+    <string name="mfinotification">MFI अधिसूचना</string>
+
+    <!--Add new After String S=has been send-->
+    <string name="Selectlocation">स्थान निवडा</string>
+    <string name="Stateidsync">राज्य आयडी समक्रमण यशस्वीरित्या नाही!</string>
+    <string name="Cropinitialsync">पीक प्रारंभिक संकालन यशस्वीरित्या नाही!</string>
+    <string name="Cropallinitialsync">सर्व प्रारंभिक संकालन क्रॉप करा यशस्वीरित्या नाही!</string>
+    <string name="getfarmdetails">शेताचा तपशील मिळविणे प्रगतीपथावर आहे ...</string>
+    <string name="yourregisterhasbeen">आपले नोंदणीकृत यशस्वीरित्या केले गेले आहे \nकृपया लॉगिन करा</string>
+    <string name="Pleaselogin">कृपया लॉगिन करा</string>
+    <string name="EmailIDs">ई - मेल आयडी *</string>
+    <string name="Comingsoon">लवकरच येत आहे</string>
+    <string name="CropScheduler">पीक शेड्यूलर</string>
+    <string name="AddActivity">जोडा क्रियाकलाप</string>
+    <string name="AddProject">जोडा प्रकल्प</string>
+    <string name="Search">शोध</string>
+    <string name="Pleaseentertheproject">कृपया प्रोजेक्ट नाव प्रविष्ट करा</string>
+    <string name="Useriddoesnotfound">वापरकर्ता आयडी आढळला नाही, कृपया पुन्हा एकदा लॉगिन करा</string>
+    <string name="Youdonthaceanyactivity">आपल्याकडे या प्रकल्पासाठी कोणतीही गतिविधी नाही \nआपण एक नवीन क्रियाकलाप तयार करू इच्छिता? </string>
+    <string name="Addingdata">डेटा जोडत आहे, कृपया प्रतीक्षा करा</string>
+    <string name="Info">माहिती</string>
+    <string name="Pleaseselectanyfarm">कृपया कोणतेही शेत निवडा</string>
+    <string name="Square">चौरस</string>
+    <string name="SelectCaretaker">केअरटेकर निवडा</string>
+    <string name="PestTrap">कीटक सापळा</string>
+    <string name="ThumbNail">लघुप्रतिमा</string>
+    <string name="Selectfarmer">शेतकरी निवडा</string>
+    <string name="SendImage">प्रतिमा पाठवा \nor मजकूर</string>
+    <string name="Yourfarmisnot">आपले शेत निवडलेले नाही</string>
+    <string name="pleaseselectyourfarm">कृपया आपले शेत निवडा किंवा आपले शेत जिओटॅग करा</string>
+    <string name="Youhavesuccessfully">आपण आपली चिंता यशस्वीरित्या सबमिट केली आहे. \nआम्ही लवकरच आपल्याशी संपर्क साधू. \nकृपया वनस्पती डॉक्टरांच्या माध्यमातून आपल्या शेतातील रोपाचे खराब झालेला भाग हायलाइट केलेल्या प्रतिमा देखील पाठवा.</string>
+
+    <string name="pleasethevisitdescription">कृपया भेट वर्णन प्रविष्ट करा</string>
+    <string name="useriddoesnot">वापरकर्ता आयडी आढळला नाही</string>
+    <string name="youhavesuccessfullysubmitted">आपण आपला भेट लॉग यशस्वीरित्या सबमिट केला आहे</string>
+    <string name="InternetError">इंटरनेट त्रुटी</string>
+    <string name="Doyouwantrefresh">आपण रीफ्रेश करू इच्छिता?</string>
+    <string name="Temp">तापमान</string>
+    <string name="Air">हवा</string>
+    <string name="Youneedtoprovide">आपल्याला चार्टसाठी डेटा प्रदान करण्याची आवश्यकता आहे</string>
+    <string name="PackageofPractices">प्रॅक्टिसचे पॅकेज</string>
+    <string name="VisitActivity">भेट क्रियाकलाप</string>
+    <string name="VisitSummary">भेट सारांश</string>
+    <string name="Date_s">तारीख : </string>
+    <string name="Value_s">मूल्य : </string>
+    <string name="FarmLevelData">शेती पातळी डेटा</string>
+    <string name="VillageLevelData">गाव पातळीवरील डेटा</string>
+    <string name="CATIONEXCHANGECAPACITY">केशन विनिमय क्षमता</string>
+    <string name="CLAYINSOIL">चिकणमाती % मातीत</string>
+    <string name="SOILPHCM">माती PH (0-5 CM)</string>
+    <string name="SANDINSOIL">वाळू% मातीत</string>
+    <string name="BULKDENSITY">मोठ्या प्रमाणात घनता </string>
+    <string name="COARSEFRAGMENTS">खडबडीत तुकडे </string>
+    <string name="SOILORGANICCARBON">माती सेंद्रीय कार्बन</string>
+    <string name="SILTINSOIL">सिल्ट% मातीत</string>
+    <string name="ZINCDEFICIENCY">जस्त कमतरता</string>
+    <string name="Next">पुढे</string>
+    <string name="Pleaseentermessage">कृपया संदेश प्रविष्ट करा</string>
+    <string name="Pleaseenteraddress">कृपया पत्ता प्रविष्ट करा</string>
+    <string name="Primarysoiltexture">आपल्या क्षेत्रातील प्राथमिक मातीची पोत आहे</string>
+    <string name="CHANCEOFDISEASEOCCURRENCE">रोग होण्याची शक्यता</string>
+    <string name="DISEASESEVERITY">रोग तीव्रता</string>
+    <string name="HighSeverityPercentage">उच्च तीव्रता टक्केवारी</string>
+    <string name="MediumSeverityPercentage">मध्यम तीव्रता टक्केवारी</string>
+    <string name="LowSeverityPercentage">कमी तीव्रता टक्केवारी</string>
+    <string name="ShowWeatherData">हवामान डेटा दर्शवा</string>
+    <string name="Pleaseselecthedisease">कृपया रोग निवडा</string>
+    <string name="Diseasehashappenedin">मध्ये रोग झाला आहे </string>
+    <string name="ofthisyears">या वर्षांचा</string>
+    <string name="Youdidnotselectedanycrop">शेत टॅगिंग दरम्यान आपण कोणतेही पीक निवडलेले नाही</string>
+    <string name="Diseaseisnotfound">या पिकासाठी आजार सापडत नाही</string>
+    <string name="Vulnerabilityisnotfound">या पिकासाठी असुरक्षितता आढळली नाही, कृपया दुसरे पीक निवडा</string>
+    <string name="Management">व्यवस्थापन</string>
+    <string name="User">वापरकर्ता</string>
+    <string name="Pleaseselecttheseason">कृपया हंगाम निवडा</string>
+    <string name="Pleaseselectthesoil">कृपया माती निवडा</string>
+    <string name="Pleaseselecttheirrigation">कृपया सिंचन निवडा</string>
+    <string name="Pleaseselectthestatus">कृपया स्थिती निवडा</string>
+    <string name="NITROGEN">नायट्रोजन</string>
+    <string name="PHOSPHORUS">फॉस्फरस</string>
+    <string name="POTASSIUM">पोटॅशियम</string>
+    <string name="SOIL">माती</string>
+    <string name="MICRONUTRIENTS">सूक्ष्म पोषक घटक</string>
+    <string name="FYMAPPLICATION">FYM अर्ज</string>
+    <string name="Nodatafoundcrop">या पिकासाठी डेटा सापडला नाही</string>
+    <string name="Nointernet">इंटरनेट नाही</string>
+    <string name="CropIDnotfound">क्रॉप आयडी सापडला नाही</string>
+    <string name="Pleaseselectanothercrop">कृपया दुसरे पीक निवडा</string>
+    <string name="Exit">बाहेर पडा</string>
+    <string name="Doyouwantdelete">आपण हा आयटम हटवू इच्छिता?</string>
+    <string name="AVERAGELOSS">सरासरी तोटा</string>
+    <string name="yeild">उत्पन्न</string>
+    <string name="MAXIMUMLOSS">जास्तीत जास्त नुकसान</string>
+    <string name="MINIMUMLOSS">किमान नुकसान</string>
+    <string name="Showdata">डेटा दर्शवा</string>
+    <string name="Thefarmsinyourarea">आपल्या क्षेत्रातील शेते आहेत </string>
+    <string name="forcultivation">लागवडीसाठी</string>
+    <string name="thedatanotfoundcrop">या पिकासाठी डेटा सापडला नाही, कृपया दुसरे पीक निवडा</string>
+    <string name="MyMessages">माझे संदेश</string>
+    <string name="LogNewRequest">नवीन विनंती लॉग करा</string>
+    <string name="ResolveRequests">विनंत्या सोडवा</string>
+    <string name="SendResolution">ठराव पाठवा</string>
+    <string name="OnHold">होल्ड वर</string>
+    <string name="Report">अहवाल द्या</string>
+    <string name="Draft">मसुदा</string>
+    <string name="Utilities">उपयुक्तता</string>
+    <string name="AddCrop">ीक जोडा</string>
+    <string name="UpdateLocation">अद्यतनित स्थान</string>
+    <string name="Searchs">शोध</string>
+    <string name="GotoHome">मुख्यपृष्ठावर जा</string>
+    <string name="Doyouwanttoexit">आपण बाहेर पडू इच्छिता?</string>
+    <string name="Underthemaintenance">देखभाल अंतर्गत</string>
+    <string name="Enterphoneno">फोन नंबर प्रविष्ट करा.</string>
+    <string name="Location">स्थान</string>
+    <string name="Enterlocation">स्थान प्रविष्ट करा</string>
+    <string name="LogRequest">लॉग विनंती</string>
+    <string name="StopPlayingRecording">रेकॉर्डिंग प्ले करणे थांबवा</string>
+    <string name="Pleaserecordthevoicefirst">कृपया प्रथम आवाज रेकॉर्ड करा</string>
+    <string name="Recordingisstarted">रेकॉर्डिंग सुरू झाले आहे</string>
+    <string name="Recordingiscompleted">रेकॉर्डिंग पूर्ण झाले</string>
+    <string name="Recordingisplaying">रेकॉर्डिंग चालू आहे</string>
+    <string name="Voiceuploadedsuccessfully">आवाज यशस्वीरित्या अपलोड झाला</string>
+    <string name="Permissionigranted">परवानगी दिली आहे</string>
+    <string name="Permissionisdenied">परवानगी नाकारली आहे</string>
+
+
+    <!--Add New-->
+    <string name="Geotaggingisnoteligible">आपले भौगोलिक टॅगिंग क्षेत्र शेतीसाठी पात्र नाही</string>
+    <string name="entervalidname">कृपया वैध नाव प्रविष्ट करा</string>
+    <string name="MessageDetail">संदेश तपशील</string>
+    <string name="Send">पाठवा</string>
+    <string name="holdmorethan">कृपया रेकॉर्डिंगसाठी 1 सेकंदापेक्षा जास्त धरा</string>
+    <string name="voicerecordupload">आवाज रेकॉर्ड यशस्वीरित्या अपलोड केला आहे</string>
+    <string name="Somthingwentwrongapi">API मध्ये काहीतरी चूक झाली</string>
+    <string name="APKUpdate">अँप अपडेट</string>
+
+
+    <string name="NoofBags">बॅगची संख्या / अतिरिक्त इनपुट</string>
+    <string name="Projects">प्रकल्पाचे नाव</string>
+    <string name="FarmNames">शेत नाव</string>
+    <string name="Latitude">अक्षांश</string>
+    <string name="Longitude">रेखांश</string>
+    <string name="Contourlatlong">समोच्च अक्षांश-लेखांश</string>
+    <string name="Registrationdate">नोंदणी दिनांक</string>
+    <string name="GeoFarmDetails">Geo शेत तपशील</string>
+
+
+    <string name="FilterFarms">फिल्टर शेत</string>
+    <string name="AllFarms">सर्व शेत</string>
+    <string name="Useridortask">यूजर आयडी किंवा टास्क आयडी गहाळ आहे</string>
+    <string name="UnderStress">तणावा खाली</string>
+
+    <string name="SelectQuestionNumber">प्रश्न निवडा</string>
+    <string name="Pleaseenterthecomment">कृपया टिप्पणी प्रविष्ट करा</string>
+    <string name="ON">चालू</string>
+    <string name="OFF">बंद</string>
+    <string name="POP">POP</string>
+
+    <!--New-->
+    <string name="DistancefromCurrent">सध्याच्या स्थानापासून शेतकरी नोंदणीकृत स्थानापर्यंतचे अंतर</string>
+    <string name="Go">जा</string>
+    <string name="yourdistanceis0km">आपले अंतर 0 किमी आहे, म्हणून आपण स्थानाचा मागोवा घेऊ शकत नाही</string>
+    <string name="Updating">अपडेट...</string>
+    <string name="Yourmobilecameramore">आपल्या मोबाइल कॅमेराचे अंतर त्याहून अधिक असावे </string>
+    <string name="Yourmobilecameraless">आपल्या मोबाइल कॅमेराचे अंतर त्यापेक्षा कमी असावे </string>
+    <string name="NoSky">प्रतिमेत आकाश नाही</string>
+    <string name="Theproperskynotcovered">प्रतिमेत योग्य आकाश झाकलेले नाही</string>
+    <string name="Entertheactivityname">क्रियाचे नाव प्रविष्ट करा</string>
+
+    <string name="CropManagement">पिकाची माहिती</string>
+
+    <string name="soil">माती</string>
+    <string name="BenchMark">Bench Mark</string>
+    <string name="ActivityDone">क्रियाकलाप पूर्ण</string>
+    <string name="AllActivityDone">सर्व क्रिया पूर्ण</string>
+    <string name="WelcomeMr">स्वागत आहे श्री</string>
+    <string name="CropAdvisory">पीक सल्ला</string>
+    <string name="CorrectiveMeasures">सुधारात्मक उपाय</string>
+    <string name="WeeklyWeatherdata">साप्ताहिक हवामान डेटा</string>
+    <string name="VeryLow">खूप कमी</string>
+    <string name="GetExpertadvice">आपल्या शेताशी संबंधित सर्व प्रश्न आणि समस्या सोडविण्यासाठी आपल्या मोबाइलवर तज्ञांचा सल्ला आणि सूचना मिळवा</string>
+    <string name="DoyouhaveQuestion">आपल्याकडे प्रश्न आहे?</string>
+    <string name="YourQueryHistory">आपला प्रश्न इतिहास</string>
+    <string name="Pleasetextaudiosms">कृपया मजकूर संदेश किंवा ऑडिओ रेकॉर्ड संदेश प्रविष्ट करा</string>
+
+    <string name="PH">PH</string>
+    <string name="Electricalconductivity">विद्युत चालकता</string>
+    <string name="OrganicCarbon">सेंद्रिय कार्बन</string>
+    <string name="Nitrogen">नायट्रोजन</string>
+    <string name="Phosphorus">फॉस्फरस</string>
+    <string name="Potassium">पोटॅशियम</string>
+    <string name="Sulphur">गंधक</string>
+    <string name="Zinc">झिंक</string>
+    <string name="Iron">लोह</string>
+    <string name="Copper">तांबे</string>
+    <string name="Manganese">मॅंगनीज</string>
+    <string name="Boron">बोरॉन</string>
+
+    <string name="Thefarmernocontour">शेतकर्‍याचे कोणतेही समोच्च मूल्य नाही. तर आपण नकाशा उघडू शकत नाही.</string>
+    <string name="NDVICropStandard">NDVI उपग्रहांद्वारे घेतलेल्या प्रतिमांमधून काढलेले पीक मानक आहे. जे पिकाची स्थिती देते.</string>
+    <string name="OfflineImage">ऑफलाइन प्रतिमा काढणे</string>
+    <string name="ImageSecufarmfolder">प्रतिमा सेक्युशेत फोल्डर रिक्त आहे</string>
+    <string name="PleaseSelectfromSecurFarm">कृपया सेक्युशेत फोल्डरमधून प्रतिमा निवडा.</string>
+
+    <string name="Conducivedays">अनुकूल दिवस</string>
+
+    <!--Add New 1-->
+    <string name="FarmerReactivation">शेत रीएक्टिव्हिटी</string>
+    <string name="PleaseFatherNameEnter">कृपया वडिलांचे नाव प्रविष्ट करा</string>
+    <string name="Reactivation">रीएक्टिव्हिटी</string>
+    <string name="SowPeriodFroms">पासून पेराचा कालावधी</string>
+    <string name="SowPeriodTos">कालावधी पर्यंत पेरणे</string>
+    <string name="AddressProof">पत्ता पुरावा *</string>
+
+    <string name="GoogleAPIkeyfor_youtube">AIzaSyDA4AybcmC51nzPZ87jXLLm3pLpKByzyDs</string>
+    <string name="player_error">YouTube प्लेअर प्रारंभ करताना त्रुटी: %s</string>
+    <string name="WithoutPassword">विना संकेतशब्द</string>
+    <string name="WithPassword">संकेतशब्दासह</string>
+    <string name="UpdasteSowingdate">अद्यतन पेरणीची तारीख</string>
+    <string name="WeatherAlert">हवामान चेतावणी</string>
+    <string name="FarmScore">शेत स्कोअर</string>
+
+    <string name="DiseaseDiagnosis">रोग निदान</string>
+    <string name="SownOn">वर पेरले</string>
+    <string name="Preparatoryactivites">तयारी उपक्रम</string>
+    <string name="Questiontype">प्रश्न प्रकार</string>
+    <string name="Seed">बियाणे</string>
+    <string name="InterCrop">आंतरपीक</string>
+    <string name="ResistanttoSucking">शोषक कीड प्रतिरोध</string>
+    <string name="Recommendation">शिफारस</string>
+    <string name="Choose">निवडा</string>
+    <string name="Biofertilizers">जैविक खते</string>
+    <string name="Saverecommendation">शिफारस जतन करा</string>
+    <string name="DAP">DAP</string>
+    <string name="MOP">MOP</string>
+    <string name="Dose1">डोस 1</string>
+    <string name="Dose2">डोस 2</string>
+    <string name="Dose3">डोस 3</string>
+    <string name="Dose4">डोस 4</string>
+    <string name="Days30">30 दिवस</string>
+    <string name="Days60">60 दिवस</string>
+    <string name="Days90">90 दिवस</string>
+    <string name="DuringPrepatory">तयारीच्या टप्प्यात</string>
+    <!--Cotton-->
+    <string name="SownOnEarlyMay_Cotton">लागवडीचा काळ - लवकर मे ते जुलै \ फुलांचा टप्पा - जुलै ते मध्य ऑगस्ट \ कापसाचे बोंड निर्मिती-मध्य ऑगस्ट ते मध्य सप्टेंबर</string>
+    <string name="SownOnLateMay_Cotton">लागवडीचा काळ- उशीरा मे ते जुलै अखेर \ फुलांचा टप्पा - संपूर्ण ऑगस्ट \ कापसाचे बोंड निर्मिती - संपूर्ण सप्टेंबर \ कापणी - संपूर्ण ऑक्टोबर</string>
+    <string name="SownOnEarlyJune_Cotton">लागवडीचा काळ- जूनच्या सुरूवातीस ऑगस्टच्या सुरुवातीस \ फुलांचा टप्पा - मध्य ऑगस्ट ते मध्य सप्टेंबर \ कापसाचे बोंड निर्मिती-मध्य सप्टेंबर ते मध्य ऑक्टोबर \ कापणी - उशीरा ऑक्टोबर</string>
+    <string name="SownOnLateJune_Cotton">लागवडीचा काळ - जून शेवट ते ऑगस्ट शेवट \ फुलांचा टप्पा- संपूर्ण सप्टेंबर \ कापसाचे बोंड निर्मिती- संपूर्ण ऑक्टोबर \ कापणी - नोव्हेंबर</string>
+    <!--Maize-->
+    <string name="SownOnEarlyMay_Maize">वनस्पतिवत् होणारी बाह्यवृद्धी - लवकर मे ते मध्य जून \ n पोटरी अवस्था - मध्य जून - मध्य जुलै\दाणे भरणे-मध्य जुलै -मध्य ऑगस्ट\परिपक्वता /कापणी-ऑगस्ट च्या शेवटी </string>
+    <string name="SownOnLateMay_Maize">वनस्पतिवत् होणारी बाह्यवृद्धी - उशिरा मे ते जून संपता संपता \nपोटरी अवस्था -  जून संपता संपता-  जुलै संपता संपता\nदाणे भरणे- - जुलै संपता संपता -  ऑगस्ट संपता संपता \n\परिपक्वता /कापणी -  मध्य ऑगस्ट</string>
+    <string name="SownOnEarlyJune_Maize">वनस्पतिवत् होणारी बाह्यवृद्धी - लवकर जून ते मध्य  जुलै \nपोटरी अवस्था  - मध्य   जुलै - मध्य  ऑगस्ट \nदाणे भरणे- -  मध्यऑगस्ट - मध्य  सप्टेंबर  \n\परिपक्वता /कापणी- सप्टेंबर </string>
+    <string name="SownOnLateJune_Maize">वनस्पतिवत् होणारी बाह्यवृद्धी - उशिरा जून  ते जुलै संपता संपता \nपोटरी अवस्था  -  जुलै संपता संपता- ऑगस्ट संपता संपता\nदाणे भरणे- - ऑगस्ट संपता संपता - सप्टेंबर संपता संपता \n\परिपक्वता /कापणी - मध्य  सप्टेंबर </string>
+    <!--Rice-->
+    <string name="SownOnEarlyMay_Rice">रोपवाटिका / उगवण - लवकर मे ते जून \ nउगवण / लागवड - जून\फुटवे अवस्था  - मध्य जून ते जुलै संपता संपता \ n पोटरी अवस्था  - जुलै संपता संपता ते मध्य ऑगस्टपर्यंत\औम्बी अवस्था आरंभ - सप्टेंबर \ nधान्य भरणे / काढणी- मध्य ऑगस्ट ते ऑक्टोबर दरम्यान</string>
+    <string name="SownOnLateMay_Rice">रोपवाटिका / उगवण - उशिरा  मे ते मध्य जून \nउगवण / लागवड - मध्य  जून \nफुटवे अवस्था  - जुलै ते  मध्य ऑगस्ट \n पोटरी अवस्था - मध्य ऑगस्ट ते  सप्टेंबर \nऔम्बी अवस्था आरंभ - मध्य सप्टेंबर \nधान्य भरणे / काढणी- सप्टेंबर - मध्य ऑक्टोबर</string>
+    <string name="SownOnEarlyJune_Rice">रोपवाटिका / उगवण - लवकर  जून ते जुलै \nउगवण / लागवड - जुलै\nफुटवे अवस्था   - मध्य जुलै ते  ऑगस्ट संपता संपता\n पोटरी अवस्था - सप्टेंबर ते  मध्य सप्टेंबर\nऔम्बी अवस्था आरंभ - ऑक्टोबर \nधान्य भरणे / काढणी- मध्य सप्टेंबर - नोव्हेंबर </string>
+    <string name="SownOnLateJune_Rice">रोपवाटिका / उगवण - मध्य  जून ते मध्य जुलै \nउगवण / लागवड -मध्य जुलै\nफुटवे अवस्था  - ऑगस्ट ते  सप्टेंबर \n पोटरी अवस्था - मध्य सप्टेंबर ते  सप्टेंबर  ४ था आठवडा  \nऔम्बी अवस्था आरंभ- मध्य ऑक्टोबर \nधान्य भरणे / काढणी- ऑक्टोबर - मध्य नोव्हेंबर </string>
+
+    <string name="SeedRequirement">१. बियाण्याची आवश्यकता: ५-६ किलो \ n2. बियाणे उपचार: ट्रायकोडर्मा व्हिरीडी  - २ किलो प्रति  एकर \ n3. अंतरः ९० * ६० सेमी / ९० * ९० सेमी</string>
+    <string name="Intercrop_Red">1. प्रमाण: ५:१ \ n2. शरणार्थी पीक: बिगर बीटी / तूर  \ n3. सापळा पीक: झेंडू / एरंड</string>
+    <string name="Intercrop_Greed">1.प्रमाण: २:१ \n2. शरणार्थी पीक \n3. सापळा पीक</string>
+    <string name="Intercrop_Soyabeen">1. प्रमाण:१:१\n2. शरणार्थी पीक\n3. सापळा पीक:</string>
+    <string name="Intercrop_Cariander">1. प्रमाण: १:१\n2. शरणार्थी पीक \n3. सापळा पीक:</string>
+
+    <string name="Dose1SMS">२५ किलो युरिया + ५० किलो डीएपी +१० किलो एमओपी </string>
+    <string name="Dose2SMS">२५ किलो युरिया +१२ किलो एमओपी</string>
+    <string name="Dose3SMS">२५ किलो युरिया + १३ किलो एमओपी</string>
+    <string name="Dose4SMS">२५ किलो युरिया +१२ किलो एमओपी</string>
+
+    <string name="TriclodermaViridae"> ट्रायकोडर्मा व्हिरीडी(1 किलो प्रति  एकर )</string>
+    <string name="TriclodermaViridaeSMS">्रायकोडर्मा व्हिरीडी- २५ किलो प्रति  एकर</string>
+    <string name="selectquestiontype">कृपया प्रश्न प्रकार निवडा</string>
+    <string name="Diseasess"> (रोग निदान )</string>
+    <string name="Diagnosis">निदान </string>
+    <string name="select_crops">पीक नीवडा</string>
+    <string name="Cotton">कपाशी </string>
+
+    <string name="Tubewell">विहीर </string>
+    <string name="select_date">तारीख निवडा</string>
+    <string name="ffrom_date">या तारखेपासून *</string>
+    <string name="tto_date">आजपर्यंत *</string>
+    <string name="type_of_report">अहवालाचे प्रकार</string>
+    <string name="min_max_vol">कमी /जास्त व्होल्टेज </string>
+    <string name="max_current">जास्तीत जास्त विद्युत प्रवाह</string>
+    <string name="motor_start_stop">पाण्याची मोटर सुरु/बंद </string>
+    <string name="electric_status">विद्युत स्थिती </string>
+    <string name="elec_avbl">विद्युत उपलब्धता </string>
+    <string name="elec_cut">विद्युत वाहकता </string>
+    <string name="hour">तास</string>
+    <string name="no_data">माहिती उपलब्ध नाही</string>
+    <string name="astart_time">सुरु होण्याची वेळ</string>
+    <string name="astop_time">बंद होण्याची वेळ</string>
+    <string name="HealthVault">व्होल्टेज स्थिती </string>
+    <string name="Pleaseselecttodate">कृपया पर्यंत तारीख निवडा</string>
+    <string name="Pleaseselectfromdate">कृपया पासून तारीख निवडा</string>
+    <string name="Pleaseselectstation">कृपया स्टेशन निवडा</string>
+    <string name="TubewellIDnotfound">विहिरींची आयडी सापडली नाही</string>
+    <string name="Tubewellisinactive">विहीर कामाची नाही </string>
+    <string name="fetchingtubewellpleasewait">विहिरींची यादी आणत आहे, कृपया प्रतीक्षा करा...</string>
+    <string name="Dataisnotfound">डेटा सापडला नाही</string>
+    <string name="Nodataisavailablesubmitted">दाखल केलेल्या कालावधीसाठी कोणताही डेटा उपलब्ध नाही</string>
+
+    <string name="Thesesymptomsarenotmatched">ही लक्षणे कीड आणि रोगासह सूचीबद्ध केलेले जुळत नाहीत.</string>
+    <string name="SelectSymptoms">लक्षणे निवडा</string>
+    <string name="PleaseselectSymptoms">कृपया लक्षणे निवडा</string>
+
+    <string name="selecttheimageupload">कृपया प्रतिमा निवडा आणि प्रतिमा अपलोड करा.</string>
+    <string name="FromSowingDate">(आतापर्यंत पेरणी)</string>
+    <string name="Past5daysvalues">(मागील 5-15 दिवस)</string>
+    <string name="Next7days">(पुढील 7 दिवस)</string>
+
+    <!--Crop Name-->
+    <string name="Chilli">मिरची</string>
+    <string name="Groundnut">"भुईमूग</string>
+    <string name="Maize">मका</string>
+    <string name="Paddy">भात</string>
+    <string name="Potato">बटाटा </string>
+    <string name="Rice">तांदूळ</string>
+    <string name="Soyabean">सोयाबीन</string>
+    <string name="Vegetables">भाज्या</string>
+
+    <string name="ReopentheThread">थ्रेड पुन्हा उघडत आहे, कृपया प्रतीक्षा करा ...</string>
+    <string name="imageuploadedwithsmsandrecord">प्रतिमा अपलोड केली, लॉग इन विनंती करण्यासाठी आपली क्वेरी प्रविष्ट केल्यानंतर सबमिट बटणावर क्लिक करा</string>
+    <string name="yourrequestnologged">आपली विनंती लॉग केलेले नाही आपली खात्री आहे की आपण बंद करू इच्छिता?</string>
+    <string name="Confirmation">पुष्टीकरण</string>
+    <string name="WindSpeed">वारा वेग</string>
+
+    <string name="Networknotavailablenow">नेटवर्क आत्ता उपलब्ध नाही, नेटवर्क उपलब्ध असेल तेव्हा ते स्वयंचलितपणे अपलोड होईल</string>
+    <string name="Networknotavailableclicksubmit">नेटवर्क आत्ता उपलब्ध नाही, सबमिट बटणावर क्लिक करा आणि ते नंतर स्वयंचलितरित्या अपलोड केले जाईल</string>
+
+    <string name="data_not_found">यादी रिक्त आहे!!!</string>
+    <string name="refresh">रीफ्रेश</string>
+    <string name="data_not_available">नोंद सापडले नाही</string>
+    <string name="server_not_found">सर्व्हर त्रुटी</string>
+    <string name="network_error">इंटरनेट उपलब्ध नाही</string>
+    <string name="retry">पुन्हा प्रयत्न करा</string>
+    <string name="some_thing_went_wrong">काहीतरी चूक झाली</string>
+    <string name="internal_error">अंतर्गत सर्व्हर त्रुटी</string>
+    <string name="please_login_again">कृपया पुन्हा लॉग इन करा</string>
+
+    <string name="Yourlimitedexpired">आपली आजची मर्यादा कालबाह्य झाली आहे, कृपया 12 तासानंतर प्रतिमा सामायिक करा.</string>
+    <string name="ThereisnoYouTube">वापरकर्त्याच्या आयडी विरूद्ध कोणतेही यूट्यूब व्हिडिओ किंवा थेट व्हिडिओ नाहीत</string>
+    <string name="VideoRecords">व्हिडिओ रेकॉर्ड</string>
+    <string name="thumbnail_image_view_desc">YouTube व्हिडिओ लघुप्रतिमा प्रतिमा दृश्य</string>
+
+    <string name="All">सर्व</string>
+    <string name="PleaseEnabletheGPS0">आपले अक्षांश आणि रेखांश मूल्य 0 आहे, तर, कृपया जीपीएस चालू करा आणि कॅमेरा पुन्हा सुरू करा</string>
+    <string name="Youcantbeimage10">आपण 10 पेक्षा जास्त प्रतिमा समाविष्ट करू शकत नाही</string>
+    <string name="FarmView">शेत पहा</string>
+    <string name="Thefarmernocontourfarm">शेतमालाचे कोणतेही समोच्च मूल्य नाही. तर आपण शेत पाहू शकत नाही.</string>
+    <string name="Doyouwanttogiveimagename">आपण प्रतिमा नाव देऊ इच्छिता?</string>
+    <string name="Pleasenetertheimagename">कृपया प्रतिमा नाव प्रविष्ट करा</string>
+    <string name="OnlineImage">ऑनलाइन प्रतिमा कैद करा</string>
+    <string name="Distancemeter">अंतर (m)</string>
+    <string name="Details">तपशील</string>
+
+    <string name="Areyousuredoyouwant">आपली खात्री आहे की आपण प्रतिमा सबमिट केल्याशिवाय बंद करू इच्छिता?</string>
+    <string name="Areyousuredoyouwantscreen">आपणास खात्री आहे की आपण प्रतिमा जतन केल्याशिवाय स्क्रीन बंद करू इच्छिता?</string>
+    <string name="GeoTaggingFarmEdi">जिओ टॅगिंग शेत एडिट</string>
+    <string name="Drawthefarm">शेतमालाचे कोणतेही समोच्च मूल्य नाही. कृपया शेत काढा</string>
+
+    <!--Cattle Registration-->
+    <string name="FarmerInformation">शेतकरी माहिती</string>
+    <string name="FarmerDashbaord">शेतकरी डॅशबोर्ड</string>
+    <string name="CattleInformation">गुरांची माहिती</string>
+    <string name="CattleDashbaord">गुरांचा डॅशबोर्ड</string>
+    <string name="CattleRegistration">गुरांची नोंदणी</string>
+    <string name="FarmerDetails">शेतकरी तपशील</string>
+    <string name="CattleDetails">गुरांचा तपशील</string>
+    <string name="Calf">वासरू</string>
+    <string name="Heifer">गाय/कारूड</string>
+    <string name="PregnantHeifer">गर्भवती गाय/कारूड</string>
+    <string name="Milking">दुध</string>
+    <string name="PregnantMilking">गर्भवती दुध</string>
+    <string name="PregnantDry">गर्भवती कोरडे</string>
+    <string name="Dry">कोरडे</string>
+    <string name="SaveNext">जतन  &amp; पुढे</string>
+    <string name="CattleType">गुरांचा प्रकार</string>
+    <string name="LifeStage">जीवन टप्पा</string>
+    <string name="Gender">लिंग</string>
+    <string name="Age">वय</string>
+    <string name="Breed">जात</string>
+    <string name="BodyWeight">शरीराचे वजन (Kg)</string>
+    <string name="SelectCattleType">गुरांचा प्रकार निवडा</string>
+    <string name="Buffalo">म्हशी</string>
+    <string name="Cow">गाय</string>
+    <string name="SelectLifeStage">जीवन टप्पा निवडा</string>
+    <string name="SelectGender">लिंग निवडा</string>
+    <string name="Male">पुरुष</string>
+    <string name="Female">स्त्री</string>
+    <string name="SelectBreed">जाती निवडा</string>
+    <string name="Desi">देशी</string>
+    <string name="HF">HF</string>
+    <string name="Jersey">जर्सी</string>
+    <string name="Sahiwal">साहिवाल</string>
+    <string name="Deworming">जंत</string>
+    <string name="DewormingDate">जंत तारीख</string>
+    <string name="Vaccination">लसीकरण</string>
+    <string name="NameoftheVaccination">लसींचे नाव </string>
+    <string name="VaccinationDate">लसीकरण तारखा</string>
+    <string name="TypeofFeed">खाद्याचे प्रकार</string>
+    <string name="FeedName">खाद्याचे  नाव</string>
+    <string name="FeedingPerDay">खाद्य प्रती दिन (Kg)/प्राणी</string>
+    <string name="Conceivedate">गर्भधारणा तारीख</string>
+    <string name="InseminationBreedName">गर्भाधान जातीचे नाव</string>
+    <string name="PregnancyTest">गर्भधारणा चाचणी</string>
+    <string name="PregnancyTestDate">गरोदरपण चाचणीची तारीख</string>
+    <string name="PregnancyStatus">गरोदरपण स्थिती</string>
+    <string name="DiseaseHistory">रोगाचा इतिहास</string>
+    <string name="IfYesThanDiseaseName">हो असल्यास या रोगाचे नाव</string>
+    <string name="MotherMilkYieldPerDay">आई दूध उत्पन्न प्रति दिवस (लिटर)</string>
+    <string name="RepeatHeatIssue">उष्मा समस्येची पुनरावृत्ती करा</string>
+    <string name="SelectVaccination">लसी निवडा</string>
+    <string name="SelectDeworming">जंत निवडा</string>
+    <string name="SelectPregnancyTest">गर्भधारणा चाचणी निवडा</string>
+    <string name="SelectPregnancyStatus">गरोदरपणाची स्थिती निवडा</string>
+    <string name="SelectDiseaseHistory">रोगाचा इतिहास निवडा</string>
+    <string name="SelectIssue">मुद्दा निवडा</string>
+    <string name="CalvingDate">वासरूची तारीख</string>
+    <string name="NumberOfCalving">वासरूची संख्या</string>
+    <string name="MilkYieldPerday">दररोज दुधाचे उत्पादन</string>
+    <string name="MastitisIssue">स्तनदाह अंक</string>
+    <string name="AverageMilkYieldinlastlactation">शेवटच्या दुग्धशाळेतील सरासरी दूध उत्पादन (प्रति दिवस)</string>
+    <string name="DryingOffDate">सुकणे बंद तारीख</string>
+    <string name="EnfertilityIssue">वंध्यत्व समस्या</string>
+
+    <string name="Adult">प्रौढ</string>
+    <string name="Gir">गिर</string>
+    <string name="RedSindhi">लाल सिंधी</string>
+    <string name="Tharparkar">थारपारकर</string>
+    <string name="Rathi">राठी</string>
+    <string name="Hariyana">हरियाणा</string>
+    <string name="BrownSwiss">ब्राउन स्विस</string>
+    <string name="HolsteinFriesian">होल्स्टेन फ्रिसियन</string>
+    <string name="Ayrshire">आयर्शायर</string>
+    <string name="Others">इतर</string>
+    <!--Vaccination NAME-->
+    <string name="FMD">FMD</string>
+    <string name="Haemorrhagic">रक्तस्त्राव</string>
+    <string name="Septicaemia">सेप्टीसीमिया (HS)</string>
+    <string name="BlackQuarter">काळा चतुर्थांश(BQ)</string>
+    <string name="Brucellosis">ब्रुसेलोसिस</string>
+    <string name="Theileriosis">थिलरिओसिस</string>
+    <string name="Anthrax">अँथ्रॅक्स</string>
+    <string name="IBR">IBR</string>
+    <string name="Please">कृपया</string>
+    <string name="Pleaseenterthe">कृपया प्रविष्ट करा </string>
+    <string name="SimpleFeed">साधा खाद्य</string>
+    <string name="CompoundFeed">संयुग खाद्य</string>
+    <string name="GreenFodder">हिरवा चारा</string>
+
+    <string name="SimpleFeedName">साध्या खाद्याचे नाव</string>
+    <string name="GreenFodderName">हिरवा चारा नाव</string>
+    <string name="WheatBran">गव्हाचा कोंडा</string>
+    <string name="MusterdCacke">मोहरीचा केक</string>
+    <string name="CottonCake">सरकीची पेंड</string>
+    <string name="GramByProduct">ग्राम उत्पादनांनुसार</string>
+    <string name="GramHusk">ग्राम हरक</string>
+    <string name="SoyabeenHusk">सोयाबीन टरफल</string>
+    <string name="CottonSeed">कापूस बियाणे</string>
+    <string name="MaizeProduct">मका उत्पादन</string>
+    <string name="WheatDaliya">गहू डालिया</string>
+    <string name="Barseem">बर्सेम</string>
+    <string name="SudanGras">सुदान गवत</string>
+    <string name="Oat">ओट</string>
+    <string name="Pregnant">गर्भवती</string>
+    <string name="NotPregnant">गर्भवती नाहीत</string>
+    <string name="Matitis">मास्टिटिस</string>
+    <string name="TB">TB</string>
+    <string name="DYSTOKIA">डिस्टॉकीया</string>
+    <string name="PROLAPSEOFUTERUS">गर्भाशयाची मदत</string>
+    <string name="RETAINEDPLACENTA">पुनर्स्थापित गर्भवेष्टन</string>
+    <string name="DiseaseName">रोगाचे नाव</string>
+    <string name="DiseaseDate">रोगाची तारीख</string>
+    <string name="Pleasentename">नाव प्रविष्ट करा </string>
+
+    <string name="Cattletypedataloading">गुरांचा  जीवन टप्पा डेटा लोड होत आहे...</string>
+    <string name="Breeddetailsdata">जातीचे तपशील डेटा लोड होत आहे...</string>
+    <string name="Count">मोजा</string>
+    <string name="ResponseError">प्रतिसाद त्रुटी</string>
+    <string name="BreedAge">जात &amp; वय</string>
+    <string name="CattleImage">गुरांची प्रतिमा</string>
+
+    <string name="HeatDate">उष्णता तारीख</string>
+    <string name="CattleName">गुरांचे नाव</string>
+    <string name="Remarks">शेरा</string>
+    <string name="CattleShed">गुराखी शेड</string>
+    <string name="ShedName">शेड नाव</string>
+    <string name="Newcattleshed">नवीन गुरेढोरे शेड</string>
+    <string name="Oldcattleshed">जुने गुरेढोरे शेड</string>
+    <string name="SelectShedName">शेड नाव निवडा</string>
+    <string name="ShedGeoTag">शेड जिओ टॅग</string>
+    <string name="Newcattle">नवीन गुरेढोरे</string>
+    <string name="Oldcattle">जुने गुरेढोरे</string>
+    <string name="SelectCattle">गुरांचे नाव निवडा</string>
+    <string name="SelectOwner">मालकाचे नाव निवडा</string>
+    <string name="NewOwner">नवीन मालक</string>
+    <string name="OldOwner">जुना मालक</string>
+    <string name="Pleaseentertheshedname">कृपया शेड नाव प्रविष्ट करा किंवा शेड नाव निवडा</string>
+    <string name="PleaseselectGeoTag">कृपया आपला जिओ टॅग निवडा</string>
+    <string name="Pleaseenteraadharnumber">कृपया आधार क्रमांक प्रविष्ट करा</string>
+    <string name="Pleaseenterthecattlename">कृपया गुरांचे नाव प्रविष्ट करा किंवा गुरांचे नाव निवडा</string>
+    <string name="GetFarmer">शेतकरी मिळवा</string>
+    <string name="FarmerList">शेतकरी यादी</string>
+    <string name="OR">किंवा</string>
+    <string name="Shedlistdata">पाठवा यादी डेटा लोड होत आहे...</string>
+    <string name="Ownerlistdata">मालक सूची डेटा लोड होत आहे...</string>
+    <string name="EnterAadharPhoneVillage">कृपया वैध आधार किंवा फोन नंबर प्रविष्ट करा किंवा राज्य, जिल्हा, एसयूबी जिल्हा आणि गाव निवडा</string>
+    <string name="FarmerDetailsdata">शेतकरी तपशील डेटा लोड होत आहे... </string>
+    <string name="Pleaseslecttheowner">कृपया मालकाचे नाव निवडा</string>
+    <string name="CattleThumbnail">गुराखी थंबनेल</string>
+    <string name="FarmerThumbnail">शेतकरी लघुप्रतिमा</string>
+    <string name="OwnerImage">मालक प्रतिमा</string>
+    <!--Cattle Registration close-->
+
+    <!--Crop Scheduler-->
+    <string name="noimagesctivity">क्रियेत कोणतीही प्रतिमा नाही, आपल्याला प्रतिमांशिवाय डेटा जतन करायचा आहे काय?</string>
+    <string name="ImageUploadingError">प्रतिमा अपलोड करताना त्रुटी</string>
+    <string name="Onlyrecentaredisplaying">येथे केवळ अलीकडील प्रतिमा प्रदर्शित केल्या जात आहेत. जुन्या प्रतिमा वेब पोर्टलवर पाहिल्या जाऊ शकतात.</string>
+    <string name="Pleaseait10secs">कृपया 10 सेकंद प्रतीक्षा करा, आपली जीपीएस सेवा पार्श्वभूमीमध्ये रीस्टार्ट होत आहे</string>
+
+    <!--Vishal Code-->
+    <string name="farmer_details">शेतकरी तपशील</string>
+    <string name="edit">सुधारणे</string>
+    <string name="view_farmer_image">शेतकरी प्रतिमा पहा</string>
+    <string name="view_passbook_image">पासबुक प्रतिमा पहा</string>
+    <string name="product_page">उत्पादन पृष्ठ</string>
+    <string name="success_product_msg">पैसे यशस्वीरित्या जमा केले गेले आहेत.\संकलित रक्कम व ऑर्डर क्रमांकासह पुष्टीकरण संदेश शेतकऱ्यास पाठविण्यात आला आहे.</string>
+    <string name="collected_amount">गोळा केलेली रक्कम</string>
+    <string name="enter_otp">ओटीपी प्रविष्ट करा</string>
+    <string name="otp">ओटीपी</string>
+    <string name="order_details">ऑर्डर तपशील</string>
+    <string name="verify_otp">प्रमाणित ओटीपी</string>
+    <string name="tagged_info">टॅग केलेली माहिती</string>
+
+
+    <!--Selection dropdown-->
+    <string name="SelectFarm">शेत निवडा</string>
+    <string name="SelectState">राज्य निवडा</string>
+    <string name="SelectVariety">विविधता निवडा</string>
+    <string name="SelectDistrict">जिल्हा निवडा</string>
+    <string name="SelectSubDistrict">उप जिल्हा निवडा</string>
+    <string name="SelectVillage">गाव निवडा</string>
+    <string name="SelectPhoneType">फोन प्रकार निवडा</string>
+    <string name="SelectAadharNumber">आधार क्रमांक निवडा</string>
+
+
+    <string name="payable_amount">देय रक्कम  (₹)</string>
+    <string name="total_amount">एकूण रक्कम  (₹)</string>
+    <string name="balance_amount">शिल्लक रक्कम  (₹)</string>
+    <string name="please_select_category">कृपया वर्ग निवडा </string>
+    <string name="payment">देय संग्रह</string>
+    <string name="total_farmer_s">एकूण शेतकरी  (s):</string>
+    <string name="area_acre">क्षेत्र(एकर ):</string>
+    <string name="total_amount_rs">एकूण रक्कम(₹):</string>
+    <string name="pending_amount_rs">प्रलंबित रक्कम (₹):</string>
+    <string name="geo_tag_area_acre">जिओ टॅग क्षेत्र (एकर)</string>
+    <string name="payment_summary">देय सारांश</string>
+    <string name="payment_list">देय यादी </string>
+    <string name="you_don_t_have_any_pending_payment_yet">आपल्याकडे अद्याप कोणतेही प्रलंबित पेमेंट नाही  !!!</string>
+
+    <string name="ImageDetection">प्रतिमा शोध </string>
+    <string name="activity_name_classification">वर्गीकरण </string>
+    <string name="camera_error">हे साधन कॅमेरा 2 API चे समर्थन करत नाही.</string>
+    <string name="MyCart">माझी कार्ट </string>
+    <string name="HomePage">मुख्यपृष्ठ </string>
+    <string name="EnterAmount">रक्कम प्रविष्ट करा </string>
+    <string name="SENDOTP">OTP पाठवा</string>
+    <string name="TotalQuantity">एकूण प्रमाण</string>
+    <string name="Orderdate">ऑर्डर तपशील</string>
+    <string name="OrderNumber">ऑर्डर क्रमांक</string>
+
+    <string name="EventLogErrordataProcessing">इव्हेंट लॉग त्रुटी डेटा लोड ...</string>
+    <string name="ResetyourLanguage">Please select your language</string>
+
+
+    <!--    Market Place-->
+    <string name="market_place">बाजारपेठ</string>
+    <string name="order_history">ऑर्डर इतिहास</string>
+    <string name="validity">वैधता :</string>
+    <string name="upi">UPI</string>
+    <string name="pay">पे </string>
+    <string name="cash">रोख</string>
+    <string name="cash_on_delivery">घरपोच दिल्यावर रोख रक्कम </string>
+    <string name="previous_balance_amount">मागील शिल्लक रक्कम (₹)</string>
+    <string name="transfered_amount">हस्तांतरित रक्कम (₹):</string>
+    <string name="payment_history">देय इतिहास</string>
+    <string name="pay_via_upi">पे मार्गे UPI</string>
+    <string name="delivery_status">वितरण स्थिती </string>
+    <string name="payment_type">पैसे भरण्याची पध्दत :</string>
+    <string name="payment_mode">देय मोड :</string>
+    <string name="order_as_delivered">वितरित म्हणून ऑर्डर </string>
+    <string name="pay_now">पे आता </string>
+    <string name="ProductList">उत्पादन यादी</string>
+    <string name="SelectFarm_market">शेत निवडा * </string>
+    <string name="SelectCategory">श्रेणी निवडा *</string>
+    <string name="YourCart">आपली कार्ट </string>
+    <string name="MoreProducts">अधिक उत्पादने </string>
+    <string name="ProceedToCheckout">चेकआउट करण्यासाठी पुढे जा </string>
+    <string name="Back">मागे</string>
+    <string name="CheckOut">तपासा</string>
+    <string name="PlaceOrder">मागणी नोंद करा </string>
+
+    <!--  close  Market Place-->
+
+    <string name="GooglePlayStoreUpdate">Google Play Store अद्यतन आवृत्ती तपासत आहे...</string>
+    <string name="ScreenTrackingDatais">स्क्रीन ट्रॅकिंग डेटा लोड होत आहे...</string>
+
+
+    <!--    Cattle Dashboard-->
+    <string name="CattleDoctor">गुराखी डॉक्टर </string>
+    <string name="CattleAdvisory">गुरांचा सल्ला </string>
+
+    <!--    Cattle Advisory -->
+    <string name="DAS_10">-10 DAS (10 वासरापूर्वीचा दिवस )</string>
+    <string name="DAS_0">0 DAS (वासरु वेळ)</string>
+    <string name="DAS_010">0-10 DAS (वासरु वेळ ( परशुरेशन कालावधीनंतर ))</string>
+    <string name="DAS_1120">11-20 DAS (दुग्ध गायी)</string>
+    <string name="DAS_2150">21-50 DAS (दुग्ध गायी)</string>
+    <string name="DAS_5080">50-80 DAS (दुग्ध गायी)</string>
+    <string name="DAS_80130">80-130 DAS (उष्णता शोधण्याची वेळ )</string>
+    <string name="DAS_130200">130-200 DAS (गर्भवती  दुग्ध गायी)</string>
+    <string name="DAS_200290">200-290 DAS (गर्भवती  दुग्ध गायी)</string>
+    <string name="DAS_290320">290-320 DAS (गर्भवती  दुग्ध गायी)</string>
+    <string name="DAS_320380">320-380 DAS (कोरडे कालावधी )</string>
+
+    <!--  Cattle Advisory Details-->
+    <string name="DAS_10_Dets">1- जर गर्भवती सैल पेटीत स्थानांतरित झाली नाही तर त्वरित सैल बॉक्समध्ये हलवा \ n2- दुध देणे थांबवा (जनावरांच्या दुधाच्या अवस्थेत) \ n3- व्हिटॅमिन ए, डी आणि विद्युतप्रवाह मोजण्याच्या एककाचे मोठे डोस; ई आठवड्यातून गायीला दिले जाऊ शकते. . n4- दररोज पिण्यासाठी आणि नववधूसाठी दिवसातून कमीत कमी दोनदा पाणी द्या. . n5 खडबडीत हाताळणे, लांब पल्ल्यापासून चालणे आणि व्यायाम करणे टाळा     </string>
+    <string name="DAS_0_Dets">1- सांधेपणासाठी मऊ, जंतुनाशक आणि स्वच्छ वाईट वापरलेले आहे \ n2- गायीमध्ये पाळण्याच्या कालावधीत २- and तास आणि पहिल्यांदा कॅल्व्हर्स -5--5 हॉर्यस किंवा काही अधिक \ n3- जर प्लेसेंटा within-१० तासांत डिस्चार्ज झाला नाही तर डॉक्टरांना कॉल करा. </string>
+    <string name="DAS_010_Dets">1- मर्यादित हिरवा चारा, एकाग्र आहार, कंपाऊंड फीड द्या. थंड आणि गरम पाणी देऊ नका. . n2-प्लेसेंटा डिस्चार्ज नंतर ल्युकोवर्म पाणी पिण्यास दिले जाते, हा सराव पुढच्या २- day दिवसानंतर होतो. or n3- थंड किंवा गरम वा wind्यापासून संरक्षण आणि तपमानाचा कमाल तापमान . n4- कोंडा मॅशमध्ये मिसळलेल्या लूकवारम क्रूड साखरला आहार देणे \ n5- प्रथमच दुधाने दुधाची खात्री करुन घेणे आवश्यक आहे की चहामधील सर्व अडथळे दूर झाले आहेत. . n6- 50-60% शेंग असलेले रसदार हिरवे, स्वादिष्ट चारा योग्य आहे तर तीन आठवड्यांत हळूहळू प्रमाण वाढवावे. </string>
+    <string name="DAS_1120_Dets">1- दररोज स्वच्छ आणि ताजे पाणीपुरवठा ठेवा \ n2- दररोज तीन वेळा दुधाने २ 25% अधिक दूध मिळेल, विशेषत: उच्च पीस असलेल्या गाईमध्ये \ n3- चार्टनुसार गायीला शिल्लक रेशन उपलब्ध होईल \ n4- पिण्यासाठी पाणीपुरवठा- .8१. + + 3 किमान लिटर (दर लीटर दुधाचे उत्पादन)</string>
+    <string name="DAS_2150_Dets">1-मास्टिटिस चाचणी आवश्यक आहे \ n2- चार्टनुसार गायीला शिल्लक रेशन उपलब्ध करा \ n3- पिण्यासाठी पाणीपुरवठा- .8१..8 + liter लिटर किमान (दर लीटर दुधाचे उत्पादन) </string>
+    <string name="DAS_5080_Dets">1-मास्टिटिस चाचणी आवश्यक आहे \ n2- चार्टिश गाईला समाधान आणि उपलब्धता \ n3- गायी नियमित नियमित उष्णता तपासणी \ n4- पिटर पाणीपुरवठा- .8१..8 + लिटर लिटर (प्रति लिटर दुधाचे उत्पादन) </string>
+    <string name="DAS_80130_Dets">1- गायीमध्ये नियमितपणे उष्णता तपासा \ n2- गाय उष्णता दर्शवित असल्यास एआय कामगारांना एआय \ n3- एआय पूर्ण करण्यासाठी १२-२4 तास दरम्यान कॉल करा \ n4- चार्टनुसार गायीला संतुलित रेशन द्या provide n5-पिण्यासाठी पाणीपुरवठा- .8१..8 +3 लिटर (प्रति लीटर दुधाचे उत्पादन)</string>
+    <string name="DAS_130200_Dets">1- चार्ट नुसार गायीला शिल्लक रेशन उपलब्ध करा \ n2-पिण्यासाठी पाणीपुरवठा- .8 + 3 लिटर (प्रति लिटर दुधाचे उत्पादन) 3 n3- तज्ञांच्या मदतीने गर्भधारणेची स्थिती तपासा.  </string>
+    <string name="DAS_200290_Dets">1- चार्ट नुसार गायीला शिल्लक रेशन उपलब्ध करा \ n2-पिण्यासाठी पाणीपुरवठा- 31 .8+3 लिटर (प्रति लिटर दुधाचे उत्पादन)</string>
+    <string name="DAS_290320_Dets">1- चार्ट नुसार गायीला शिल्लक रेशन उपलब्ध करा \ n2-पिण्यासाठी पाणीपुरवठा- 31 .8+3 लिटर (प्रति लिटर दुधाचे उत्पादन)</string>
+    <string name="DAS_320380_Dets">1- चार्ट नुसार गायीला शिल्लक रेशन द्या \ n2-दिवसातून किमान दोनदा पिण्यासाठी आणि दररोज दोनदा पाणी द्यावे-n3- गायी 5 लिटर दुधाच्या वर दुध देत असेल तर फीडचे प्रमाण देखील कमी होईल \ n4- एकदा दूध देण्यास टाळा, तर 2 वेळा दिवसातून एकदा आणि काही दिवसांसाठी एकदा आणि पूर्णपणे दुध देणे थांबवा. \ n5- खनिज मिश्रण, आहारात कॅल्शियम आणि व्हिटॅमिन डी जोडा. \ n6- खडबडीत हाताळणी, लांब अंतर चालणे आणि व्यायाम करणे टाळा </string>
+
+    <string name="RegistrationDetails">नोंदणी तपशील </string>
+    <string name="PleaseselectCattleName">कृपया गुरांचे नाव निवडा</string>
+
+    <string name="activependingactivity">आपल्याकडे या प्रकल्पात कोणत्याही सक्रिय-पेन्डिंग क्रियाकलाप नाहीत.\nआपण सर्व अ‍ॅक्टिटाईट्स निवडू इच्छिता?</string>
+    <string name="Allpendingactivity">आपल्याकडे या प्रकल्पात कोणतेही प्रलंबित क्रियाकलाप नाहीत. \nआपण सर्व अ‍ॅक्टिटाईट्स निवडू इच्छिता?</string>
+    <string name="Activeactivity">आपल्याकडे या प्रकल्पात कोणत्याही सक्रिय क्रियाकलाप नाहीत.\nआपण सर्व अ‍ॅक्टिटाईट्स निवडू इच्छिता?</string>
+
+    <string name="LoginCattleDashboardData">लॉगिन कॅटल डॅशबोर्ड डेटा तपासत आहे ...</string>
+
+    <!-- NPK Calculator-->
+    <string name="PlotSize">भूखंड आकार </string>
+    <string name="UreaSPPMOP">युरिया, एसएसपी, एमओपी</string>
+    <string name="DAPMOPUrea">डीएपी, एमओपी, युरिया </string>
+    <string name="Calculators"> गणनयंत्र</string>
+    <string name="SSP">एसएसपी</string>
+    <string name="Numberofkgbag">*टीप: प्रति बॅगमध्ये किलोची संख्या</string>
+    <string name="UreaSSPMOP">- युरिया  - 45 kg, एसएसपी - 50 kg, एमओपी - 50 kg</string>
+    <string name="DAPMOPUreas">-डीएपी - 50 kg, एमओपी - 50 kg, युरिया  - 45 kg</string>
+    <!--close  NPK Calculator-->
+
+    <string name="Thereisnocrop">आपल्या निवडलेल्या फार्मसाठी कोणतेही पीक नाही, म्हणून आपण प्रतिमा शोधू शकत नाही</string>
+    <string name="theimageisdetecting">प्रतिमा शोधत आहे ..</string>
+    <string name="ImageDiagnosis">प्रतिमा निदान</string>
+
+
+    <!--NDVI-->
+    <string name="Noemailapplicationisavailble">त्रुटी लॉग फाइल सामायिक करण्यासाठी कोणताही ईमेल अनुप्रयोग उपलब्ध नाही </string>
+    <string name="MFI_pepsicoErrorLogfiledoes">एमएफआय पेप्सिको त्रुटी लॉग फाइल विद्यमान नाही  </string>
+    <string name="NDVIDataisnotfound">एनडीव्हीआय डेटा सापडला नाही </string>
+    <string name="MoistureDataisnotfound">ओलावा डेटा सापडला नाही </string>
+
+    <string name="NewRegistration">नवीन नोंदणी</string>
+    <string name="farmer_registration">शेतकरी नोंदणी </string>
+    <string name="product">उत्पादन </string>
+    <string name="SelectCropss">पीक निवडा *</string>
+    <string name="ServiceType">सेवा प्रकार  *</string>
+    <string name="OnlyDelivery">फक्त वितरण </string>
+    <string name="OnlyCollection">केवळ संग्रह </string>
+    <string name="CollectionDelivery">संग्रह &amp; वितरण</string>
+    <string name="Tax">कर</string>
+    <string name="Listisemptypleasefillnewenrolmentform">यादी रिक्त आहे कृपया नवीन नोंदणी शेत भरा </string>
+
+    <string name="OrderNumbers">ऑर्डर क्रमांक : </string>
+    <string name="OrderDetails">ऑर्डर तपशील </string>
+    <string name="Category">वर्ग : </string>
+    <string name="Brand">ब्रँड  : </string>
+    <string name="QuantityPurchased">खरेदी केलेली संख्या: </string>
+    <string name="Pleaseaddatleastoneiteminacart">कृपया एका कार्टमध्ये किमान एक आयटम जोडा </string>
+    <string name="Currentlytherearenoproductsavailable">सध्या आपल्या क्षेत्रासाठी कोणतीही उत्पादने उपलब्ध नाहीत </string>
+    <string name="FarmerRegistration">शेतकरी नोंदणी </string>
+    <string name="ViewDetail">तपशील पहा </string>
+
+    <string name="Trichoderma">ट्रायकोडर्मा </string>
+    <string name="Vermicompost">गांडूळ खत</string>
+    <string name="NeemOil">Neem Oil</string>
+
+    <string name="Pleaseselectpaymenttype">कृपया देय प्रकार निवडा </string>
+    <string name="Pleaseadditem">कृपया आयटम जोडा</string>
+    <string name="Yourorderhasbeenbooked">आपली ऑर्डर यशस्वीरित्या बुक केली गेली आहे. \ ऑर्डर क्रमांक "+ numb +" आहे. \ ऑर्डर लवकरच वितरित केली जाईल .</string>
+    <string name="NoUPIappfound">कोणताही यूपीआय अॅप सापडला नाही, कृपया सुरू ठेवण्यासाठी एक स्थापित करा</string>
+    <string name="Paymentcancelledbyuser">वापरकर्त्याने देय रद्द केले आहे</string>
+    <string name="TransactionfailedPleasetryagain">व्यवहार अयशस्वी. कृपया पुन्हा प्रयत्न करा</string>
+    <string name="Internetconnectionisnotavailable">इंटरनेट कनेक्शन उपलब्ध नाही. कृपया तपासा आणि पुन्हा प्रयत्न करा</string>
+    <string name="Pleaseselectyourfarmfarmer">कृपया आपले शेत / शेतकरी निवडा</string>
+    <string name="Currentlythereisnoserviceavailable">सध्या आपल्या क्षेत्रासाठी कोणतीही सेवा उपलब्ध नाही. .\कृपया दुसरे शेत / पीक निवडा</string>
+    <string name="Currentlythereisnocategory">सध्या आपल्या क्षेत्रासाठी कोणतीही श्रेणी उपलब्ध नाही. .\कृपया दुसरी सेवा निवडा..</string>
+    <string name="Currentlytherearenoproducts">सध्या आपल्या क्षेत्रासाठी कोणतीही उत्पादने उपलब्ध नाहीत.\कृपया दुसरा वर्ग निवडा.</string>
+    <string name="PleaseenterthevalidAadhar">कृपया वैध आधार किंवा फोन नंबर किंवा गाव प्रविष्ट करा</string>
+    <string name="Nofarmerisfound">कोणताही शेतकरी सापडला नाही</string>
+
+
+    <string name="CollectionDeliveryList">संग्रह &amp; वितरण यादी </string>
+    <string name="CollectionDeliveryDetails">संग्रह  &amp; वितरण तपशील</string>
+    <string name="CollectionDeliverySummary">संग्रह  &amp; वितरण सारांश </string>
+    <string name="FarmerOrders">शेतकरी आदेश </string>
+    <string name="FarmerOrdersDetails">शेतकरी ऑर्डर तपशील </string>
+    <string name="CollectionDeliveryVerification">संग्रह &amp; वितरण सत्यापन</string>
+    <string name="Transactioniscompleted">व्यवहार यशस्वीरित्या पूर्ण झाले </string>
+    <string name="OrderhasbeenDeliveredsuccessfully">ऑर्डर यशस्वीरित्या वितरित केली गेली आहे.\ रक्कम व ऑर्डर क्रमांकाचा पुष्टीकरण संदेश शेतकऱ्यास पाठविला आहे.</string>
+    <string name="Ordernumberisnotfound">ऑर्डर क्रमांक सापडला नाही </string>
+    <string name="Paymenthasbeencollected">देय यशस्वीरित्या गोळा केले गेले आहे.\संकलित रक्कम आणि ऑर्डर क्रमांकासह पुष्टीकरण संदेश शेतकऱ्यास पाठविला गेला आहे.</string>
+    <string name="PleaseentervalidOTP">कृपया वैध ओटीपी प्रविष्ट करा </string>
+    <string name="Useridisnotfound">वापरकर्ता आयडी आढळला नाही </string>
+
+    <string name="CaptureImage">प्रतिमा कैद करा *</string>
+    <string name="Youcannotentermore">आपण एकूण रकमेपेक्षा जास्त प्रविष्ट करू शकत नाही </string>
+    <string name="Pleaseentertheamount">कृपया रक्कम प्रविष्ट करा </string>
+    <string name="Pleaseselectpaymentmode">कृपया देय मोड निवडा </string>
+    <string name="Transactionissuccessfully">व्यवहार यशस्वीरित्या आहे </string>
+    <string name="Idnotfound">आयडी सापडली नाही </string>
+
+    <string name="LogDataisLoading">लॉग डेटा लोड होत आहे ...</string>
+    <string name="order_no">ऑर्डर क्रमांक </string>
+    <string name="OrderNoisnot">ऑर्डर क्रमांक सापडला नाही.</string>
+
+
+    <string name="WeedManagements">तण \n व्यवस्थापन</string>
+    <string name="scientific_name">शास्त्रीय नाव</string>
+    <string name="DamageIntensity">नुकसान तीव्रता  </string>
+    <string name="ManagementthroughPreEmergence">पूर्व आपत्ती व्यवस्थापन माध्यमातून</string>
+    <string name="ManagementthroughPostEmergence">पूर्व आपत्ती व्यवस्थापन माध्यमातून</string>
+    <string name="PostHarvestManagement_H">कापणीनंतरचे \nव्यवस्थापन </string>
+    <string name="PostHarvestManagement">कापणीनंतरचे व्यवस्थापन </string>
+    <string name="Dataisnotfoundforthiscrop">या पिकासाठी डेटा सापडला नाही </string>
+    <string name="NutritionManagement">पोषण \n व्यवस्थापन </string>
+    <string name="NutritionManagement_H">पोषण व्यवस्थापन </string>
+    <string name="IrrigationManagement">सिंचन \n व्यवस्थापन</string>
+    <string name="IrrigationManagement_H">सिंचन व्यवस्थापन</string>
+    <string name="DAS">पेरणी नंतर दिवस </string>
+    <string name="Notification">सूचना</string>
+    <string name="Mandi">मंडी \n माहिती</string>
+    <string name="Mandi_H">मंडी माहिती</string>
+    <string name="show_data">डेटा दर्शवा</string>
+    <string name="optimal_mandi">इष्टतम मंडी </string>
+    <string name="Mandiisnotfound">मंडी आढळले नाही (</string>
+    <string name="nno_data_found">माहिती आढळली नाही  !!!!</string>
+    <string name="FetchingVariety">विविधता सूची आणत आहे, कृपया प्रतीक्षा करा ...</string>
+
+    <string name="FetchingOptimalMandi">पर्यायी मंडी आणत आहे, कृपया प्रतीक्षा करा...</string>
+    <string name="Distancekm">अंतर (km)</string>
+    <string name="Pricers">किंमत (रुपये) / \ क्विंटल</string>
+    <string name="FetchingNDVIData">एनडीव्हीआय डेटा आणत आहे, कृपया प्रतीक्षा करा ...</string>
+    <string name="FetchingData">डेटा आणत आहे, कृपया प्रतीक्षा करा ...</string>
+    <string name="ServerTimeout">सर्व्हर कालबाह्य</string>
+    <string name="Modelisnotfound">प्रतिमेसाठी मॉडेल आढळले नाही </string>
+
+    <string name="Pleaseshaareyourproblems">Please share your concern either through call or text with  highlighting the damaged portion of the plant(s)</string>
+    <!--Cattle Food-->
+    <string name="CattleFood">Cattle Food</string>
+    <string name="Weightkg">Body Weight (Kg)</string>
+    <string name="Milklt">Milk (Litres)</string>
+    <string name="Doseperday">Meal Dose \n(per day)</string>
+    <string name="GainProduct">Gain Product</string>
+    <string name="GainbyProduct">Gain by Product</string>
+    <string name="OilCake">Oil Cake</string>
+    <string name="Salt">Salt</string>
+    <string name="MineralMixture">Mineral Mixture</string>
+    <string name="Mightbeyourinformation">According to our animal body weight records : </string>
+    <string name="CalfAlert"> Calf Body weight ranges below 90 kg  </string>
+    <string name="HeiferAlert"> Heifer Body weight in the ranges between 90 kg to 320 kg</string>
+    <string name="DryHeiferAlert"> Dry / Pregnant Dry / Pregnant Heifer Body weight in the ranges between 230 kg to 520 kg</string>
+    <string name="CowandBuffalorange">According to our Cow and Buffalo Milk records : </string>
+    <string name="CowAlert">Cow Milk Range is below 15 litres</string>
+    <string name="BuffaloAlert">Buffalo Milk Range is below 15 litres</string>
+    <string name="Accordingtoourrecords">According to our record range, your information is not updated</string>
+    <string name="YeildImprovement">Yield \nImprovement</string>
+    <string name="IrrigationScheduler">Irrigation \Scheduler</string>
+    <string name="Guideliness">Guide \nLines</string>
+    <string name="Guideliness_H">Guide Lines</string>
+    <string name="YeildImprovement_H">Yield Improvement</string>
+    <!--Setting-->
+    <string name="ResetLanguage">Change Languages</string>
+    <string name="FarmMarker">Farm Marker</string>
+    <string name="YoutubeVideos">Youtube Videos</string>
+    <string name="Symptoms">Symptoms</string>
+    <string name="ControlMeasures">Control Measures</string>
+
+    <!--Plant Doctor Questionnaries Drop Down -->
+    <string name="SelectYourConcerned">Select Your Concerned</string>
+    <string name="RegardingtheCropHealth">Regarding the Crop Health</string>
+    <string name="RegardingtheCropDiseases">Regarding the Crop Diseases</string>
+    <string name="RegardingtheCropDamages">Regarding the Crop Damages</string>
+    <string name="Pleaseselectyourconcerned">Please select your concerned</string>
+
+    <!--Policy-->
+    <string name="PolicyRegistration">Service Registration</string>
+    <string name="PolicyStartDate">Service Start Date</string>
+    <string name="PolicyCloseDate">Service Close Date</string>
+    <string name="Transplantingate">Transplanting Date</string>
+    <string name="ExpectedHarvestingDate">Expected Harvesting Date</string>
+    <string name="Compensation">Compensation</string>
+    <string name="ValueAssured">Max Value Assured (Rs.)</string>
+    <string name="Fee">Total Price</string>
+    <string name="AadharCardPhoto">Aadhar Card Photo</string>
+    <string name="LandDocumentPhoto">Land Document Photo</string>
+    <string name="AccountName">Account Name</string>
+    <string name="SelectCompensation">Select Compensation</string>
+    <string name="SelectBank">Select Bank</string>
+
+    <string name="PolicyStartDates">Service Date :</string>
+    <string name="SettlementLevel">Settlement Level :</string>
+    <string name="ValueAssureds">Max Value Assured (Rs.) :</string>
+    <string name="BenchmarkYields">Benchmark Yield (kg)</string>
+    <string name="BenchmarkYield">Benchmark Yield (kg):</string>
+    <string name="AadharNos">Aadhar Number *</string>
+    <string name="Registration">Registration</string>
+    <string name="DownloadDocs">Download Docs</string>
+    <string name="ImageUploadedSuccessfully">Image Uploaded Successfully</string>
+    <string name="PleaseenterthePolicyStartDate">Please enter the Service Start Date</string>
+    <string name="PleaseenterthePolicyCloseDate">Please enter the Service Close Date</string>
+    <string name="PleaseentertheTransplantingDate">Please enter the Transplanting Date</string>
+    <string name="PleaseentertheExpectedHarvestingDate">Please enter the Expected Harvesting Date</string>
+    <string name="Pleaseenterthevalidmobile">Please enter the valid Mobile Number</string>
+    <string name="PleaseenterthevalidAadharno">Please enter the valid Aadhar Number</string>
+    <string name="FileDownloading">File Downloading...</string>
+    <string name="PolicyDocument">Service Document</string>
+    <string name="Documentdownloaded">Document has been downloaded successfully inside the Internal Storage SecuFarm Folder(Internal Storage > SecuFarm > Yourdownloaded Document)</string>
+    <string name="OpenDocument">Open Document</string>
+    <string name="NoApplicationavailable">No Application available to view PDF</string>
+    <string name="PolicyList">Service List</string>
+    <string name="YeildAssurance">Yield Assurance</string>
+    <string name="PolicyHistory">Service History</string>
+    <string name="FarmerInfo">Farmer Info</string>
+    <string name="FarmInfo">Farm Info</string>
+    <string name="PolicyInfo">Service Info</string>
+    <string name="BuyPolicy">Buy Service</string>
+    <string name="FarmArea">Farm Area (Acre)</string>
+    <string name="CropName">Crop Name</string>
+    <string name="PolicyInformation">Service Information</string>
+    <string name="Prev">Prev</string>
+    <string name="FarmerIdisblanked">FarmerId is blanked</string>
+    <string name="BookPolicy">Book Service</string>
+    <string name="State">State</string>
+    <string name="Block">Block</string>
+    <string name="Village">Village</string>
+    <string name="PlantingTranplantingDate">Planting / Transplanting Date</string>
+    <string name="Farms">Farm *</string>
+    <string name="ServiceHistory">Service History</string>
+    <string name="Servicedataisloading">Services data is loading</string>
+    <string name="Fees">Fees (Rs.)</string>
+    <string name="TotalFees">Total Fees (Rs.)</string>
+    <string name="PendingFees">Pending Fees (Rs.)</string>
+    <string name="PaidFees">Paid Fees (Rs.)</string>
+    <string name="ServiceNumber">Service Number </string>
+    <string name="BookingDate">Booking Date</string>
+    <string name="ServiceStatus">Service Status</string>
+    <string name="PolicyDetails">Policy Details</string>
+
+    <string name="RefreshFarm">Refresh Farm</string>
+    <string name="ServiceOTPVerification">Service OTP Verification</string>
+    <string name="PleaseenterOTP">Please enter the valid OTP</string>
+    <string name="OTPnotmatched">OTP is not matched, Please enter the correct OTP</string>
+    <string name="OTPVerifying">Please wait, your OTP is verifying...</string>
+    <string name="Youcantentermorethan">You can\'t enter more than the total amount</string>
+    <string name="FarmID">Farm ID</string>
+    <string name="payment_modes">Payment Mode </string>
+    <string name="PolicyServiceDate">Service Date </string>
+    <string name="PolicyName">Policy Name </string>
+    <string name="BookingStatus">Booking Status</string>
+
+    <!--SMS login-->
+    <string name="FarmercantLogin">Farmer can\'t login in the Surveyor Application !</string>
+    <string name="SurveyorcantLogin">Surveyor can\'t login in the Secufarm Application !</string>
+
+    <string name="Thereisnoefarmagainstheuser">There is no farm against the user</string>
+    <string name="totalFees">Total Fees (Rs.)</string>
+    <string name="payableFees">Payable Fees (Rs.)</string>
+    <string name="ServiceFees">Service Fees (Rs.)</string>
+    <string name="ThereisnoNotification">There is no notification messages</string>
+
+    <string name="Pleaseentethedaterange">कृपया 10 दिवसांच्या दरम्यान तारीख श्रेणी प्रविष्ट करा</string>
+    <string name="InfoSummary">सारांश माहिती</string>
+
+    <!--Market Place-->
+    <string name="Itemremovedsuccessfully">Your item has been removed successfully</string>
+    <string name="Thereisnoitems">There is no items in your card list, Please add the items in your card</string>
+
+    <!--LocalTranslation-->
+    <string name="TranslationDataisdownloading">App content is downloading, Please wait...</string>
+
+    <string name="VerificationStatus">Verification Status</string>
+    <string name="AssessmentType">Assessment Type : </string>
+    <string name="Benchmarks">Benchmark : </string>
+
+    <!--Dashboard-->
+    <string name="AdvisoryMessages">Advisory Messages</string>
+    <string name="Istheadvisoryhelpful">Was the advisory helpful?</string>
+
+
+    <string name="RefreshLanguages">Refresh Contents</string>
+
+    <!--   Ground Water Forecasting-->
+    <string name="Groundwaterforecadting">Ground Water Forecasting</string>
+    <string name="Grid">Grid</string>
+    <string name="Waterlevelbase">Water Level (Last Year)</string>
+    <string name="WaterlevelForecasted">Water Level (Forecasted)</string>
+    <string name="GroundWaterlevelStatus">Ground Water Level Status</string>
+    <string name="GroundWaterleveltill">Ground water level till October 31, 2021</string>
+    <string name="Mapview">Map view</string>
+    <string name="GroundWaterMap">Ground Water Map</string>
+    <string name="Improved">Improved</string>
+    <string name="Decline">Decline</string>
+    <string name="GeotagFarmLocation">Geotag Farm Location</string>
+    <string name="CurrentLocation">Current Location</string>
+    <string name="CurrentlyDataisnotavailable">Currently, Data is not available in the above selected location</string>
+
+
+    <!--Weather Forecast-->
+    <string name="DailyWeatherForecast">Daily Weather Forecast</string>
+    <string name="DailyWeatherData">Daily Weather Data</string>
+
+    <!--Market Place-->
+    <string name="Quantitys">Quantity :</string>
+    <string name="Addedinyourcart">Added in your cart</string>
+    <string name="Pleaseenterquantity">Please enter the quantity</string>
+    <string name="Pleaseselectproject">Please select the Project</string>
+    <string name="REMOVE">REMOVE</string>
+    <string name="NoUPIAppisfound">No UPI app is found, please install and continue</string>
+    <string name="Areyousureyourpayment">Are you sure, Do you want your payment via </string>
+    <string name="Yourorderbooked">Your order has been booked successfully.</string>
+    <string name="Theorderwillbedeliver">The order will be deliver soon.</string>
+    <string name="Ordernumberis">Order number is </string>
+
+    <!--Policy Registration-->
+    <string name="Registrationisfailed">Registration is failed, Due to Policy is overlapped</string>
+
+    <!--    Tubewell-->
+    <string name="TubewellInfo">Tubewell Info</string>
+    <string name="ElectricityStatus">Electricity Status</string>
+    <string name="MotorStatus">Motor Status</string>
+    <string name="CurrentAmpStatus">Current(Amp) Status</string>
+    <string name="VoltageStatus">Voltage Status</string>
+    <string name="Max_R">Max_R</string>
+    <string name="Max_Y">Max_Y</string>
+    <string name="Max_B">Max_B</string>
+    <string name="Min_R">Min_R</string>
+    <string name="Min_Y">Min_Y</string>
+    <string name="Min_B">Min_B</string>
+
+    <!--CLaculator-->
+    <string name="kg">kg</string>
+    <string name="Bags">Bags</string>
+
+    <string name="SelectConcerned">Select Concerns</string>
+    <string name="Userdoesnotexistcerned">User does not exist</string>
+    <string name="InvalidEntry">Invalid Entry</string>
+    <string name="UnregisteredMobileNo">Unregistered Mobile Number</string>
+    <string name="GetOTP">Get OTP</string>
+    <string name="OTPissending">OTP is sending</string>
+    <string name="Allfieldmandetory">All the fields are mandatory</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Pleasenetervalidotp">Please enter the valid OTP</string>
+    <string name="Pleasenetertheotp">Please enter the OTP from the register mobile number</string>
+
+    <!--Service Registration-->
+    <string name="TheServicenumberis">The Service number is </string>
+    <string name="Youcantracktheservice">You can track the service status in the service status section</string>
+
+    <!--Geo Tagging-->
+    <string name="ProjectIDnotfound">Project ID is not found</string>
+    <string name="FarmerIDnotfound">Farmer ID is not found</string>
+
+    <string name="Pleaseselectsowingdatefrom">Please select the sow period from</string>
+    <string name="Pleaseselectsowingdateto">Please select the sow period to</string>
+    <string name="Pleaseselectsowingdateduration">Please select the valid sowing period,the sow period to should be greater than sow period from</string>
+
+    <string name="Promisetopaydate">Promise to pay date</string>
+
+</resources>

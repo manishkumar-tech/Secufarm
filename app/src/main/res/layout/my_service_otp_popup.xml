@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:id="@+id/login"
+            style="@style/simpletextHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/MyServiceLogin"
+            android:textSize="25dp" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/simpletextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Username" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <EditText
+            android:id="@+id/UserID"
+            android:layout_width="match_parent"
+            style="@style/edittextemail"
+            android:background="@drawable/line"
+            android:inputType="textEmailAddress"
+            android:padding="5dp">
+
+
+            <requestFocus />
+
+        </EditText>
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/simpletextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <EditText
+            android:id="@+id/UserPassword"
+            android:layout_width="match_parent"
+            style="@style/edittextemail"
+            android:background="@drawable/line"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:password="true"
+            tools:ignore="LabelFor" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <TextView
+            style="@style/simpletextQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FarmerMobile" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+        <EditText
+            android:id="@+id/mobile_no"
+            android:layout_width="match_parent"
+            style="@style/edittextmobileno"
+            android:background="@drawable/line"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="5dp"
+            android:password="true"
+            tools:ignore="LabelFor" />
+
+        <android.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp" />
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            style="@style/buttontext"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/btn_bg"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

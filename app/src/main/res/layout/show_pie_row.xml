@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/hhhh"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@drawable/design_layouts"
+        android:paddingRight="@dimen/_5sdp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/simpletextQuestionverysmallblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="@dimen/_5sdp"
+            android:text="Name" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/gray" />
+
+
+        <TextView
+            android:id="@+id/start_time"
+            style="@style/simpletextQuestionverysmallblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="@dimen/_5sdp"
+            android:text="value" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/gray" />
+
+
+        <TextView
+            android:id="@+id/stop_time"
+            style="@style/simpletextQuestionverysmallblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="@dimen/_5sdp"
+            android:text="Value" />
+
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="@color/gray" />
+
+
+        <TextView
+            android:id="@+id/duration"
+            style="@style/simpletextQuestionverysmallblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:padding="@dimen/_5sdp"
+            android:text="Value" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

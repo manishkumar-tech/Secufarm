@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/youtube_row_card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:contentPadding="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:orientation="vertical">
+        <!-- youtube thumbnail view to show the thumbnail of videos -->
+        <com.google.android.youtube.player.YouTubeThumbnailView
+            android:id="@+id/video_thumbnail_image_view"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/thumbnail_image_view_desc"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtdatee"
+            style="@style/simpletextQuestionsmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_2sdp" />
+
+        <TextView
+            android:id="@+id/txttitle"
+            style="@style/simpletextQuestionsmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_2sdp" />
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,32 @@
+.raphael-group-24-creditgroup {
+visibility:hidden;
+}
+.raphael-group-33-button{
+visibility:hidden;}
+@font-face {
+    font-family: MyFont;
+    src: url("file:///android_asset/fonts/Lato-Regular.otf")
+}
+body{
+margin:0px; background-color:#000000 !important}
+text{
+    font-style: inherit !important;
+}
+.raphael-group-24-creditgroup {
+visibility:hidden;
+}
+.raphael-group-29-creditgroup{
+visibility:hidden;
+}
+g[class$='creditgroup'] {
+         display:none !important;
+    }
+     g[class$='button'] {
+             display:none !important;
+        }
+ g[class$='axis']{
+ font-family:20px MyFont !important;
+ }
+.raphael-group-23-creditgroup{
+visibility:hidden;
+}

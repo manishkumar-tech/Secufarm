@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainheading_xl4"
+        android:layout_gravity="center"
+        android:background="@color/ColorPrimary"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/back_btn"
+            android:gravity="right" />
+        <TextView
+            android:id="@+id/txt_tilte"
+            style="@style/simpletextHeadingwhite_x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/DiseaseDiagnosis" />
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_Crop"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/Crop" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_primarycolor">
+
+                        <Spinner
+                            android:id="@+id/spin_Crop"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent" />
+
+                    </TableRow>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_SownOn"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/SownOn" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_primarycolor">
+
+                        <Spinner
+                            android:id="@+id/spin_SownOn"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent" />
+
+                    </TableRow>
+
+
+                    <TextView
+                        android:id="@+id/txt_SownOndetails"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:gravity="left"
+                        android:text="@string/SownOnEarlyMay_Cotton"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_Preparatoryactivites"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/Preparatoryactivites" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_primarycolor">
+
+                        <Spinner
+                            android:id="@+id/spin_prepa_activity"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent"/>
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/txt_Questiontype"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/Questiontype" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_primarycolor">
+
+                        <Spinner
+                            android:id="@+id/spin_Questiontype"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent" />
+
+                    </TableRow>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_seed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/txt_Seed"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/Seed" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_primarycolor">
+
+                        <Spinner
+                            android:id="@+id/spin_Seed"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent" />
+
+                    </TableRow>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                style="@style/simpletextQuestion_normal"
+                                android:layout_width="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:text="@string/ResistanttoSucking"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:background="@drawable/icon_save"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:background="@drawable/border_primarycolor">
+
+                            <EditText
+                                android:id="@+id/txt_SeedResistant"
+                                style="@style/edittextemailAnswerRecommendation" />
+
+                            <TextView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:background="@drawable/icon_edit_primary" />
+                        </TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_InterCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/txt_InterCrop"
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="@string/InterCrop" />
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_primarycolor">
+
+                        <Spinner
+                            android:id="@+id/spin_InterCrop"
+                            style="@style/edittextemail"
+                            android:layout_width="match_parent"/>
+
+                    </TableRow>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                style="@style/simpletextQuestion_normal"
+                                android:layout_width="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:text="@string/Recommendation"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:background="@drawable/icon_saveprimary" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:background="@drawable/border_primarycolor">
+
+                            <EditText
+                                android:id="@+id/txt_InterCropDetails"
+                                style="@style/edittextemailAnswerRecommendation" />
+
+                            <TextView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:background="@drawable/icon_edit_primary" />
+                        </TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_Fertilization"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:orientation="vertical">
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/_30sdp"
+                                android:background="@color/Frog_Green">
+
+
+                                <TextView
+                                    style="@style/simpletextQuestionsmall"
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:paddingLeft="@dimen/_5sdp"
+                                    android:text="@string/Choose" />
+
+                                <TextView
+                                    style="@style/simpletextQuestionsmall"
+                                    android:layout_width="@dimen/_160sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:paddingLeft="@dimen/_5sdp"
+                                    android:text="@string/Name" />
+
+
+                                <TextView
+                                    style="@style/simpletextQuestionsmall"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:paddingLeft="@dimen/_5sdp"
+                                    android:text="@string/Urea" />
+
+                                <TextView
+                                    style="@style/simpletextQuestionsmall"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:paddingLeft="@dimen/_5sdp"
+                                    android:text="@string/DAP" />
+
+                                <TextView
+                                    style="@style/simpletextQuestionsmall"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:paddingLeft="@dimen/_5sdp"
+                                    android:text="@string/MOP" />
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp">
+
+                                <RadioGroup
+                                    android:id="@+id/radioDose"
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="wrap_content">
+
+                                    <RadioButton
+                                        android:id="@+id/Dose1"
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:text="@string/Dose1" />
+
+                                    <RadioButton
+                                        android:id="@+id/Dose2"
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:text="@string/Dose2" />
+
+                                    <RadioButton
+                                        android:id="@+id/Dose3"
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:text="@string/Dose3" />
+
+                                    <RadioButton
+                                        android:id="@+id/Dose4"
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:text="@string/Dose4" />
+
+                                </RadioGroup>
+
+                                <LinearLayout
+                                    android:layout_width="@dimen/_160sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="@string/DuringPrepatory" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="@string/Days30" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="@string/Days60" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="@string/Days90" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="25" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="25" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="25" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="25" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="50" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="_" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="_" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="_" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_5sdp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="10" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="12" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="13" />
+
+                                    <TextView
+                                        style="@style/simpletextQuestion_normal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="@dimen/_25sdp"
+                                        android:layout_centerInParent="true"
+                                        android:gravity="left"
+                                        android:text="12" />
+                                </LinearLayout>
+                            </TableRow>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        style="@style/simpletextQuestion_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="@string/Biofertilizers" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center">
+
+
+                        <CheckBox
+                            android:id="@+id/checkbox_recommen"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:button="@drawable/bg_checkbox"
+                            android:checked="false" />
+
+                        <TextView
+                            android:id="@+id/txt_Name"
+                            style="@style/simpletextQuestion_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:text="@string/TriclodermaViridae" />
+
+                    </TableRow>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                style="@style/simpletextQuestion_normal"
+                                android:layout_width="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="@dimen/_15sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:text="@string/Recommendation"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:background="@drawable/icon_saveprimary"/>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/border_primarycolor">
+
+                            <EditText
+                                android:id="@+id/edt_recommendation"
+                                style="@style/edittextemailAnswerRecommendation" />
+
+                            <TextView
+                                android:layout_width="@dimen/_10sdp"
+                                android:layout_height="@dimen/_10sdp"
+                                android:layout_gravity="center"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:background="@drawable/icon_edit_primary" />
+                        </TableRow>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TableRow
+                    android:id="@+id/tblrow_foreward"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:gravity="right"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/foreward_btn"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:background="@drawable/icon_forward_primary" />
+                </TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_300sdp"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/progressbar_addnewcall"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:indeterminate="true"
+                    android:indeterminateTint="@color/ColorPrimary"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

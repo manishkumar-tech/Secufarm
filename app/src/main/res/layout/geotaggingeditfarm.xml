@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/simpletextHeadingwhite_x3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/GeoTaggingFarmEdi" />
+
+        <Button
+            android:id="@+id/btn_cross"
+            android:layout_width="@dimen/mainheading_x3"
+            android:layout_height="@dimen/mainheading_x3"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/Question_x3"
+            android:background="@drawable/cross_btn" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txt_Pleaseselectyour"
+        style="@style/simpletextQuestBlack_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Question_x3"
+        android:layout_marginTop="@dimen/mainheading_x5"
+        android:layout_marginRight="@dimen/Question_x3"
+        android:text="@string/Pleaseselectyour" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Question_x3"
+        android:layout_weight="1"
+        android:background="@drawable/border">
+
+        <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+            android:id="@+id/header_chooseFarmSpinner"
+            style="@style/edittextemail_sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl6" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_Submit"
+            style="@style/buttontext_m"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/Submit"
+            android:textColor="@color/white" />
+    </TableRow>  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/mainheading_x5" />
+</LinearLayout>

@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@color/ColorPrimary"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/ColorPrimary">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_ProfileCrop"
+                    style="@style/simpletextQuestWhite_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paddy"
+                    android:inputType="textNoSuggestions"/>
+
+                <TextView
+                    android:id="@+id/txt_Profilename"
+                    style="@style/simpletextQuestWhite_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="User Name"
+                    android:inputType="textNoSuggestions"/>
+
+
+            </LinearLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cardvieemergency"
+                android:layout_width="@dimen/mainheading_x5"
+                android:layout_height="@dimen/mainheading_x5"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/Margin_x5"
+                android:src="@drawable/icon_emergency"
+                android:visibility="gone" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cardviewlanguage"
+                android:layout_width="@dimen/mainheading_x4"
+                android:layout_height="@dimen/mainheading_x4"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/Margin_x5"
+                android:src="@drawable/language_icon"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imgeview_Youtube"
+                android:layout_width="@dimen/mainheading_x5"
+                android:layout_height="@dimen/mainheading_x3"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_youtube"
+                android:gravity="center" />
+
+            <RelativeLayout
+                android:id="@+id/notificationbell"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgnotification"
+                    android:layout_width="@dimen/mainheading_x5"
+                    android:layout_height="@dimen/mainheading_x5"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/icon_notifications" />
+
+                <TextView
+                    android:id="@+id/tv_badge"
+                    style="@style/simpletextQuestWhite_xs"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignRight="@+id/imgnotification"
+                    android:background="@drawable/badge_background"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="@dimen/Margin_x2" />
+            </RelativeLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logout_lay"
+                android:layout_width="@dimen/mainheading_x5"
+                android:layout_height="@dimen/mainheading_x5"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/ic_logout"
+                android:visibility="gone" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgvw_setting"
+                android:layout_width="@dimen/mainheading_x5"
+                android:layout_height="@dimen/mainheading_x5"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/icon_settings" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp">
+
+            <TextView
+                android:id="@+id/txt_farmerselected"
+                style="@style/simpletextQuestWhite_m"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:inputType="textNoSuggestions"
+                android:text="@string/Selectfarmer" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/edit_farmerID"
+                android:layout_width="@dimen/mainheading_x5"
+                android:layout_height="@dimen/mainheading_x5"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_edit"
+                android:visibility="gone" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cardview_sowingdate"
+                android:layout_width="@dimen/mainheading_x4"
+                android:layout_height="@dimen/mainheading_x4"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@drawable/icon_calender"
+                android:visibility="gone" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/edit_farm"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/Margin_x2"
+                android:background="@drawable/icon_detailsearch"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imageviewLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/Margin_x5"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/_2sdp"
+                android:scaleType="centerCrop" />
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <HorizontalScrollView
+                android:id="@+id/hsv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:gravity="center_vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_CropInform"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/ll_CropInform"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview_CropInform"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/crop_mng_icon" />
+
+                            <TextView
+                                android:id="@+id/txt_CropInform"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:inputType="textNoSuggestions"
+                                android:text="@string/CropManagement" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_Popupdate"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/ll_Popupdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview_Popupdate"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/pop_icon" />
+
+                            <TextView
+                                android:id="@+id/txt_Popupdate"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:inputType="textNoSuggestions"
+                                android:text="@string/CropAdvisory" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_Plantdoctor"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/ll_Plantdoctor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview_Plantdoctor"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/plant_doctor_icon" />
+
+                            <TextView
+                                android:id="@+id/txt_Plantdoctor"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:inputType="textNoSuggestions"
+                                android:text="@string/PlantDoctor" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_weather"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/ll_weather"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview_weather"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/weather_forecast_icon" />
+
+                            <TextView
+                                android:id="@+id/txt_weather"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:text="@string/Weather"
+                                android:inputType="textNoSuggestions"/>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_soildoctor"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/ll_soildoctor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imageview_soildoctor"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/soil_doctor_icon" />
+
+                            <TextView
+                                android:id="@+id/txt_soildoctor"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:text="@string/SoilDoctor"
+                                android:inputType="textNoSuggestions"
+                                />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_MarketPlace"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/MarketPlace_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgvw_MarketPlace_tab"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/empty_product" />
+
+                            <TextView
+                                android:id="@+id/txt_MarketPlace"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x4"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:text="@string/market_place"
+                                android:inputType="textNoSuggestions"/>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_Tubewell"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/Tubewell_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgvw_Tubewell_tab"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/icon_tubewell" />
+
+                            <TextView
+                                android:id="@+id/txt_Tubewell"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x4"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:text="@string/Tubewell"
+                                android:inputType="textNoSuggestions"/>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_PolicyRegistration"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/PolicyRegistration_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgvw_PolicyRegistration_tab"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/empty_product" />
+
+                            <TextView
+                                android:id="@+id/txt_PolicyRegistration"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x4"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:inputType="textNoSuggestions"
+                                android:text="@string/PolicyRegistration" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_Groundwaterforecadting"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_75sdp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/_4sdp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:id="@+id/ll_Groundwaterforecadting_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/imgvw_Groundwaterforecadting_tab"
+                                android:layout_width="@dimen/mainheading_x1"
+                                android:layout_height="@dimen/mainheading_x1"
+                                android:background="@drawable/empty_product" />
+
+                            <TextView
+                                android:id="@+id/txt_Groundwaterforecadting"
+                                style="@style/simpletextQuestBlack_xs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/Margin_x4"
+                                android:gravity="center|top"
+                                android:padding="@dimen/Margin_x5"
+                                android:inputType="textNoSuggestions"
+                                android:text="@string/Groundwaterforecadting" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_75sdp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardElevation="@dimen/_4sdp"
+                            app:cardUseCompatPadding="true">
+
+                            <LinearLayout
+                                android:id="@+id/HealthVault_tab"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imgvw_HealthVault_tab"
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:background="@drawable/icon_healthvault" />
+
+                                <TextView
+                                    android:id="@+id/txt_HealthVault"
+                                    style="@style/simpletextQuestBlack_xs"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/Margin_x5"
+                                    android:gravity="center|top"
+                                    android:padding="@dimen/Margin_x5"
+                                    android:inputType="textNoSuggestions"
+                                    android:text="@string/HealthVault" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+                </TableRow>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/btn_left"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_backwardback" />
+
+            <ImageView
+                android:id="@+id/btn_right"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_forwardnext" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <TableRow
+        android:id="@+id/tblrw_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_navigation"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressbarFarmScore"
+            style="@style/CustomProgressBarHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="26" />
+
+        <TextView
+            android:id="@+id/txt_FarmScoreValue"
+            style="@style/simpletextQuestBlack_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/Margin_x2"
+            android:text="45 %"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblrw_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_navigation"
+        android:layout_marginTop="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/imageviewBanner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/Margin_x5"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tblrw_banner"
+        android:layout_marginLeft="@dimen/Margin_x2"
+        android:layout_marginRight="@dimen/Margin_x2"
+        android:layout_marginBottom="@dimen/Margin_x2"
+        android:orientation="vertical">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview_Crop_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="@dimen/Margin_x2"
+                    app:cardUseCompatPadding="true">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp">
+
+                        <TextView
+                            android:id="@+id/txt_CropHeading_new"
+                            style="@style/simpletextQuestBlack_l"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="@dimen/_5sdp"
+android:inputType="textNoSuggestions"
+                            android:text="@string/CropStatus" />
+
+                        <Button
+                            android:id="@+id/imageview_cropthumbup_new"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:background="@drawable/icon_thumbdown" />
+                    </TableRow>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardview_POP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardElevation="@dimen/Margin_x2"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/Margin_x4">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="-14dp"
+                            android:layout_toLeftOf="@+id/POPUpdates_btn"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txt_POPHeading"
+                                style="@style/simpletextQuestBlack_l"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:inputType="textNoSuggestions"
+                                android:padding="@dimen/Margin_x2"
+                                android:text="@string/NextStep" />
+
+                            <TextView
+                                android:id="@+id/txt_POPTitle"
+                                style="@style/simpletextQuestGray_m"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:inputType="textNoSuggestions"
+                                android:paddingLeft="@dimen/Margin_x2" />
+
+                            <TextView
+                                android:id="@+id/txt_POPsms"
+                                style="@style/simpletextQuestGray_m"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:inputType="textNoSuggestions"
+                                android:paddingLeft="@dimen/Margin_x2" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/POPUpdates_btn"
+                            android:layout_width="@dimen/mainheading_x5"
+                            android:layout_height="@dimen/mainheading_x5"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="@dimen/_12sdp"
+                            android:background="@drawable/nextbtn"
+                            android:inputType="textNoSuggestions"
+                            android:textColor="@color/black" />
+
+                        <Button
+                            android:id="@+id/audio_sound_btn_POPUpdates"
+                            android:layout_width="@dimen/heading_x1"
+                            android:layout_height="@dimen/heading_x1"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="@dimen/Margin_x1"
+                            android:layout_marginEnd="@dimen/_12sdp"
+                            android:background="@drawable/audio_sound" />
+
+                        <Button
+                            android:id="@+id/audio_sound_btn_POPUpdates_mute"
+                            android:layout_width="@dimen/heading_x1"
+                            android:layout_height="@dimen/heading_x1"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="@dimen/Margin_x1"
+                            android:layout_marginEnd="@dimen/_12sdp"
+
+                            android:background="@drawable/audio_sound_mute"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/ll_hideallsms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_Crop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/Margin_x2"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/Margin_x1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="-14dp"
+                                android:orientation="vertical">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/txt_CropHeading"
+                                        style="@style/simpletextQuestBlack_l"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="@dimen/_5sdp"
+                                        android:text="@string/CropStatus" />
+
+                                    <Button
+                                        android:id="@+id/imageview_cropthumbup"
+                                        android:layout_width="@dimen/_20sdp"
+                                        android:layout_height="@dimen/_20sdp"
+                                        android:layout_marginLeft="@dimen/_5sdp"
+                                        android:layout_marginTop="@dimen/_2sdp"
+                                        android:background="@drawable/icon_thumbdown" />
+                                </TableRow>
+
+                                <TextView
+                                    android:id="@+id/txt_Cropsms"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2" />
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="@dimen/mainheading_x5"
+                                android:layout_height="@dimen/mainheading_x5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/nextbtn"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_cropstatus"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_cropstatus_mute"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound_mute"
+                                android:visibility="gone" />
+
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_PestDisease"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/Margin_x2"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:padding="@dimen/Margin_x1">
+
+                            <LinearLayout
+                                android:layout_width="@dimen/_280sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/more_btn3"
+                                android:background="@color/white"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_PestDiseaseHeading"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:text="@string/PestDiseaseAlert" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recycler_pestdesease"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/txt_PestDiseaseHeading"
+                                    android:layout_marginTop="@dimen/Margin_x5"
+                                    android:background="@color/white"
+                                    android:scrollbars="vertical" />
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/more_btn3"
+                                android:layout_width="@dimen/mainheading_x5"
+                                android:layout_height="@dimen/mainheading_x5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/nextbtn"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_pestdiease"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_pestdiease_mute"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound_mute"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_weatherforcast"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/Margin_x2"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/Margin_x1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/more_btn2"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_weatherforcastHeading"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:text="@string/WeatherForecast" />
+
+                                <TextView
+                                    android:id="@+id/txt_weatherforcastsms"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2" />
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/more_btn2"
+                                android:layout_width="@dimen/mainheading_x5"
+                                android:layout_height="@dimen/mainheading_x5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/nextbtn"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_weatherforecast"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_weatherforecast_mute"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound_mute"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_NextStep"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/Margin_x2"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/Margin_x1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/more_btn1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_NextStepHeading"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:text="@string/CorrectiveMeasures" />
+
+                                <TextView
+                                    android:id="@+id/txt_NextStepsms1"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2" />
+
+                                <TextView
+                                    android:id="@+id/txt_NextStepsms2"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:textColor="@color/black"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/txt_NextStepsms3"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:visibility="gone" />
+
+                                <TextView
+                                    android:id="@+id/txt_NextStepsms4"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="12dp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/more_btn1"
+                                android:layout_width="@dimen/mainheading_x5"
+                                android:layout_height="@dimen/mainheading_x5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/nextbtn"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_nextstep"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_nextstep_mute"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound_mute"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_irrigationadvisory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/Margin_x2"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/Margin_x1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/more_btn4"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_irrigationadvisoryHeading"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:text="@string/IrrigationAdvisory" />
+
+                                <TextView
+                                    android:id="@+id/txt_irrigationadvisorysms"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2" />
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/more_btn4"
+                                android:layout_width="@dimen/mainheading_x5"
+                                android:layout_height="@dimen/mainheading_x5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/nextbtn"
+                                android:textColor="@color/black" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_irrigation"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_irrigation_mute"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound_mute"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_FarmScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="@dimen/Margin_x2"
+                        app:cardUseCompatPadding="true">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/Margin_x1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toLeftOf="@+id/more_FarmScore"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/txt_FarmScore"
+                                    style="@style/simpletextQuestBlack_l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2"
+                                    android:text="@string/FarmScore" />
+
+                                <TextView
+                                    android:id="@+id/txt_farmScore"
+                                    style="@style/simpletextQuestGray_m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/Margin_x2" />
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:id="@+id/more_FarmScore"
+                                android:layout_width="@dimen/mainheading_x5"
+                                android:layout_height="@dimen/mainheading_x5"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/nextbtn"
+                                android:textColor="@color/black"
+                                android:visibility="gone" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_FarmScore"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound" />
+
+                            <Button
+                                android:id="@+id/audio_sound_btn_FarmScore_mute"
+                                android:layout_width="@dimen/heading_x1"
+                                android:layout_height="@dimen/heading_x1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:layout_marginEnd="@dimen/_75sdp"
+                                android:layout_marginRight="@dimen/_75sdp"
+                                android:background="@drawable/audio_sound_mute"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_AdvisoryMessages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x1"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/Margin_x1">
+
+                    <TextView
+                        android:id="@+id/txt_AdvisoryMessages"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/Margin_x2"
+                        android:text="@string/AdvisoryMessages"
+                        android:visibility="gone" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycleview_SMSList"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/tblrw"
+                        android:background="@color/white"
+                        android:scrollbars="vertical" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</RelativeLayout>

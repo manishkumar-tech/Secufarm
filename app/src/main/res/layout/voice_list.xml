@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dedcdc"
+        android:orientation="vertical"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dedcdc">
+
+                <TextView
+                    android:id="@+id/new_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/voice_btn"
+
+                    android:gravity="center"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/advisory_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/new_text"
+                    android:gravity="center"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/voice_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/ColorPrimary"
+                    android:text="Voice"
+                    android:textSize="13sp"
+                    android:textColor="#ffffff"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#dedcdc">
+
+                <Button
+                    android:id="@+id/send_sms"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/ColorPrimary"
+                    android:text="Send"
+                    android:textSize="13sp"
+                    android:textColor="#ffffff"
+                    android:visibility="visible" />
+                <Button
+                    android:id="@+id/cancel_sms"
+                    android:layout_width="90dp"
+                    android:layout_toRightOf="@+id/send_sms"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="40dp"
+                    android:textSize="13sp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/red_alret"
+                    android:text="Cancel"
+                    android:textColor="#ffffff"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

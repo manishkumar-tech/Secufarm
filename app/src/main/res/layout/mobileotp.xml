@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mainheading_x5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_EnterOTP"
+            style="@style/simpletextHeadingblack_x1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/Margin_x2"
+            android:text="@string/EnterOTP" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/Question_x3"
+            android:paddingRight="@dimen/Question_x3">
+
+            <TextView
+                android:id="@+id/txtPleasenetertheotp"
+                style="@style/simpletextQuestGray_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pleasenetertheotp" />
+
+            <EditText
+                android:id="@+id/edit_OTP"
+                style="@style/edittextmobileno_l"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/heading_x4"
+                android:background="@drawable/line"
+                android:hint="@string/EnterOTP"
+                android:maxLength="6"
+                android:paddingLeft="@dimen/Question_x3" />
+
+            <Button
+                android:id="@+id/btn_passwordsubmit"
+                style="@style/buttontext_m"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/Question_x3"
+                android:layout_marginBottom="@dimen/mainheading_x5"
+                android:background="@drawable/btn_bg"
+                android:text="@string/Submit" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

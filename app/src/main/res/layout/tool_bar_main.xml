@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:background="@android:color/transparent"
+    android:elevation="@dimen/Margin_x6"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TableRow
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="@dimen/_150sdp"-->
+        <!--            android:layout_height="@dimen/_50sdp"-->
+        <!--            android:background="@drawable/icon_myfarminfo"-->
+        <!--            android:gravity="center" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/txt_myfarm"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:text="@string/title_activity_navigation_drawer"-->
+<!--            android:textColor="@color/primary_blue"-->
+<!--            android:textSize="@dimen/mainheading_x5"-->
+<!--            android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/txt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Info"
+            android:textColor="@color/ColorPrimary"
+            android:textSize="@dimen/heading_x4"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+       <!-- <TextView
+            android:id="@+id/txt_india"
+            style="@style/simpletextQuestWhite_xs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/Margin_x5"
+            android:gravity="bottom"
+            android:paddingBottom="@dimen/Margin_x3"
+            android:text="@string/India"
+            android:textColor="@color/green_alert" />
+
+        <TextView
+            android:id="@+id/txt_version"
+            style="@style/simpletextQuestWhite_xs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/Margin_x5"
+            android:gravity="bottom"
+            android:textColor="@color/green_alert"
+            android:paddingBottom="@dimen/Margin_x3"
+            android:text="@string/Version" />-->
+    </TableRow>
+
+</androidx.appcompat.widget.Toolbar>

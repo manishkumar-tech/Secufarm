@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/heading_text"
+            style="@style/simpletextHeadingwhite_x1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/Question_x3"
+            android:text="@string/UploadImage" />
+
+        <Button
+            android:id="@+id/btn_cross"
+            android:layout_width="@dimen/mainheading_x3"
+            android:layout_height="@dimen/mainheading_x3"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/Question_x3"
+            android:background="@drawable/cross_btn" />
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2">
+
+                <LinearLayout
+                    android:id="@+id/image_lay1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_ReceiptImage"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/ReceiptImage" />
+
+                    <ImageView
+                        android:id="@+id/choose_image1"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/image_upload_icon"
+                        android:scaleType="fitXY" />
+
+                    <Button
+                        android:id="@+id/imageupload1"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/mainheading_x3"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Upload" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/image_lay2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_FarmerImage"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/FarmerImage" />
+
+                    <ImageView
+                        android:id="@+id/choose_image2"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/image_upload_icon"
+                        android:scaleType="fitXY" />
+
+                    <Button
+                        android:id="@+id/imageupload2"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/mainheading_x3"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Upload" />
+                </LinearLayout>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2">
+
+                <LinearLayout
+                    android:id="@+id/image_lay3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_AadharImage"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/AddressProof" />
+
+                    <ImageView
+                        android:id="@+id/choose_image3"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/image_upload_icon"
+                        android:scaleType="fitXY" />
+
+                    <Button
+                        android:id="@+id/imageupload3"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/mainheading_x3"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Upload" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/image_lay4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_BankPaasbookImage"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/BankPaasbookImage" />
+
+                    <ImageView
+                        android:id="@+id/choose_image4"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_110sdp"
+                        android:background="@drawable/image_upload_icon"
+                        android:scaleType="fitXY" />
+
+                    <Button
+                        android:id="@+id/imageupload4"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/mainheading_x3"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/Margin_x2"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Upload" />
+                </LinearLayout>
+
+
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

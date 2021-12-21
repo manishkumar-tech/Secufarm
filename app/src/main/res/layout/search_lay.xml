@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <EditText
+        android:id="@+id/search_et"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="text"
+        android:layout_margin="7dp"
+        android:padding="5dp"
+        android:hint="search farmer"
+        android:maxEms="10"
+        android:ems="10"
+        android:textColor="#000000"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:background="@drawable/design_layouts"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="heading_space_height">16dp</dimen>
+    <dimen name="autocomplete_textview_width">300dp</dimen>
+
+    <dimen name="tool_bar_height">20dp</dimen>
+    <dimen name="heading_text_size">20dp</dimen>
+
+    <dimen name="leftPadding">20dp</dimen>
+    <dimen name="rightPadding">20dp</dimen>
+    <dimen name="topPadding">7dp</dimen>
+    <dimen name="bottomPadding">5dp</dimen>
+    <dimen name="weight_space">16dp</dimen>
+
+    <dimen name="formTextSize">17dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">130dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="weightMargin">5dp</dimen>
+
+
+    <!--New Text Size-->
+
+    <dimen name="mainheading_xl1">@dimen/_60sdp</dimen>
+    <dimen name="mainheading_xl2">@dimen/_55sdp</dimen>
+    <dimen name="mainheading_xl3">@dimen/_50sdp</dimen>
+    <dimen name="mainheading_xl4">@dimen/_45sdp</dimen>
+    <dimen name="mainheading_xl5">@dimen/_40sdp</dimen>
+    <dimen name="mainheading_xl6">@dimen/_35sdp</dimen>
+
+    <dimen name="mainheading_x1">@dimen/_30sdp</dimen>
+    <dimen name="mainheading_x2">@dimen/_26sdp</dimen>
+    <dimen name="mainheading_x3">@dimen/_24sdp</dimen>
+    <dimen name="mainheading_x4">@dimen/_22sdp</dimen>
+    <dimen name="mainheading_x5">@dimen/_20sdp</dimen>
+
+    <dimen name="heading_x1">@dimen/_18sdp</dimen>
+    <dimen name="heading_x2">@dimen/_16sdp</dimen>
+    <dimen name="heading_x3">@dimen/_14sdp</dimen>
+    <dimen name="heading_x4">@dimen/_15sdp</dimen>
+
+    <dimen name="Question_x1">@dimen/_15sdp</dimen>
+    <dimen name="Question_x2">@dimen/_13sdp</dimen>
+    <dimen name="Question_x3">@dimen/_13sdp</dimen>
+    <dimen name="Question_x4">@dimen/_10sdp</dimen>
+    <dimen name="Question_x5">@dimen/_10sdp</dimen>
+    <dimen name="Question_x6">@dimen/_7sdp</dimen>
+    <dimen name="Margin_x1">@dimen/_6sdp</dimen>
+    <dimen name="Margin_x2">@dimen/_5sdp</dimen>
+    <dimen name="Margin_x3">@dimen/_4sdp</dimen>
+    <dimen name="Margin_x4">@dimen/_3sdp</dimen>
+    <dimen name="Margin_x5">@dimen/_2sdp</dimen>
+    <dimen name="Margin_x6">@dimen/_1sdp</dimen>
+
+</resources>

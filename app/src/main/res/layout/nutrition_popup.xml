@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_20sdp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_10sdp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/heading"
+            style="@style/simpletextHeadingwhite_x3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NutritionManagement_H" />
+
+        <Button
+            android:id="@+id/btn_cross"
+            android:layout_width="@dimen/mainheading_x3"
+            android:layout_height="@dimen/mainheading_x3"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/Question_x3"
+            android:background="@drawable/cross_btn" />
+    </TableRow>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/_150sdp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_vermicompost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/mainheading_xl2"
+                        android:layout_height="@dimen/mainheading_xl2"
+                        android:layout_margin="@dimen/Margin_x5"
+                        android:background="@drawable/vermicompost" />
+
+                    <TextView
+                        android:id="@+id/txt_vermicompost"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="@string/Vermicompost" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_Trichoderma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgview_Trichoderma"
+                        android:layout_width="@dimen/mainheading_xl2"
+                        android:layout_height="@dimen/mainheading_xl2"
+                        android:layout_margin="@dimen/Margin_x5"
+                        android:background="@drawable/trichoderma" />
+
+                    <TextView
+                        android:id="@+id/txt_Trichoderma"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="@string/Trichoderma" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_NeeemOil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgview_NeeemOil"
+                        android:layout_width="@dimen/mainheading_xl2"
+                        android:layout_height="@dimen/mainheading_xl2"
+                        android:layout_margin="@dimen/Margin_x5"
+                        android:background="@drawable/icon_neemoil" />
+
+                    <TextView
+                        android:id="@+id/txt_NeeemOil"
+                        style="@style/simpletextQuestBlack_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:gravity="center"
+                        android:text="@string/NeemOil" />
+                </LinearLayout>
+            </TableRow>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_Imagelist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                tools:orientation="horizontal"
+                tools:scrollbars="horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

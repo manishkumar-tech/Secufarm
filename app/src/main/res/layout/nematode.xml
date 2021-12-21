@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/aaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/simpletextHeading_sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Forwhichcropdoyouwant" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/line">
+
+            <Spinner
+                android:id="@+id/nematode_crops_spinner"
+                style="@style/edittextemail_sdp"
+                android:layout_width="match_parent">
+
+            </Spinner>
+        </TableRow>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <Button
+            android:id="@+id/nematode_submit"
+            style="@style/buttontext"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:text="@string/Submit" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tubeMap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_230sdp"
+                android:layout_below="@+id/prt"
+                android:layout_marginTop="@dimen/_10sdp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/nematode_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

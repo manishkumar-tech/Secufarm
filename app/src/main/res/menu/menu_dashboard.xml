@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/itemEmergency"
+        android:icon="@drawable/icon_callsms"
+        android:title="@string/Emergency" />
+    <item
+        android:id="@+id/itemResetLanguage"
+        android:icon="@drawable/icon_language_small"
+        android:title="@string/ResetLanguage" />
+    <item
+        android:id="@+id/itemRefreshLanguages"
+        android:icon="@drawable/icon_language_small"
+        android:title="@string/RefreshLanguages" />
+    <item
+        android:id="@+id/itemSelectFarm"
+        android:icon="@drawable/icon_edit_small"
+        android:title="@string/SelectFarm" />
+    <item
+        android:id="@+id/itemRefreshFarm"
+        android:icon="@drawable/icon_edit_small"
+        android:title="@string/RefreshFarm" />
+    <item
+        android:id="@+id/itemUpdasteSowingdate"
+        android:icon="@drawable/icon_calender_small"
+        android:title="@string/UpdasteSowingdate" />
+    <item
+        android:id="@+id/itemFarmMarker"
+        android:icon="@drawable/icon_detailsearch_small"
+        android:title="@string/FarmMarker" />
+    <item
+        android:id="@+id/itemGeoTag"
+        android:icon="@drawable/geolocaion_white"
+        android:title="@string/GeoTag" />
+    <item
+        android:id="@+id/itemYoutubeVideos"
+        android:icon="@drawable/icon_youtube_small"
+        android:title="@string/YoutubeVideos"
+        android:visible="false" />
+    <item
+        android:id="@+id/itemVersion"
+        android:icon="@drawable/icon_version"
+        android:title="@string/VersionLang" />
+    <item
+        android:id="@+id/itemLogout"
+        android:icon="@drawable/icon_logout_small"
+        android:title="@string/Logout" />
+</menu>

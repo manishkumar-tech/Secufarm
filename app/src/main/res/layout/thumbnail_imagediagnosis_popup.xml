@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/heading_text"
+            style="@style/simpletextHeadingblack_x1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/ThumbNail"
+            android:textColor="@color/white" />
+
+
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imagethumbnail"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:scaleType="fitXY" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_image_btn"
+        style="@style/buttontext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btn_bg"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/Cancel"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

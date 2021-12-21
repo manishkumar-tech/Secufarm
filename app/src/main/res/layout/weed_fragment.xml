@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/simpletextHeading_sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Crops" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp">
+
+            <Spinner
+                android:id="@+id/weed_crop_spinner"
+                style="@style/edittextemail_sdp"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:background="@drawable/design_layouts" />
+
+            <Button
+                android:id="@+id/weed_submit"
+                style="@style/buttontext"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="@string/Submit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPrimary"
+            android:minHeight="@dimen/_40sdp">
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/Image"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/BotanicalName"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/EnglishName"
+                android:textColor="@color/white" />
+
+            <TextView
+                style="@style/simpletextQuestionsmall_sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/CommonName"
+                android:textColor="@color/white" />
+
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_weed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/total_amount"
+            android:layout_below="@+id/ttttt"
+            android:layout_margin="@dimen/_5sdp"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

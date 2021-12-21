@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        tools:context=".cattle.Frag1_FarmerDetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:background="@color/ColorPrimary"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/printimageview"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:background="@drawable/icon_print"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/txt_GeoFarm"
+                    style="@style/simpletextQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/CattleDetails"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_cross"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/cross_btn"
+                    android:gravity="right" />
+            </TableRow>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_cattledetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtCattleName"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/CattleName" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtCattleNames"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtCattleType"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/CattleType" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtCattleTypes"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtGender"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/Gender" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtGenders"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtLifeStage"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/LifeStage" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtLifeStages"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtAge"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/Age" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtAges"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtBreed"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/Breed" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtBreeds"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtDeworming"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/Deworming" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtDewormings"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtDewormingDate"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/DewormingDate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtDewormingDates"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtVaccination"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/Vaccination" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtVaccinations"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtBodyWeight"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/BodyWeight" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtBodyWeights"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtHeatDate"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/HeatDate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtHeatDates"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <LinearLayout
+                            android:id="@+id/ll_Vaccination"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/txtNameoftheVaccination"
+                                    style="@style/simpletextQuestion_sdp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:text="@string/NameoftheVaccination" />
+
+                                <TextView
+                                    android:id="@+id/txtVaccinationDate"
+                                    style="@style/simpletextQuestion_sdp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".9"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:text="@string/VaccinationDate" />
+
+                            </TableRow>
+
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recycleview_vaccination"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:scrollbars="vertical" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_Diseases"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/txtNameoftheDiseases"
+                                    style="@style/simpletextQuestion_sdp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:text="@string/Disease" />
+
+                                <TextView
+                                    android:id="@+id/txtDiseaseDate"
+                                    style="@style/simpletextQuestion_sdp"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight=".9"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:text="@string/DiseaseDate" />
+
+                            </TableRow>
+
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recycleview_Disease"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:scrollbars="vertical" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_SimpleFeed"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/txtNameoftheSimpleFeed"
+                                    style="@style/simpletextQuestion_sdp"
+                                    android:layout_width="@dimen/_110sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:text="@string/SimpleFeedName" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recycleview_SimpleFeed"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:minHeight="@dimen/_70sdp"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:scrollbars="vertical" />
+
+                            </TableRow>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_GreenFodder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/txtNameoftheGreenFodder"
+                                    style="@style/simpletextQuestion_sdp"
+                                    android:layout_width="@dimen/_110sdp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:text="@string/GreenFodderName" />
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recycleview_GreenFodder"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:paddingLeft="@dimen/_10sdp"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:scrollbars="vertical" />
+
+                            </TableRow>
+
+
+                        </LinearLayout>
+
+                        <TableRow
+                            android:id="@+id/tbl_Conceivedate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtConceivedate"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/Conceivedate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtConceivedates"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_Calvingdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtCalvingdate"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/CalvingDate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtCalvingdates"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_NumberOfCalving"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtNumberOfCalving"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/NumberOfCalving" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtNumberOfCalvings"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_DryingOffDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtDryingOffDate"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/DryingOffDate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtDryingOffDates"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_FeedingPerDay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/txtFeedingPerDay"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/FeedingPerDay" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtFeedingPerDays"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_InseminationBreedName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtInseminationBreedName"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/InseminationBreedName" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtInseminationBreedNames"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_PregnancyTest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtPregnancyTest"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/PregnancyTest" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtPregnancyTests"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_PregnancyTestDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtPregnancyTestDate"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/PregnancyTestDate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtPregnancyTestDates"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+
+                        <TableRow
+                            android:id="@+id/tbl_PregnancyStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtPregnancyStatus"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/PregnancyTestDate" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtPregnancyStatuss"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_DiseaseHistory"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtDiseaseHistory"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/DiseaseHistory" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtDiseaseHistorys"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_MotherMilkYieldPerDay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtMotherMilkYieldPerDay"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/MotherMilkYieldPerDay" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtMotherMilkYieldPerDays"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_RepeatHeatIssue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtRepeatHeatIssue"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/RepeatHeatIssue" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtRepeatHeatIssues"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_EnfertilityIssue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtEnfertilityIssue"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/EnfertilityIssue" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtEnfertilityIssues"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tbl_MastitisIssue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txtMastitisIssue"
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="@dimen/_120sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/MastitisIssue" />
+
+                            <TextView
+                                style="@style/simpletextQuestion_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text=" : " />
+
+                            <TextView
+                                android:id="@+id/txtMastitisIssues"
+                                style="@style/simpletextQuestiongray_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left" />
+                        </TableRow>
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_20sdp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

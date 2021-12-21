@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@color/white"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin_x2"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/soil_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/soil_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:layout_margin="@dimen/Margin_x2"
+                    android:scaleType="fitXY"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Margin_x2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_Date"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/Date_s" />
+
+                    <TextView
+                        android:id="@+id/soil_date"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Margin_x2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_Value"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/Value_s" />
+
+                    <TextView
+                        android:id="@+id/soil_value"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/top_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin_x2"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/soildoctorlogo" />
+
+                <TextView
+                    android:id="@+id/txt_SoilDoctor"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/Margin_x2"
+                    android:text="@string/SoilDoctor"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_plus"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:textColor="@color/red_alret"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_Indiafirstondemand"
+                style="@style/simpletextQuestGray_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:text="@string/Indiafirstondemand" />
+
+            <TextView
+                android:id="@+id/txt_FarmLevelData"
+                style="@style/simpletextQuestGray_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/FarmLevelData" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/soilReportRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_180sdp"
+                android:layout_marginTop="@dimen/Question_x3"
+                android:layout_marginBottom="@dimen/Question_x3"
+                android:scrollbarThumbVertical="@android:color/transparent"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/fill_soil_info_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/mainheading_x5"
+                    android:background="@color/wallet_dim_foreground_holo_dark"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/Question_x3"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_Enteryourcontactdetails"
+                            style="@style/simpletextQuestWhite_l"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="@dimen/Question_x3"
+                            android:text="@string/Enteryourcontactdetails"
+                            android:textStyle="bold" />
+
+
+                        <EditText
+                            android:id="@+id/name_soil_doctor"
+                            style="@style/edittextemail_l_multilang"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/Margin_x2"
+                            android:background="@drawable/line"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/Name"
+                            android:paddingLeft="@dimen/Question_x3"
+                            android:singleLine="true" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/Margin_x2" />
+
+                        <EditText
+                            android:id="@+id/phone_soil_doctor"
+                            style="@style/edittextmobileno_l"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/line"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/Phoneno"
+                            android:inputType="phone"
+                            android:paddingLeft="@dimen/Question_x3"
+                            android:singleLine="true" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/Margin_x2" />
+
+                        <EditText
+                            android:id="@+id/email_soil_doctor"
+                            style="@style/edittextemail_l"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/line"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/EmailID"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="@dimen/Question_x3"
+                            android:singleLine="true" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/Margin_x2" />
+
+                        <EditText
+                            android:id="@+id/address_soil_doctor"
+                            style="@style/edittextemail_l_multilang"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/line"
+                            android:focusableInTouchMode="true"
+                            android:hint="@string/Address"
+                            android:paddingLeft="@dimen/Question_x3"
+                            android:singleLine="true" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/Margin_x2" />
+
+                        <EditText
+                            android:id="@+id/message_soil_doctor"
+                            style="@style/edittextemail_l_multilang"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_120sdp"
+                            android:background="@drawable/line"
+                            android:ems="10"
+                            android:focusableInTouchMode="true"
+                            android:gravity="start"
+                            android:hint="@string/message"
+                            android:lines="5"
+                            android:maxLines="5"
+                            android:padding="@dimen/Question_x3"
+                            android:text="" />
+
+                        <Button
+                            android:id="@+id/send_msg_soildoc"
+                            style="@style/buttontext_m"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@drawable/btn_bg"
+                            android:padding="@dimen/Margin_x2"
+                            android:text="@string/Sendmessage" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/Question_x3"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/soil_info_title"
+                            style="@style/simpletextQuestGray_l"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_3sdp"
+                            android:paddingRight="@dimen/_3sdp" />
+
+                        <TextView
+                            android:id="@+id/txt_VillageLevelData"
+                            style="@style/simpletextQuestGray_m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:text="@string/VillageLevelData" />
+
+
+                        <LinearLayout
+                            android:id="@+id/cation_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/mainheading_xl1"
+                            android:layout_marginTop="@dimen/mainheading_x5"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_CATIONEXCHANGECAPACITY"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/CATIONEXCHANGECAPACITY" />
+
+                            <TextView
+                                android:id="@+id/exchange_capacity_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/clay_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_CLAYINSOIL"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/CLAYINSOIL" />
+
+                            <TextView
+                                android:id="@+id/clay_perc_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/clay_per_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ph_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_SOILPHCM"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/SOILPHCM" />
+
+                            <TextView
+                                android:id="@+id/soil_ph_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/soil_ph_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/sand_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_SANDINSOIL"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/SANDINSOIL" />
+
+                            <TextView
+                                android:id="@+id/sand_soil_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/sand_soil_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/bulk_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_BULKDENSITY"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/BULKDENSITY" />
+
+                            <TextView
+                                android:id="@+id/bulk_density_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/bulk_density_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/coarse_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_COARSEFRAGMENTS"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/COARSEFRAGMENTS" />
+
+                            <TextView
+                                android:id="@+id/coarse_frag_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/coarse_frag_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/soil_orgon_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_SOILORGANICCARBON"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/SOILORGANICCARBON" />
+
+                            <TextView
+                                android:id="@+id/soil_organic_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/soil_organic_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/silt_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_SILTINSOIL"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/SILTINSOIL" />
+
+                            <TextView
+                                android:id="@+id/silt_soil_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/silt_soil_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/zinc_lay"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:background="@color/wallet_dim_foreground_holo_dark"
+                            android:orientation="vertical"
+                            android:padding="@dimen/Question_x3"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/txt_ZINCDEFICIENCY"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ZINCDEFICIENCY" />
+
+                            <TextView
+                                android:id="@+id/zinc_value"
+                                style="@style/simpletextQuestWhite_lbold"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Margin_x5"
+                                android:text="" />
+
+                            <ProgressBar
+                                android:id="@+id/zinc_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/Question_x3"
+                                android:progressTint="@color/white"
+                                android:progressTintMode="src_atop"
+                                android:secondaryProgressTint="@color/lightpink" />
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/soil_info_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_280sdp"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:layout_marginBottom="@dimen/Question_x3"
+                            android:scrollbarThumbVertical="@android:color/transparent"
+                            android:scrollbars="vertical"
+                            android:visibility="gone" />
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/nodata"
+                        style="@style/simpletextHeadingblack_x1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/mainheading_x5"
+                        android:text="@string/Nodataavailable"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/next_soil_info"
+                        style="@style/buttontext_m"
+                        android:layout_width="match_parent"
+                        android:layout_margin="@dimen/Question_x3"
+                        android:background="@drawable/btn_bg"
+                        android:text="@string/Next"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

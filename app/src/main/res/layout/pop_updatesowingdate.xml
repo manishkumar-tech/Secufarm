@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/simpletextHeadingwhite_x3"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/UpdasteSowingdate" />
+
+        <Button
+            android:id="@+id/btn_cross"
+            android:layout_width="@dimen/mainheading_x3"
+            android:layout_height="@dimen/mainheading_x3"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/Question_x3"
+            android:background="@drawable/cross_btn" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txt_SowingDate"
+        style="@style/simpletextQuestBlack_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Question_x1"
+        android:layout_marginTop="@dimen/mainheading_x5"
+        android:layout_marginRight="@dimen/Question_x3"
+        android:text="@string/SowingDate" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/line">
+
+        <TextView
+            android:id="@+id/txt_sowingdate"
+            style="@style/edittextnormal_l"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/EnterFarmerName" />
+
+        <ImageView
+            android:id="@+id/imgeviewsowingdate"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/icon_calender" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/buttontext_m"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_bg"
+        android:text="@string/Submit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/mainheading_x5" />
+</LinearLayout>

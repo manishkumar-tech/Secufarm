@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainheading_xl4"
+        android:layout_gravity="center"
+        android:background="@color/ColorPrimary"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_FarmRegistration"
+            style="@style/simpletextHeadingwhite_x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/FarmRegistration" />
+
+        <ImageView
+            android:id="@+id/printimageview"
+            android:layout_width="@dimen/mainheading_x5"
+            android:layout_height="@dimen/mainheading_x5"
+            android:layout_marginRight="@dimen/Question_x3"
+            android:background="@drawable/icon_print" />
+    </TableRow>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@android:color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/Question_x3"
+            android:layout_marginTop="@dimen/Question_x3"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/Question_x3">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_Project"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/Project" />
+
+                    <ImageView
+                        android:id="@+id/project_refresh"
+                        android:layout_width="@dimen/mainheading_x5"
+                        android:layout_height="@dimen/mainheading_x5"
+                        android:layout_marginRight="@dimen/Question_x3"
+                        android:background="@drawable/icon_refresh" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line">
+
+                    <Spinner
+                        android:id="@+id/spin_project"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="match_parent" />
+                </TableRow>
+            </TableRow>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_aadhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_aadhar"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/AadharNo"
+                    android:textSize="@dimen/Question_x3" />
+
+                <RadioButton
+                    android:id="@+id/rb_other"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Question_x3"
+                    android:text="@string/Other"
+                    android:textSize="@dimen/Question_x3" />
+
+            </RadioGroup>
+
+            <TableRow
+                android:id="@+id/tblrow_aadhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_AadharNo"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:text="@string/AadharNo" />
+
+
+                <EditText
+                    android:id="@+id/edtaadhar_no"
+                    style="@style/edittextmobileno_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/EnterAadharNumber"
+                    android:maxLength="12" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblrow_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_Other"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:text="@string/Other" />
+
+
+                <EditText
+                    android:id="@+id/edtother"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/Other"
+                    android:maxLength="20" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_FarmerName"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:text="@string/FarmerName" />
+
+
+                <EditText
+                    android:id="@+id/edtFarmerName"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/EnterFarmerName" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_FatherName"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:text="@string/FatherName" />
+
+
+                <EditText
+                    android:id="@+id/edit_FatherName"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/FatherName" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_Dates"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:text="@string/Dates" />
+
+
+                <TextView
+                    android:id="@+id/txt_Date"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line" />
+            </TableRow>
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_FarmerPhoneNumber"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight=".3"
+                    android:text="@string/FarmerPhoneNumber" />
+
+
+                <EditText
+                    android:id="@+id/editFarmerPhoneNumber"
+                    style="@style/edittextmobileno_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/EnterFarmerPhoneNumber"
+                    android:maxLength="10"
+                    tools:ignore="TextFields" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/txt_StateName"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/StateName" />
+
+                    <ImageView
+                        android:id="@+id/imge_state_refresh"
+                        android:layout_width="@dimen/mainheading_x5"
+                        android:layout_height="@dimen/mainheading_x5"
+                        android:layout_marginRight="@dimen/Question_x3"
+                        android:background="@drawable/icon_refresh" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line">
+
+                    <Spinner
+                        android:id="@+id/spin_state"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="match_parent" />
+                </TableRow>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_DistrictName"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/DistrictName" />
+
+                <TableRow
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line">
+
+                    <Spinner
+                        android:id="@+id/spin_district"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="match_parent" />
+                </TableRow>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_SubDistrictName"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/SubDistrictName" />
+
+                <TableRow
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line">
+
+                    <Spinner
+                        android:id="@+id/spin_subdistrict"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="match_parent" />
+                </TableRow>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/ll_OtherDistrict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_OtherDistrict"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/OtherDistrict" />
+
+                <EditText
+                    android:id="@+id/edit_othersubdistrict"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/OtherDistrict" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_VillageName"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/VillageName" />
+
+                <TableRow
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line">
+
+                    <Spinner
+                        android:id="@+id/spin_villageName"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="match_parent" />
+                </TableRow>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/ll_OtherVillageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_OtherVillageName"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/OtherVillageName" />
+
+                <EditText
+                    android:id="@+id/edit_othervillageName"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/OtherVillageName" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_SowingDates"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/SowingDate" />
+
+                <TextView
+                    android:id="@+id/txt_SowingDate"
+                    style="@style/edittextnormal_l"
+                    android:layout_width="@dimen/_170sdp"
+                    android:background="@drawable/line" />
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Question_x3"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/txt_AccountType"
+                    style="@style/simpletextQuestBlack_l"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/AccountType" />
+
+                <RadioGroup
+                    android:id="@+id/radiogroup_aacounttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_self"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/Self"
+                        android:textSize="@dimen/Question_x3" />
+
+                    <RadioButton
+                        android:id="@+id/radio_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/Question_x3"
+                        android:text="@string/Other"
+                        android:textSize="@dimen/Question_x3" />
+
+                </RadioGroup>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_BankName"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:text="@string/BankName" />
+
+
+                    <EditText
+                        android:id="@+id/edit_BankName"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="@dimen/_170sdp"
+                        android:background="@drawable/line"
+                        android:hint="@string/EnterBankName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_BranchName"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:text="@string/BranchName" />
+
+
+                    <EditText
+                        android:id="@+id/edit_BranchName"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="@dimen/_170sdp"
+                        android:background="@drawable/line"
+                        android:hint="@string/EnterBranchName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_AccountNumber"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:text="@string/AccountNumber" />
+
+
+                    <EditText
+                        android:id="@+id/edit_AccountNumber"
+                        style="@style/edittextmobileno_l"
+                        android:layout_width="@dimen/_170sdp"
+                        android:background="@drawable/line"
+                        android:hint="@string/EnterAccountNumber"
+                        android:maxLength="16" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/Margin_x2"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_IFSCCode"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:text="@string/IFSCCode" />
+
+
+                    <EditText
+                        android:id="@+id/edit_IFSCCode"
+                        style="@style/edittextnormal_l"
+                        android:layout_width="@dimen/_170sdp"
+                        android:background="@drawable/line"
+                        android:hint="@string/EnterIFSCCode"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="15" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/Question_x3"
+                    android:layout_marginBottom="@dimen/Question_x3"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txt_UploadImage"
+                        style="@style/simpletextQuestBlack_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+
+                        android:text="@string/UploadImage" />
+
+                    <ImageView
+                        android:id="@+id/btn_imageuploadnext"
+                        android:layout_width="@dimen/mainheading_x5"
+                        android:layout_height="@dimen/mainheading_x5"
+                        android:layout_marginRight="@dimen/Question_x3"
+                        android:tint="@color/Pistachio_Green"
+                        android:backgroundTint="@color/Pistachio_Green"
+                        android:background="@drawable/icon_upload" />
+
+                </TableRow>
+
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/line"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/Margin_x6"
+                        android:background="@color/ColorPrimary" />
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/mainheading_xl5"
+                        android:background="@color/secondary_blue3">
+
+
+                        <TextView
+                            android:id="@+id/txt_SlNo"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/mainheading_x1"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/SlNo" />
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_Description"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_120sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/Description" />
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_Crops"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_90sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/Crops" />
+
+                        <ImageView
+                            android:id="@+id/imge_crop_refresh"
+                            android:layout_width="@dimen/mainheading_x5"
+                            android:layout_height="@dimen/mainheading_x5"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/Question_x3"
+                            android:background="@drawable/icon_refresh" />
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_Varieties"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_120sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/Varieties" />
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_Quantity"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/Area" />
+
+
+
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/Margin_x6"
+                        android:background="@color/ColorPrimary" />
+
+
+
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/mainheading_xl5">
+
+
+                        <TextView
+                            android:id="@+id/txt_slno_2"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/mainheading_x1"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="1" />
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/secondary_black" />
+
+                        <TextView
+                            android:id="@+id/txt_description_2"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_120sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/MyFarmInfoService" />
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/secondary_black" />
+
+                        <TableRow android:layout_width="@dimen/_120sdp">
+
+                            <Spinner
+                                android:id="@+id/spin_crop_2"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="match_parent" />
+                        </TableRow>
+
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/secondary_black" />
+
+                        <TableRow android:layout_width="@dimen/_120sdp">
+
+                            <Spinner
+                                android:id="@+id/spin_variety_2"
+                                style="@style/edittextnormal_l"
+                                android:layout_width="match_parent" />
+                        </TableRow>
+
+                        <View
+                            android:layout_width="@dimen/Margin_x6"
+                            android:layout_height="match_parent"
+                            android:background="@color/secondary_black" />
+
+                        <EditText
+                            android:id="@+id/edit_area"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/Question_x3"
+                            android:gravity="center"
+                            android:maxLength="6"
+                            android:padding="@dimen/Margin_x2"
+                            android:text="0" />
+
+
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/Margin_x6"
+                        android:background="@color/secondary_black" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainheading_x1" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/buttontext_m"
+            android:layout_width="0dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/Submit" />
+
+
+        <TextView
+            android:id="@+id/txtblank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+
+        <Button
+            android:id="@+id/btnGeoTag"
+            style="@style/buttontext_m"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="@string/SubmitGeoTag" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+    </TableRow>
+
+
+</LinearLayout>

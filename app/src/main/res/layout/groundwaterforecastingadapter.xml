@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:minHeight="@dimen/_40sdp">
+
+            <TextView
+                android:id="@+id/txt_Grid"
+                style="@style/edittextnormal_l_min"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/Question_x3"
+                android:padding="@dimen/Margin_x5"
+                android:text="" />
+
+            <View
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_Waterlevelbase"
+                style="@style/edittextnormal_l_min"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/Question_x3"
+                android:padding="@dimen/Margin_x5"
+                android:text="" />
+
+            <View
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_WaterlevelForecasted"
+                style="@style/edittextnormal_l_min"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/Question_x3"
+                android:padding="@dimen/Margin_x5"
+                android:text="" />
+
+            <View
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_GroundWaterlevelStatus"
+                style="@style/edittextnormal_l_min"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/Question_x3"
+                android:padding="@dimen/Margin_x5"
+                android:text="" />
+
+            <TextView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="wrap_content" />
+
+        </TableRow>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

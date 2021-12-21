@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/hide_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/design_layouts">
+
+            <Spinner
+                android:id="@+id/VisitorSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:background="@drawable/design_layouts">
+
+            <Spinner
+                android:id="@+id/weekSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg"
+            android:layout_margin="5dp"
+            android:text="Submit"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scrollbars="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/card"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/black"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:id="@+id/farmer_name_visit"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Farmer name"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/farm_name_visit"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Farm name"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/village_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Village"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/sub_district_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Sub District"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/visitor_name_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Visitor Name"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="60dp"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/visit_date_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Visit Date"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/visit_latitude_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Visit Latitude"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/visit_longitude_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Visit Longitude"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/image_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Images"
+                    android:textColor="#ffffff" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#e4e2e2" />
+
+                <TextView
+                    android:id="@+id/distance_farm_visit"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+
+                    android:padding="2dp"
+                    android:text="Dist. From Farm(Km)"
+                    android:textColor="#ffffff" />
+
+
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_farmvisit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/card"
+
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/nodata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="No Visit data found"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="250dp"
+                android:textColor="@color/red_alret"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>

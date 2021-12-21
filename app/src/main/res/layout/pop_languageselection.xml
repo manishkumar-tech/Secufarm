@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_400sdp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPrimary">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/simpletextHeadingwhite_x3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/ResetyourLanguage" />
+
+            <Button
+                android:id="@+id/btn_cross"
+                android:layout_width="@dimen/mainheading_x3"
+                android:layout_height="@dimen/mainheading_x3"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/Question_x3"
+                android:background="@drawable/cross_btn" />
+        </TableRow>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_English"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:checked="true"
+                android:paddingLeft="@dimen/_20sdp"
+                android:text="@string/English" />
+
+            <RadioButton
+                android:id="@+id/rb_Hindi"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:text="@string/Hindi" />
+
+            <RadioButton
+                android:id="@+id/rb_Marathi"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:text="@string/Marathi" />
+
+            <RadioButton
+                android:id="@+id/rb_Gujarati"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:text="@string/Gujarati" />
+
+            <RadioButton
+                android:id="@+id/rb_Bengali"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:text="@string/Bengali" />
+
+            <RadioButton
+                android:id="@+id/rb_Tamil"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:text="@string/Tamil" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/mainheading_x5" />
+    </LinearLayout>
+</layout>

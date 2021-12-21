@@ -1,0 +1,295 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:keepScreenOn="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPrimary"
+            android:padding="@dimen/Margin_x5">
+
+            <RelativeLayout
+                android:id="@+id/backbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/Margin_x1">
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/back_btn" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/title_main"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/SignUp"
+                android:textSize="@dimen/_16sdp" />
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAllfieldmandetory"
+                    style="@style/simpletextQuestGray_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/Allfieldmandetory" />
+
+                <TextView
+                    android:id="@+id/txtName"
+                    style="@style/simpletextQuestion_sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="@string/Name" />
+
+                <EditText
+                    android:id="@+id/editName"
+                    style="@style/edittextsimple_sdp"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/Name"
+                    android:padding="@dimen/_5sdp" />
+
+                <TextView
+                    android:id="@+id/txtMobileNumber"
+                    style="@style/simpletextQuestion_sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/MobileNumber" />
+
+                <EditText
+                    android:id="@+id/editNameMobileNumber"
+                    style="@style/edittextmobileno"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/line"
+                    android:hint="@string/MobileNumber"
+                    android:maxLength="10"
+                    android:padding="@dimen/_5sdp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <TextView
+                        android:id="@+id/txtStateName"
+                        style="@style/simpletextQuestion_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/StateName" />
+
+                    <ImageView
+                        android:id="@+id/imge_state_refresh"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@drawable/icon_refresh" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/line">
+
+                    <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+                        android:id="@+id/stateList"
+                        style="@style/edittextemail_sdp"
+                        android:layout_width="match_parent" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/txtDistrictName"
+                    style="@style/simpletextQuestion_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/DistrictName" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/line">
+
+                    <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+                        android:id="@+id/DistrictName_spin"
+                        style="@style/edittextemail_sdp"
+                        android:layout_width="match_parent" />
+                </TableRow>
+
+
+                <TextView
+                    android:id="@+id/txtSubDistrictName"
+                    style="@style/simpletextQuestion_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/SubDistrictName" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/line">
+
+                    <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+                        android:id="@+id/SubDistrictName_spin"
+                        style="@style/edittextemail_sdp"
+                        android:layout_width="match_parent" />
+                </TableRow>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_OtherDistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtOthersubDistrict"
+                        style="@style/simpletextQuestion_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/OtherDistrict" />
+
+                    <EditText
+                        android:id="@+id/OthersubDistrict_edt"
+                        style="@style/edittextsimple_sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/line"
+                        android:hint="@string/OtherDistrict"
+                        android:padding="@dimen/_5sdp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtVillageName"
+                    style="@style/simpletextQuestion_sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/VillageName" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/line">
+
+                    <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+                        android:id="@+id/VillageName_spin"
+                        style="@style/edittextemail_sdp"
+                        android:layout_width="match_parent" />
+                </TableRow>
+
+                <LinearLayout
+                    android:id="@+id/ll_OtherVillageName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtOtherVillageName"
+                        style="@style/simpletextQuestion_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/OtherVillageName" />
+
+                    <EditText
+                        android:id="@+id/OtherVillageName_edt"
+                        style="@style/edittextsimple_sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/line"
+                        android:hint="@string/OtherVillageName"
+                        android:padding="@dimen/_5sdp" />
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp">
+
+                    <TextView
+                        android:id="@+id/txtcrop"
+                        style="@style/simpletextQuestion_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/Crops" />
+
+                    <ImageView
+                        android:id="@+id/imge_crop_refresh"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@drawable/icon_refresh" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/line">
+
+                    <com.weather.risk.mfi.myfarminfo.activities.CustomSearchableSpinner
+                        android:id="@+id/spincrop"
+                        style="@style/edittextemail_sdp"
+                        android:layout_width="match_parent" />
+                </TableRow>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_Submit"
+            style="@style/buttontext_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:text="@string/Submit" />
+    </LinearLayout>
+
+</layout>

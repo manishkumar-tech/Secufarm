@@ -1,0 +1,225 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.weather.risk.mfi.myfarminfo.mapfragments.CropFeasibilityFragment">
+
+
+    <LinearLayout
+        android:id="@+id/aaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line">
+
+            <Spinner
+                android:id="@+id/feasible_crops_spinner"
+                style="@style/edittextemail_sdp"
+                android:layout_width="match_parent" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/line">
+
+            <Spinner
+                android:id="@+id/feasible_soil_spinner"
+                style="@style/edittextemail_sdp"
+                android:layout_width="match_parent" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <Button
+            android:id="@+id/feasible_submit"
+            style="@style/buttontext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/Submit" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:id="@+id/progress_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_id_future"
+                    style="@style/simpletextHeading_sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/_5sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/orange"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp">
+
+                    <TextView
+                        style="@style/simpletextQuestionsmall_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/AVERAGELOSS"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/percent_avg"
+                        style="@style/simpletextHeading_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="@string/High"
+                        android:textColor="@color/white" />
+
+                    <ProgressBar
+                        android:id="@+id/firstBar_avg"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:progressTint="@color/white"
+                        android:progressTintMode="src_atop"
+                        android:secondaryProgressTint="@color/lightpink" />
+
+                    <TextView
+                        android:id="@+id/yeild_text_avg"
+                        style="@style/simpletextQuestionsmall_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/yeild"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/red_alret"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp">
+
+                    <TextView
+                        style="@style/simpletextQuestionsmall_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MAXIMUMLOSS"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/percent_max"
+                        style="@style/simpletextHeading_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="@string/High"
+                        android:textColor="@color/white" />
+
+                    <ProgressBar
+                        android:id="@+id/firstBar_max"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:progressTint="@color/white"
+                        android:progressTintMode="src_atop"
+                        android:secondaryProgressTint="@color/lightpink" />
+
+                    <TextView
+                        android:id="@+id/yeild_text_max"
+                        style="@style/simpletextQuestionsmall_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/yeild"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/lightgreen"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp">
+
+                    <TextView
+                        style="@style/simpletextQuestionsmall_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/MINIMUMLOSS"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/percent_min"
+                        style="@style/simpletextHeading_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="@string/High"
+                        android:textColor="@color/white" />
+
+                    <ProgressBar
+                        android:id="@+id/firstBar_min"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:progressTint="@color/white"
+                        android:progressTintMode="src_atop"
+                        android:secondaryProgressTint="@color/lightpink" />
+
+                    <TextView
+                        android:id="@+id/yeild_text_min"
+                        style="@style/simpletextQuestionsmall_sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="@string/yeild"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/show_data"
+                    style="@style/buttontext"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/btn_bg"
+                    android:text="@string/Showdata" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

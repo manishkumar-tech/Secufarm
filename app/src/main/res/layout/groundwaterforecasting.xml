@@ -1,0 +1,220 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.weather.risk.mfi.myfarminfo.viewmodels.GroundWaterForecastingVM" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:keepScreenOn="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPrimary"
+            android:padding="@dimen/Margin_x5">
+
+            <RelativeLayout
+                android:id="@+id/backbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/Margin_x1">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/back_btn"
+                    android:onClick="@{viewModel::onBacks}" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/title_main"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/Groundwaterforecadting"
+                android:textSize="@dimen/_16sdp" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_GeotagFarmLocation"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/GeotagFarmLocation"
+                android:textSize="@dimen/Question_x3" />
+
+            <RadioButton
+                android:id="@+id/rb_CurrentLocation"
+                style="@style/simpletextQuestBlack_l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CurrentLocation"
+                android:textSize="@dimen/Question_x3" />
+
+        </RadioGroup>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txt_GroundWaterleveltill"
+                style="@style/simpletextQuestion_sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="@string/GroundWaterleveltill" />
+
+        </TableRow>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <HorizontalScrollView
+                android:id="@+id/horz_Grid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@color/secondary_blue3"
+                        android:minHeight="@dimen/_45sdp">
+
+
+                        <TextView
+                            android:id="@+id/txt_Grid"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/Grid"
+                            android:textSize="@dimen/Question_x3" />
+
+                        <View
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_Waterlevelbase"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/Waterlevelbase"
+                            android:textSize="@dimen/Question_x3" />
+
+                        <View
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_WaterlevelForecasted"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/WaterlevelForecasted"
+                            android:textSize="@dimen/Question_x3" />
+
+                        <View
+                            android:layout_width="@dimen/_2sdp"
+                            android:layout_height="match_parent"
+                            android:background="@color/ColorPrimary" />
+
+                        <TextView
+                            android:id="@+id/txt_GroundWaterlevelStatus"
+                            style="@style/edittextnormal_l"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:padding="@dimen/Margin_x5"
+                            android:text="@string/GroundWaterlevelStatus"
+                            android:textSize="@dimen/Question_x3" />
+
+                        <TextView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview_ground"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/txt_Dataisnotfound"
+                style="@style/simpletextQuestion_sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="@string/CurrentlyDataisnotavailable"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/txt_TotalTasks"
+            style="@style/buttontext_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:onClick="@{viewModel::onMaps}"
+            android:text="@string/Mapview" />
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,768 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorAccent">@color/ColorPrimary</item>
+
+        <!--<item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- custom dialog activity theme -->
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <!-- removing the dialog's action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Translucent">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="TransparentProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="edittextsimple">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789
+        </item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextemail">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:maxLength">30</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextmobileno">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="edittextdecimal">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:digits">0123456789.</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+
+    <style name="simpletextHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/black</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestion">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14dp</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestionsmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestionsmallnoinputype">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12dp</item>
+       
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="buttontext">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+
+    <!--new Dynamic Design-->
+    <style name="edittextemail_sdp">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:maxLength">30</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextmobileno_sdp">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="edittextsimple_sdp">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/_40sdp</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789
+        </item>
+        <item name="android:paddingLeft">@dimen/_10sdp</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="SpinnerTextViewItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/_40sdp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/black</item>
+       
+        <item name="android:padding">@dimen/_5sdp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="simpletextHeading_sdp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/black</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextRadiobutton_sdp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textColor">@color/ColorPrimary</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestion_sdp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestiongray_sdp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+
+    <style name="simpletextQuestionxsmall_sdp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+       
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+
+    <style name="edittextdecimal_sdp">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:digits">0123456789.</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryLight</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="GridTextStyleSmall">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_1sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+
+    </style>
+
+    <style name="SimpleTextAlarm_View">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <style name="simpletextQuestionsmall_sdp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+
+    <!--New Style-->
+
+    <style name="simpletextHeadingwhite_x1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/heading_x1</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextHeadingblack_x1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/heading_x1</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextHeadingwhite_x3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/heading_x3</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextHeadingblack_x2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/heading_x2</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextHeadingblack_x3normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/heading_x3</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+
+    </style>
+
+    <style name="simpletextHeadingblack_x3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textSize">@dimen/heading_x3</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestWhite_m">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestBlack_m">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestGray_m">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_gray</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestWhite_l">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestWhite_lbold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestBlack_l">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestGray_l">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_gray</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestWhite_s">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestBlack_s">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestGray_s">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_gray</item>
+        <item name="android:textSize">@dimen/Question_x3</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestWhite_xs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Question_x5</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestBlack_xs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x5</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+
+    <style name="buttontext_m">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+
+    <style name="edittextemail_lmultilanguage">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextnormal_l">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:maxLength">50</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextnormal_l_min">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl6</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:maxLength">50</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextnormallength_l">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:maxLength">100</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextdecimal_l">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:digits">0123456789.</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="simpletextQuestion_normal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/Battleship_Gray</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextemailAnswerRecommendation">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/_100sdp</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:maxLength">500</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestionverysmallwhite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestionverysmallblack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="simpletextQuestionAnswer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+       
+        <item name="android:textStyle">normal</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="popupMenuStyle">
+        <item name="android:textColor">@color/ColorPrimary</item>
+        <item name="android:itemBackground">@color/un_selected_button_background</item>
+        <item name="android:divider">@color/white</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="CustomProgressBarHorizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+    <!--New Styles-->
+
+    <style name="edittextemail_l">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:digits">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+            0123456789-/,_@£$.
+        </item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+
+    <style name="edittextmobileno_l">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <!--For Multi Languages-->
+    <style name="edittextemail_lmultilanguage_new">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+    </style>
+    <style name="edittextemail_l_multilang">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/mainheading_xl5</item>
+
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:textColor">@color/secondary_black</item>
+        <item name="android:textSize">@dimen/Question_x1</item>
+        <item name="android:paddingLeft">@dimen/Question_x3</item>
+        <item name="android:inputType">textNoSuggestions</item>
+    </style>
+</resources>

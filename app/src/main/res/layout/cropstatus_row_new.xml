@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/v"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Margin_x2"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/Margin_x2"
+        app:cardElevation="@dimen/Margin_x5"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/Question_x3"
+            android:minHeight="@dimen/_150sdp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/tblrw_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    style="@style/simpletextHeadingblack_x3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/soil"
+                    android:textAllCaps="true" />
+
+                <ImageView
+                    android:id="@+id/imgvw_ndvi_info"
+                    android:layout_width="@dimen/heading_x1"
+                    android:layout_height="@dimen/heading_x1"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/mainheading_x5"
+                    android:background="@drawable/information"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/ImgeNext"
+                    android:layout_width="@dimen/mainheading_x5"
+                    android:layout_height="@dimen/mainheading_x5"
+                    android:layout_marginRight="@dimen/mainheading_x5"
+                    android:background="@drawable/icon_detailsprimary"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/alertimg"
+                    android:layout_width="@dimen/mainheading_x5"
+                    android:layout_height="@dimen/mainheading_x5" />
+            </TableRow>
+
+            <View
+                android:id="@+id/vw_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/Margin_x2"
+                android:layout_marginBottom="@dimen/Margin_x2"
+                android:background="@color/gray" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="@dimen/_160sdp">
+
+                <LinearLayout
+                    android:id="@+id/ll_graph"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8">
+
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_5sdp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
+
+                <LinearLayout
+                    android:id="@+id/farm_row"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:id="@+id/txt_Status"
+                            style="@style/simpletextQuestionsmall_sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/Status" />
+
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3.5">
+
+                            <TextView
+                                android:id="@+id/txt_status"
+                                style="@style/simpletextQuestionsmall_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Normal" />
+
+                            <TextView
+                                android:id="@+id/txt_statusunit"
+                                style="@style/simpletextQuestionsmall_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_2sdp"
+                                android:text=""
+                                android:textSize="@dimen/_8sdp" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/vw_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/Margin_x2"
+                        android:layout_marginBottom="@dimen/Margin_x2"
+                        android:background="@color/gray" />
+
+                    <TableRow
+                        android:id="@+id/tblrw_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:id="@+id/txt_Value"
+                            style="@style/simpletextQuestionsmall_sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/Value" />
+
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3.5">
+
+                            <TextView
+                                android:id="@+id/txt_value"
+                                style="@style/simpletextQuestionsmall_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0.24" />
+
+                            <TextView
+                                android:id="@+id/txt_valueunit"
+                                style="@style/simpletextQuestionsmall_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_2sdp"
+                                android:text=""
+                                android:textSize="@dimen/_8sdp" />
+                        </TableRow>
+
+                    </TableRow>
+
+                    <View
+                        android:id="@+id/vw_benchmark"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/Margin_x2"
+                        android:layout_marginBottom="@dimen/Margin_x2"
+                        android:background="@color/gray" />
+
+                    <TableRow
+                        android:id="@+id/tblrw_benchmark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:id="@+id/txt_Benchmark"
+                            style="@style/simpletextQuestionsmall_sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/BenchMark" />
+
+                        <TableRow
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3.5">
+
+                            <TextView
+                                android:id="@+id/txt_benchmark"
+                                style="@style/simpletextQuestionsmall_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0.07-0.1" />
+
+                            <TextView
+                                android:id="@+id/txt_benchmarkunit"
+                                style="@style/simpletextQuestionsmall_sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_2sdp"
+                                android:text=""
+                                android:textSize="@dimen/_8sdp" />
+                        </TableRow>
+
+                    </TableRow>
+                </LinearLayout>
+            </TableRow>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainheading_xl4"
+            android:background="@color/ColorPrimary">
+
+            <TextView
+                android:id="@+id/txt_FarmRegistration"
+                style="@style/simpletextHeadingwhite_x1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/YourCart" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_lay"
+            android:layout_below="@+id/actionbar"
+            android:layout_marginLeft="@dimen/Question_x3"
+            android:layout_marginTop="@dimen/Question_x3"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/Question_x3">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/more_btn"
+                style="@style/buttontext_m"
+                android:layout_width="0dp"
+                android:layout_gravity="left"
+                android:layout_marginRight="@dimen/_7sdp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="@string/MoreProducts" />
+
+
+            <Button
+                android:id="@+id/proceed_btn"
+                style="@style/buttontext_m"
+                android:layout_width="0dp"
+                android:layout_marginLeft="@dimen/_7sdp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="@string/ProceedToCheckout" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>

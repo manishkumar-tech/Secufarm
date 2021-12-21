@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Get your crops insured"
+        android:textSize="16sp"
+        android:paddingLeft="5sp"
+        android:layout_margin="5dp"
+        android:paddingRight="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginLeft="7dp"
+        android:textColor="@android:color/black"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/farm_location"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/line"
+
+        android:layout_marginLeft="7dp"
+        android:hint="Enter farm location"
+        android:padding="5dp"
+        android:typeface="serif" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/powered"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/product_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_marginLeft="7dp"
+        android:text="Pest &amp; Disease Risk Analysis"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cropsecure_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="7dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
